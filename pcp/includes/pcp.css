@@ -20,7 +20,7 @@ div.widget ul li:hover { border-right: solid 5px #036564; padding-right: 5px; ba
 div.searchbox { border: 1px solid #D93F0F ;}
 
 /* navigation menu */
-div#menu1 ul.rMenu { background: #036564; color: #CDD3D8; border: 1px solid #D93F0F; }
+div#menu1 ul.rMenu { background: #036564; color: #CDD3D8; border: 1px solid #D93F0F; border-left: 0; border-right: 0; }
 div#menu1 ul.rMenu li:hover { color: #F7F3E8; background-color: #D93F0F; }
 div#menu1 ul.rMenu li.current-menu-item, div#menu1 ul.rMenu li.current_page_item { background-color: #D93F0F!important; color: #F7F3E8!important; }
 div#menu1 ul.rMenu li.current-menu-item a, div#menu1 ul.rMenu li.current_page_item a { background: transparent!important; color: #F7F3E8!important; }
@@ -30,6 +30,8 @@ div#menu1 ul.rMenu ul.sub-menu li 	{ color: #2B3E42;}
 div#menu1 ul.rMenu ul.sub-menu li:hover	{ background-color: #D93F0F; color: #F7F3E8; }
 div#menu1 ul.rMenu ul.sub-menu li:hover a { color: #F7F3E8; }
 div#menu1 ul.rMenu ul.sub-menu li a 	{ color: #2B3E42;}
+div#menu1 ul.sub-menu, div#menu1 ul.rMenu li.current-menu-item ul.sub-menu, div#menu1 ul.rMenu li.current_page_item ul.sub-menu { background-color: #2B3E42; }
+
 
 /* masonry styles */
 .box 		{ background: white; }
