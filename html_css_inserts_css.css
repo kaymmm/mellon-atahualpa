@@ -8,16 +8,6 @@ h4 { font-size: 19px; margin: 1.33em 0 .2em; }
 h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
 h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-/* welcome message */
-#welcome {
-background: #F7F3E8;
-padding: 7px 7px 13px 13px;
-margin: 0 1% 20px 0.9%;
--moz-box-shadow: inset 0 0 4px #AAA;
--webkit-box-shadow: inset 0 0 4px #AAA;
-box-shadow: inset 0 0 4px #AAA;
-}
-
 .sitewide-footer { background: #333!important; position: absolute!important; left: 0px!important; right: 0px!important; margin-top: 40px!important; }
 .sitewide-footer img { background: transparent!important; }
 .sitewide-footer a:hover, td#footer .sitewide-footer a:hover { background: transparent!important; text-decoration: none!important; color: #ccc!important; }
@@ -26,28 +16,7 @@ div.post-headline h2 { font-size: 1.8em; line-height:1.1em; font-weight: normal;
 div.post-bodycopy { font-size: 1.1em!important; line-height: 1.4em!important; }
 div.post-footer { font-size: 0.8em!important; line-height: 1.5em!important; }
 
-/* widgets */
-div.widget-title h3 { font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
-div.widget ul li { margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #ccc; padding-right: 5px; font-size: 0.9em; line-height: 1.2em; }
-div.widget ul li:hover { border-right: solid 5px #333; padding-right: 5px; background: #dCdFd5; }
-
 #full-width		{ margin: 20px 10px; padding: 0px; }
-
-/* featured articles slider styles */
-.featured               { margin: 0 0 30px 0; overflow: hidden; width:100%; height:<?php echo $fa_height; ?>px; float:left; border: 2px solid #999; }
-#controls               { position: relative; float: left; z-index: 100; top: <?php echo floor(($fa_height-30)/2); ?>px; width: 100%; }
-#controls .next, #controls .prev    { text-indent: -9000px; width: 30px; height: 30px; display: block; z-index: 1000; opacity: 0.8; }
-#controls .prev         { background: url(<?php echo site_url(); ?>/wp-content/themes/arras-theme/images/prev.png) no-repeat; float: left; position: absolute; left: 10px; }
-#controls .next         { background: url(<?php echo site_url(); ?>/wp-content/themes/arras-theme/images/next.png) no-repeat; float: right; position: absolute; right: 10px; }
-#controls .next:hover, #controls .prev:hover { opacity: 1; }
-#controls a:focus       { outline: none; }
-#featured-slideshow     { position: relative; z-index: 0 !important; width: 100%; }          
-.featured-article       { display: block; position: relative; width: 100%; height:<?php echo $fa_height; ?>px; text-decoration: none !important; background-position: center !important; }
-.featured-entry         { position: absolute; bottom: 0px; overflow: hidden; background: #333; max-height: <?php echo floor($fa_height/3); ?>px; min-height:50px; color: #a7a7a7; padding: 0; display: block; opacity: 0.7; filter: alpha(opacity = 70); right: 0px; left: 0px; text-align: right;}
-.featured-entry .entry-title    { color: #FFF; padding: 10px 15px 5px; display: block; font-size: 18px; font-weight: 700; }
-.featured-entry .entry-summary  { padding: 0 15px; margin: 0; display: block; }
-
-/* /features slider */
 
 /* navigation menu */
 div#menu1 ul.rMenu { background: transparent; color: #747E80; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
@@ -68,17 +37,17 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-i
 
 /* social icons */
 .socialicons a {display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right; }
-.socialicons .twitterlink {background: url(<?php echo site_url(); ?>/files/2012/08/socialicons.png) no-repeat -22px 0;}
-.socialicons .youtubelink {background: url(<?php echo site_url(); ?>/files/2012/08/socialicons.png) no-repeat -44px 0;}
-.socialicons .linkedinlink {background: url(<?php echo site_url(); ?>/files/2012/08/socialicons.png) no-repeat -66px 0;}
-.socialicons .facebooklink {background: url(<?php echo site_url(); ?>/files/2012/08/socialicons.png) no-repeat -88px 0;}
-.socialicons .rsslink {background: url(<?php echo site_url(); ?>/files/2012/08/socialicons.png) no-repeat 0 0;}
+.socialicons .twitterlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -22px 0;}
+.socialicons .youtubelink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -44px 0;}
+.socialicons .linkedinlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -66px 0;}
+.socialicons .facebooklink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -88px 0;}
+.socialicons .rsslink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat 0 0;}
 .socialicons .twitterlink:hover {background-position: -22px -22px;}
 .socialicons .youtubelink:hover {background-position: -44px -22px;}
 .socialicons .linkedinlink:hover {background-position: -66px -22px;}
 .socialicons .facebooklink:hover {background-position: -88px -22px;}
 .socialicons .rsslink:hover {background-position: 0px -22px;}
-.socialicons .cuny {background: url('<?php echo site_url(); ?>/files/2012/08/cuny_logo1.png') no-repeat 0px -22px;}
+.socialicons .cuny {background: url('<?php echo site_url().$cuny_icons; ?>') no-repeat 0px -22px;}
 .socialicons .cuny:hover {background-position: 0px 0px;}
 
 /**** Clearfix ****/
@@ -96,7 +65,6 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-i
 .fluid .box.col1 div.post-headline, .fluid .box.col1 div.post-bodycopy { padding: 5px; }
 .post-thumbnail {overflow: hidden; position: relative; width: 100%; height: 150px;}
 #tumblelog img {position: absolute;}
-/* /masonry styles */
 
 div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
@@ -115,5 +83,3 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center!important; fo
 .widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
 
 #event-listing img { border: none; padding: 0; margin: 0; }
-/* td.event_date { text-align: center !important; }
-td.event_title { text-align: left !important; } */
