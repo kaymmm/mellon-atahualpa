@@ -9,8 +9,7 @@ div.widget ul li 		{ border-right: solid 5px #D93F0F; background: transparent;}
 div.widget ul li:hover 	{ border-right: solid 5px #036564; background: transparent; }
 
 #full-width			{ margin: 20px 10px; padding: 0px; }
-td#right			{ background-color: #036564!important; border-left: 1px dotted #D93F0F; }
-td#middle			{ padding: 10px 25px 0 15px!important;}
+td#middle			{ padding: 20px 30px 0 15px!important;}
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
