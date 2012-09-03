@@ -27,8 +27,7 @@ div#menu1 ul.rMenu ul.sub-menu li:hover		{ background-color: #D93F0F; color: #F7
 div#menu1 ul.rMenu ul.sub-menu li a			{ color: #F7F3E8;}
 div#menu1 ul.sub-menu, 
 div#menu1 ul.rMenu li.current-menu-item ul.sub-menu, 
-div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42; color: #F7F3E8; }
-
+div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42; color: #F7F3E8; border: 1px solid #D93F0F;}
 
 /* masonry styles */
 .box 		{ background: white; }
