@@ -1,4 +1,5 @@
 <?php $fa_height = 360; ?>
+<link rel="stylesheet" href="http://raw.github.com/kaymmm/mellon-altahualpa/master/pcp/includes/html_css_inserts_css.css"  type="text/css" media="all">
 <?php
 /* front page slider and masonry includes */
 if ( is_front_page() ) { ?>
@@ -6,6 +7,7 @@ if ( is_front_page() ) { ?>
 <script type="text/javascript" src="https://raw.github.com/desandro/masonry/master/jquery.masonry.min.js"></script>
 <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.lite.js"></script>
 <script type="text/javascript" src="http://raw.github.com/kaymmm/mellon-altahualpa/master/scaleimage.js"></script>
+<link rel="stylesheet" href="http://raw.github.com/kaymmm/mellon-altahualpa/master/html_css_inserts_css_featured_articles.php" type="text/css" media="all">
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {

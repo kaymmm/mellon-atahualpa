@@ -1,4 +1,4 @@
-<?php $fa_height = 360; ?>
+<link rel="stylesheet" href="http://raw.github.com/kaymmm/mellon-altahualpa/master/includes/html_css_inserts.css"  type="text/css" media="all">
 <?php
 /* front page slider and masonry includes */
 if ( is_front_page() ) { ?>

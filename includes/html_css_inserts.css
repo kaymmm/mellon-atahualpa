@@ -36,17 +36,11 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-i
 
 /* social icons */
 .socialicons a {display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right; }
-.socialicons .twitterlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -22px 0;}
-.socialicons .youtubelink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -44px 0;}
-.socialicons .linkedinlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -66px 0;}
-.socialicons .facebooklink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -88px 0;}
-.socialicons .rsslink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat 0 0;}
 .socialicons .twitterlink:hover {background-position: -22px -22px;}
 .socialicons .youtubelink:hover {background-position: -44px -22px;}
 .socialicons .linkedinlink:hover {background-position: -66px -22px;}
 .socialicons .facebooklink:hover {background-position: -88px -22px;}
 .socialicons .rsslink:hover {background-position: 0px -22px;}
-.socialicons .cuny {background: url('<?php echo site_url().$cuny_icons; ?>') no-repeat 0px -22px;}
 .socialicons .cuny:hover {background-position: 0px 0px;}
 
 /**** Clearfix ****/

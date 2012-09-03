@@ -1,3 +1,4 @@
+<?php header("Content-type: text/css"); ?>
 /* featured articles slider styles */
 .featured               { margin: 0 0 30px 0; overflow: hidden; width:100%; height:<?php echo $fa_height; ?>px; float:left; border: 2px solid #999; }
 #controls               { position: relative; float: left; z-index: 100; top: <?php echo floor(($fa_height-30)/2); ?>px; width: 100%; }
