@@ -9,13 +9,13 @@
 			</td>
 			<td rowspan="2" valign="middle" class="logoarea-title">
 				<a href="<?php echo site_url(); ?>">
-					<img width="650px" height="auto" src="<?php echo site_url().$logo_url; ?>" alt="<?php bloginfo('name'); ?>">
+					<img width="650px" height="150px" src="<?php echo site_url().$logo_url; ?>" alt="<?php bloginfo('name'); ?>">
 				</a>
 			</td>
 			<td class="feed-icons" valign="middle" align="right"> 
 				<!-- social icons --> 
 				<div class="socialicons" style="bottom: 0px; right: 0;">
-					<a target="_blank" href="http://twitter.com/#!/<?php echo $twitter_id; ?>" class="twitterlink"></a>
+					<a target="_blank" href="http://twitter.com/#!/<?php echo $social_twitter; ?>" class="twitterlink"></a>
 					<a target="_blank" href="<?php echo $social_facebook; ?>" class="facebooklink"></a> 
 					<a target="_blank" href="http://www.cuny.edu" class="cuny"></a> 
 				</div>
