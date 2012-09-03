@@ -7,7 +7,7 @@
 #controls .next:hover, #controls .prev:hover { opacity: 1; }
 #controls a:focus       { outline: none; }
 #featured-slideshow     { position: relative; z-index: 0 !important; width: 100%; }          
-.featured-article       { display: block; position: relative; width: 100%; height:<?php echo $fa_height; ?>px; text-decoration: none !important; background-position: center !important; }
+.featured-article       { display: block; position: relative; width: 100%; height:<?php echo $fa_height; ?>px; text-decoration: none !important; cursor:pointer; margin: 0; padding: 0; }
 .featured-entry         { position: absolute; bottom: 0px; overflow: hidden; background: #333; max-height: <?php echo floor($fa_height/3); ?>px; min-height:50px; color: #a7a7a7; padding: 0; display: block; opacity: 0.7; filter: alpha(opacity = 70); right: 0px; left: 0px; text-align: right;}
 .featured-entry .entry-title    { color: #FFF; padding: 10px 15px 0 5px; display: block; font-size: 18px; font-weight: 700; line-height: 1em;}
 .featured-entry .entry-summary  { padding: 0 15px; margin: 0; display: block; line-height: 1.1em;}
