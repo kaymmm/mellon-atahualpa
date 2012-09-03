@@ -28,7 +28,7 @@ div#menu1 ul.rMenu li:hover { padding: 0px; margin: 0px;}
 div#menu1 ul.rMenu ul.sub-menu li 	{ background: transparent; border: 0; margin: 0; padding: 2px 7px; }
 div#menu1 ul.rMenu ul.sub-menu li:hover	{ margin: 0; padding: 2px 7px; background-image: none;}
 div#menu1 ul.rMenu ul.sub-menu li a 	{ padding: 0; margin: 0; text-decoration: none; background: transparent; }
-div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-image: none!important; padding: 0; }
+div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-image: none!important; }
 
 /* social icons */
 .socialicons a {display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right; }
