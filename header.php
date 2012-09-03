@@ -1,3 +1,4 @@
+<?php /* header main */ ?>
 <table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tbody>
 		<tr>
@@ -35,3 +36,5 @@
 </table>
 
 %pages
+
+<?php /* end header main */ ?>
