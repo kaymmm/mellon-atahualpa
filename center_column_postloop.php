@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <?php if ( is_front_page() ) { ?>
 
 <?php } ?>
 
+=======
+>>>>>>> master
 <?php /* Displayed on SINGLE post pages if activated at ATO -> Next/Previous Navigation: */
 bfa_next_previous_post_links('Middle'); ?>
 

@@ -1,5 +1,5 @@
 <?php $fa_height = 360; ?>
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/pcp/includes/pcp.css"  type="text/css" media="all">
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/religion/includes/studyofreligion.css"  type="text/css" media="all">
 <?php
 /* front page slider and masonry includes */
 if ( is_front_page() ) { ?>

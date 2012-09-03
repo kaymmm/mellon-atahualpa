@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php /* For SINGLE post pages if activated at ATO -> Next/Previous Navigation: */
 bfa_next_previous_post_links('Top'); ?>
 
@@ -19,3 +20,6 @@ bfa_post_pagination('<p class="post-pagination"><strong>'.__('Pages:','atahualpa
 bfa_post_footer('<div class="post-footer">','</div>');
 ?>
 </div><!-- / Post -->
+=======
+<?php bfa_next_previous_post_links('Top'); ?>
+>>>>>>> master
