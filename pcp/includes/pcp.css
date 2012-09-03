@@ -2,7 +2,8 @@
 #welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; }
 
 /* widgets */
-div.widget 				{ color: #F0F3F9; background-color: #036564; }
+#right					{ background-color: #036564; border-left: 1px dotted #D93F0F; }
+div.widget 				{ color: #F0F3F9; }
 div.widget-title h3 	{ font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px dotted #D93F0F; }
 div.widget ul li 		{ margin: 0; padding: 4px 0 4px 0 ; border-right: solid 5px #D93F0F; padding-right: 5px; font-size: 1em; line-height: 1.2em; }
 div.widget ul li:hover 	{ border-right: solid 5px #036564; padding-right: 5px; background: #dCdFd5; }
@@ -12,7 +13,7 @@ div.widget ul li:hover 	{ border-right: solid 5px #036564; padding-right: 5px; b
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
-div#menu1 ul.rMenu 							{ background: #036564; color: #CDD3D8; border: 1px solid #D93F0F; border-left: 0; border-right: 0; }
+div#menu1 ul.rMenu 							{ background: #036564; color: #CDD3D8; border: 1px solid #D93F0F; }
 div#menu1 ul.rMenu li:hover 				{ color: #F7F3E8; background-color: #D93F0F; }
 div#menu1 ul.rMenu li.current-menu-item, 
 div#menu1 ul.rMenu li.current_page_item 	{ background-color: #D93F0F!important; color: #F7F3E8!important; }
@@ -22,8 +23,8 @@ div#menu1 ul.rMenu li.current_page_item a 	{ background: transparent!important; 
 div#menu1 ul 								{ background-color: #77BED2; }
 div#menu1 ul.rMenu ul.sub-menu li 			{ color: #F7F3E8;}
 div#menu1 ul.rMenu ul.sub-menu li:hover		{ background-color: #D93F0F; color: #F7F3E8; }
-/*div#menu1 ul.rMenu ul.sub-menu li:hover a 	{ color: #F7F3E8; }
-div#menu1 ul.rMenu ul.sub-menu li a			{ color: #F7F3E8;} */
+/*div#menu1 ul.rMenu ul.sub-menu li:hover a 	{ color: #F7F3E8; } */
+div#menu1 ul.rMenu ul.sub-menu li a			{ color: #F7F3E8;}
 div#menu1 ul.sub-menu, 
 div#menu1 ul.rMenu li.current-menu-item ul.sub-menu, 
 div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42; color: #F7F3E8; }
