@@ -18,20 +18,16 @@ div.post-footer { font-size: 0.8em!important; line-height: 1.5em!important; }
 #full-width		{ margin: 20px 10px; padding: 0px; }
 
 /* navigation menu */
-div#menu1 ul.rMenu { background: transparent; color: #747E80; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
+div#menu1 ul.rMenu { margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
 div#menu1 ul.rMenu li { margin: 0; padding: 0px; border: 0; background: transparent; }
 div#menu1 ul.rMenu li a { border: 0; padding: 5px 7px; background: transparent; }
 div#menu1 ul.rMenu li a:hover { border: 0; padding: 5px 7px; background: transparent; text-decoration: none;}
 div#menu1 ul.rMenu li a:link, div#menu1 ul.rMenu li a:visited, div#menu1 ul.rMenu li a:active { text-decoration: none; }
-div#menu1 ul.rMenu li:hover { color: #F7F3E8; background-color: #77BED2; padding: 0px; margin: 0px;}
-div#menu1 ul.rMenu li.current-menu-item, div#menu1 ul.rMenu li.current_page_item { background-color: #747E80!important; color: #F7F3E8!important; }
-div#menu1 ul.rMenu li.current-menu-item a, div#menu1 ul.rMenu li.current_page_item a { background: transparent!important; color: #F7F3E8!important; }
+div#menu1 ul.rMenu li:hover { padding: 0px; margin: 0px;}
 /*sub menus*/
-div#menu1 ul { background-color: #77BED2; }
-div#menu1 ul.rMenu ul.sub-menu li 	{ background: transparent; border: 0; margin: 0; padding: 5px 7px; color: #2B3E42;}
-div#menu1 ul.rMenu ul.sub-menu li:hover	{ background: #2B3E42; color: #F7F3E8; margin: 0; padding: 5px 7px; background-image: none;}
-div#menu1 ul.rMenu ul.sub-menu li:hover a { color: #F7F3E8; }
-div#menu1 ul.rMenu ul.sub-menu li a 	{ padding: 5px 7px; margin: 0; text-decoration: none; background: transparent; color: #2B3E42;}
+div#menu1 ul.rMenu ul.sub-menu li 	{ background: transparent; border: 0; margin: 0; padding: 5px 7px; }
+div#menu1 ul.rMenu ul.sub-menu li:hover	{ margin: 0; padding: 5px 7px; background-image: none;}
+div#menu1 ul.rMenu ul.sub-menu li a 	{ padding: 5px 7px; margin: 0; text-decoration: none; background: transparent; }
 div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-image: none!important; padding: 5px 7px; }
 
 /* social icons */
@@ -51,7 +47,7 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-i
 /* masonry styles */
 #tumblelog.fluid	{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
 .centered 	{ margin: 0 auto; }
-.box 		{ background: white; float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
+.box 		{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
 .box .post		{ margin: 0px; }
 .fluid .box.col1	{ width: 48%; }
 .fluid .box.col2	{ width: 98%; }
@@ -63,17 +59,9 @@ div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
 
 /* events listing pages */
-span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }
-span.event-page-name { padding: 0; margin: 0; text-align: left; }
-span.event-widget-date { padding: 0; margin: 0; text-align: center!important; font-style: italic; font-size: 1em; }
-span.event-widget-name { padding: 0; margin: 0; text-align: center!important; font-size: 1.2em; line-height: 1.2em; }
 #pre-loop_1 ul { list-style: none; }
 #pre-loop_2 ul { list-style: none; }
 #pre-loop_3 ul { list-style: none; }
 .widget_em_widget ul { list-style: none; }
-.widget_em_widget { background-color: transparent; }
-.widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
-.widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
-
 #event-listing img { border: none; padding: 0; margin: 0; }
 /* end shared css */
