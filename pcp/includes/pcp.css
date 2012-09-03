@@ -13,13 +13,14 @@ div.widget ul li:hover 	{ border-right: solid 5px #036564; background: transpare
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
-div#menu1 ul.rMenu 							{ background: #036564; color: #CDD3D8; border: 1px solid #D93F0F; }
+div#menu1 ul.rMenu							{ background: #036564; border: 1px solid #D93F0F; }
+div#menu1 ul.rMenu li a,
+div#menu1 ul.rMenu-hor li.rMenu-expand a	{ color: #CDD3D8; }
 div#menu1 ul.rMenu li:hover 				{ color: #F7F3E8; background-color: #D93F0F; }
 div#menu1 ul.rMenu li.current-menu-item, 
 div#menu1 ul.rMenu li.current_page_item 	{ background-color: #D93F0F!important; color: #F7F3E8!important; }
 div#menu1 ul.rMenu li.current-menu-item a, 
-div#menu1 ul.rMenu li.current_page_item a,
-div#menu1 ul.rMenu-hor li.rMenu-expand a	{ background: transparent!important; color: #F7F3E8!important; }
+div#menu1 ul.rMenu li.current_page_item a	{ background: transparent!important; color: #F7F3E8!important; }
 /*sub menus*/
 div#menu1 ul 								{ background-color: #77BED2; }
 div#menu1 ul.rMenu ul.sub-menu li 			{ color: #F7F3E8;}
