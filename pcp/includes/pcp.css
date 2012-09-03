@@ -4,9 +4,9 @@
 /* widgets */
 #right					{ background-color: #036564; border-left: 1px dotted #D93F0F; }
 div.widget 				{ color: #F0F3F9; }
-div.widget-title h3 	{ font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px dotted #D93F0F; }
-div.widget ul li 		{ margin: 0; padding: 4px 0 4px 0 ; border-right: solid 5px #D93F0F; padding-right: 5px; font-size: 1em; line-height: 1.2em; }
-div.widget ul li:hover 	{ border-right: solid 5px #036564; padding-right: 5px; background: #dCdFd5; }
+div.widget-title h3 	{ border-bottom: 1px dotted #D93F0F; }
+div.widget ul li 		{ border-right: solid 5px #D93F0F; background: transparent;}
+div.widget ul li:hover 	{ border-right: solid 5px #036564; background: transparent; }
 
 #full-width			{ margin: 20px 10px; padding: 0px; }
 
