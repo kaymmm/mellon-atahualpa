@@ -39,3 +39,5 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center!important; fo
 .widget_em_widget { background-color: transparent; }
 .widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
 .widget_em_widget li:hover { background-color: #dCdFd5; border: 1px 0 1px 0 dotted #999; margin: 0; }
+
+div.person { margin: 10px 0; padding: 3px; display: block; }
