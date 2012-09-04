@@ -4,6 +4,8 @@ div.widget ul li { margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #cc
 div.widget ul li:hover { border-right: solid 5px #333; padding-right: 5px; background: #dCdFd5; }
 
 #full-width		{ margin: 20px 10px; padding: 0px; }
+div ul.refractions-list li	{ list-style: disc; }
+div.header-widget h3 { font-size: 0.9em; }
 
 /* navigation menu */
 div#menu1 ul.rMenu { background: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
@@ -22,7 +24,7 @@ div#menu1 ul.rMenu ul.sub-menu li a 	{ padding: 5px 7px; margin: 0; text-decorat
 div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-image: none!important; padding: 5px 7px; }
 
 /* masonry styles */
-.box 		{ background: white; }
+.box 		{ background: #f2f2e9; }
 
 /* events listing pages */
 span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }

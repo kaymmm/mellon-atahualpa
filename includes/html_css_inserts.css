@@ -57,14 +57,14 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a 	{ background: transparent; background-
 .clearfix 	{ zoom: 1; }
 
 /* masonry styles */
-#tumblelog		{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
+#tumblelog.fluid		{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
 .centered 		{ margin: 0 auto; }
 .box 			{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
 .box .post		{ margin: 0px; }
-.box.col1		{ width: 48%; }
-.box.col2		{ width: 98%; }
-.box.col1 div.post-headline,
-.box.col1 div.post-bodycopy 	{ padding: 5px; }
+.fluid .box.col1		{ width: 48%; }
+.fluid .box.col2		{ width: 98%; }
+.fluid .box.col1 div.post-headline,
+.fluid .box.col1 div.post-bodycopy 	{ padding: 5px; }
 .post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
 #tumblelog img 	{position: absolute;}
 
