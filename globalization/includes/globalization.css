@@ -8,7 +8,7 @@ div ul.refractions-list li	{ list-style: disc; }
 div.header-widget h3 { font-size: 0.9em; }
 
 /* navigation menu */
-div#menu1 ul.rMenu { background: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
+div#menu1 ul.rMenu { background-color: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; }
 div#menu1 ul.rMenu li { margin: 0; padding: 0px; border: 0; background: #FCFFF5; }
 div#menu1 ul.rMenu li a { border: 0; padding: 5px 7px; background: transparent; }
 div#menu1 ul.rMenu li a:hover { border: 0; padding: 5px 7px; background: transparent; text-decoration: none; color: #222;}
@@ -24,7 +24,8 @@ div#menu1 ul.rMenu ul.sub-menu li a 	{ padding: 5px 7px; margin: 0; text-decorat
 div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-image: none!important; padding: 5px 7px; }
 
 /* masonry styles */
-.box 		{ background: #f2f2e9; }
+.box	 		{ background-color: #f2f2e9; }
+div.post-footer	{ background-color: #aaa;}
 
 /* events listing pages */
 span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }
@@ -36,5 +37,5 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center!important; fo
 #pre-loop_3 ul { list-style: none; }
 .widget_em_widget ul { list-style: none; }
 .widget_em_widget { background-color: transparent; }
-.widget_em_widget li {background: #eCeFe5; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
-.widget_em_widget li:hover { background: #dCdFd5; border: 1px 0 1px 0 dotted #999; margin: 0; }
+.widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
+.widget_em_widget li:hover { background-color: #dCdFd5; border: 1px 0 1px 0 dotted #999; margin: 0; }
