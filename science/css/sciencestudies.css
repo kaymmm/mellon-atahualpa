@@ -1,3 +1,44 @@
+div.moreposts {
+	display: table;
+	clear: both;
+}
+
+div.moreposts-post {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #CCC;
+}
+
+div.moreposts-post:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+div.moreposts-title {
+	display: table-cell;
+	vertical-align: top;
+}
+div.moreposts-title h4 {
+	color: #0DA4D3;
+}
+
+div.moreposts-thumb {
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+div.moreposts h2 {
+	background: #F3F3F3;
+	border-left: 10px solid #E9E9E9;
+	color: #999;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	padding: .25em .6em .35em .6em;
+	text-transform: lowercase;
+	width: 93.85%;
+}
+
 .socialicons .twitterlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -22px 0;}
 .socialicons .youtubelink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -44px 0;}
 .socialicons .linkedinlink {background: url(<?php echo site_url().$social_icons; ?>) no-repeat -66px 0;}

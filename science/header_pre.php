@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/pcp/includes/pcp.css"  type="text/css" media="all">
 <?php /* header pre */ ?>
 	
 <?php 
@@ -32,3 +33,4 @@ $social_facebook = "http://www.facebook.com/pages/The-Committee-for-Interdiscipl
 	</div><!-- #sidebar-header -->
 	%pages
 </div>
+
