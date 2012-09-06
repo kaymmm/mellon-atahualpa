@@ -783,9 +783,7 @@ position : relative;
 }
 div#menu1 ul.rMenu li ul {
 display : none;
-position : absolute;
 top : 25px;
-left : 0;
 border : #ddd solid 1px;
 border-top : none;
 background : #fff;
@@ -813,21 +811,8 @@ width : 10px;
 height : 10px;
 display : inline-block;
 background : url(wp-content/blogs.dir/1012/files/2012/09/images/dropdown.png) 40% right no-repeat;
-position : absolute;
-top : 25%;
-right : 0;
 }
 
-.sf-sub-indicator {
-text-indent : -9999em;
-width : 10px;
-height : 10px;
-display : inline-block;
-background : url(wp-content/blogs.dir/1012/files/2012/09/images/dropdown.png) 40% right no-repeat;
-position : absolute;
-top : 25%;
-right : 0;
-}
 .menu li li {
 top : 37%;
 background : url(wp-content/blogs.dir/1012/files/2012/09/images/dropright.png) 50% right no-repeat;
