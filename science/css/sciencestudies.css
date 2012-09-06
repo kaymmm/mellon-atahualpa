@@ -645,6 +645,7 @@ div#menu1 ul.rMenu {
 }
 
 div#menu1 ul.rmenu li {
+	background-color: transparent;
 	display: block;
 	float: left;
 	min-height: 30px;
@@ -655,6 +656,7 @@ div#menu1 ul.rmenu li:first-child {
 	padding-left: 0;
 	background: none;
 }
+div#menu1 ul.rMenu li a:link, div#menu1 ul.rMenu li a:hover, div#menu1 ul.rMenu li a:visited, div#menu1 ul.rMenu li a:active,
 div#menu1 ul.rmenu li a {
 	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.333333333333333em;
@@ -680,24 +682,24 @@ div#menu1 ul.rmenu li li a, div#menu1 ul.rmenu li li.current-menu-item li a {
 	margin: 0 5px;
 	padding: 12px 15px;
 }
-div#menu1 ul.rmenu ul li a:hover, div#menu1 ul.rmenu li ul li a:hover {
+div#menu1 ul.rmenu ul li a:hover, div#menu1 ul.rmenu li ul li a:hover,div#menu1 ul.rMenu li a:hover {
 	color: #222;
 	border-bottom: none;
 }
 
 /* Dropdowns
 -------------------------------------------------------------- */
-.menu ul {
+div#menu1 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.menu li:hover { visibility: inherit }
-.menu li {
+div#menu1 li:hover { visibility: inherit }
+div#menu1 li {
 	float: left;
 	position: relative;
 }
-.menu a {
+div#menu1 a {
 	display: block;
 	position: relative;
 }
@@ -730,12 +732,12 @@ div#menu1 ul.rmenu li li:hover ul, div#menu1 ul.rmenu li li.sfHover ul {
 	top: 25%;
 	right: 0;
 }
-.menu li li .sf-sub-indicator {
+.menu li li  {
 	top: 37%;
 	background: url(images/dropright.png) no-repeat right 50%;
 	margin-right: 7px;
 }
-.menu li a.sf-with-ul { padding-right: 16px; }
+div#menu1 li a { padding-right: 16px; }
 
 /* Secondary menu 
 -------------------------------------------------------------- */
