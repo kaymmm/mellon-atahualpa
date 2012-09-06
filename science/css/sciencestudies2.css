@@ -722,12 +722,12 @@ div#menu1 ul.rMenu {
 background : transparent !important ;
 }
 div#menu1 ul.rmenu li {
-background-color : transparent !important ;
+background : transparent !important ;
 display : block;
 float : left;
 min-height : 30px;
 padding-left : 1.8em;
-background : url(/wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) 15% left no-repeat;
+background : url(wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) 15% left no-repeat !important;
 }
 div#menu1 ul.rmenu li:first-child {
 padding-left : 0;
