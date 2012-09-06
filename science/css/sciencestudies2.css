@@ -719,15 +719,14 @@ position : relative;
 z-index : 99;
 }
 div#menu1 ul.rMenu {
-background : transparent !important ;
+background : transparent;
 }
 div#menu1 ul.rMenu li {
-background : transparent !important ;
 display : block;
 float : left;
 min-height : 30px;
 padding-left : 1.8em;
-background : url(wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) 15% left no-repeat !important;
+background : url(wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) 15% left no-repeat;
 }
 div#menu1 ul.rMenu li:first-child {
 padding-left : 0;
@@ -795,18 +794,30 @@ z-index : 100;
 div#menu1 ul.rMenu li:first-child ul {
 left : -20px;
 }
-div#menu1 ul.rMenu li:hover ul, div#menu1 ul.rMenu li.sfHover ul {
+div#menu1 ul.rMenu li:hover ul, div#menu1 ul.rMenu li.rMenu-expand ul {
 display : block;
 }
-div#menu1 ul.rMenu li:hover li ul, div#menu1 ul.rMenu li.sfHover li ul {
+div#menu1 ul.rMenu li:hover li ul, div#menu1 ul.rMenu li.rMenu-expand li ul {
 top : -999em;
 }
-div#menu1 ul.rMenu li li:hover ul, div#menu1 ul.rMenu li li.sfHover ul {
+div#menu1 ul.rMenu li li:hover ul, div#menu1 ul.rMenu li li.rMenu-expand ul {
 top : -1px;
 left : 100%;
 margin-left : 0;
 border-top : 1px solid #e5e5e5;
 }
+
+div#menu1 ul.rMenu-hor li.rMenu-expand {
+text-indent : -9999em;
+width : 10px;
+height : 10px;
+display : inline-block;
+background : url(wp-content/blogs.dir/1012/files/2012/09/images/dropdown.png) 40% right no-repeat;
+position : absolute;
+top : 25%;
+right : 0;
+}
+
 .sf-sub-indicator {
 text-indent : -9999em;
 width : 10px;
@@ -885,16 +896,16 @@ border-bottom : none;
 left : 100%;
 z-index : 100;
 }
-#menu-secondary li:hover ul, #menu-secondary li.sfHover ul {
+#menu-secondary li:hover ul, #menu-secondary li.rMenu-expand ul {
 display : block;
 }
-#menu-secondary li:first-child:hover ul, #menu-secondary li:first-child.sfHover ul {
+#menu-secondary li:first-child:hover ul, #menu-secondary li:first-child.rMenu-expand ul {
 top : 0;
 }
-#menu-secondary li:hover li ul, #menu-secondary li.sfHover li ul {
+#menu-secondary li:hover li ul, #menu-secondary li.rMenu-expand li ul {
 top : -9999em;
 }
-#menu-secondary li li:hover ul, #menu-secondary li li.sfHover ul {
+#menu-secondary li li:hover ul, #menu-secondary li li.rMenu-expand ul {
 top : -1px;
 margin-left : 0;
 }
