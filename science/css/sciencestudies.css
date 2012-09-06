@@ -636,11 +636,11 @@ div#menu1 {
 	z-index: 99;
 }
 div#menu1 ul.rMenu {
-	background: transparent;
+	background: transparent!important;
 }
 
 div#menu1 ul.rmenu li {
-	background-color: transparent;
+	background-color: transparent!important;
 	display: block;
 	float: left;
 	min-height: 30px;
