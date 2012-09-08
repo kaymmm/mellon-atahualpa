@@ -31,7 +31,7 @@ div.ventry-thumb {
 	padding-right: 10px;
 }
 
-div.ventry-content h4 {
+div.section-title h4 {
 	background: #F3F3F3;
 	border-left: 10px solid #E9E9E9;
 	color: #999;
@@ -266,7 +266,7 @@ th, td { text-align: left; }
 
 /* Transitions 
 -------------------------------------------------------------- */
-a, a img, .featured-post .byline {
+a, a img, .featured-article .byline {
 	-webkit-transition: all 0.18s ease-out;
 	-moz-transition: all 0.18s ease-out;
 	-ms-transition: all 0.18s ease-out;
@@ -789,12 +789,12 @@ div#menu1 li a { padding-right: 16px; }
 	position: relative;
 	margin-bottom: 20px;
 }
-.featured-post {
+.featured-article {
 	position: relative;
 	overflow: hidden;
 	float: left;
 }
-.featured-post h2.entry-title a {
+.featured-article h2.entry-title {
 	position: absolute;
 	bottom: 110px;
 	right: 0;
@@ -804,11 +804,11 @@ div#menu1 li a { padding-right: 16px; }
 	font-size: 1em;
 	text-transform: uppercase;
 }
-.featured-post:hover h2.entry-title a, .featured-post:hover .byline {
+.featured-article:hover h2.entry-title, .featured-article:hover .byline {
 	color: #fff;
 	background: #111;
 }
-.featured-post .byline {
+.featured-article .byline {
 	position: absolute;
 	bottom: 82px;
 	right: 0;
@@ -817,7 +817,7 @@ div#menu1 li a { padding-right: 16px; }
 	padding: .4em 30px .4em 1.3em;
 	font-size: 0.9166666666666667em;
 }
-.featured-post a:hover { border-bottom: none; }
+.featured-article:hover { border-bottom: none; }
 .featured-thumbnail { max-width: 100%; }
 #featured-content .dummy {
 	width: 100% !important;
@@ -840,11 +840,11 @@ div#menu1 li a { padding-right: 16px; }
 	cursor: pointer;
 	text-indent: -9999em;
 }
-#slider-prev {
+#controls a.prev {
 	left: 0;
 	background-position: 7px -21px;
 }
-#slider-next {
+#controls a.next {
 	right: 0;
 	background-position: 7px 11px;
 }
