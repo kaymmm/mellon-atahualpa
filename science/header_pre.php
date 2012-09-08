@@ -1,13 +1,3 @@
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/pcp/includes/pcp.css"  type="text/css" media="all">
-<?php /* header pre */ ?>
-	
-<?php 
-$logo_url = "/wp-content/blogs.dir/1109/files/2012/08/newPCPlogo.jpg";
-$gc_logo_url = "/files/2012/09/CUNY-GC-logo.png";
-$social_twitter = "scistudies";
-$social_facebook = "http://www.facebook.com/pages/The-Committee-for-Interdisciplinary-Science-Studies/273683709395532";
-?>
-
 <div id="header">
 	<div id="branding">
 		<h1 id="site-title">
@@ -33,4 +23,3 @@ $social_facebook = "http://www.facebook.com/pages/The-Committee-for-Interdiscipl
 	</div><!-- #sidebar-header -->
 	%pages
 </div>
-

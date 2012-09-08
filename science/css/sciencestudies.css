@@ -1,34 +1,37 @@
-div.moreposts {
+.archive-thumbnail {position: absolute;}
+.hentry-thumb { overflow: hidden; position: relative; width: 100%; height: 160px; }
+
+div.ventry-content {
 	display: table;
 	clear: both;
 }
 
-div.moreposts-post {
+div.ventry-content {
 	padding: 0px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
 	border-bottom: 1px solid #CCC;
 }
 
-div.moreposts-post:hover {
+div.ventry-content:hover {
 	cursor: pointer;
 	background-color: #ddd;
 }
 
-div.moreposts-title {
+div.ventry-title {
 	display: table-cell;
 	vertical-align: top;
 }
-div.moreposts-title h4 {
+div.ventry-title h4 {
 	color: #0DA4D3;
 }
 
-div.moreposts-thumb {
+div.ventry-thumb {
 	display: table-cell;
 	vertical-align: top;
 	padding-right: 10px;
 }
 
-div.moreposts h2 {
+div.ventry-content h4 {
 	background: #F3F3F3;
 	border-left: 10px solid #E9E9E9;
 	color: #999;
@@ -520,44 +523,6 @@ input[type="submit"]:hover { cursor: pointer }
 .col-29 { width: 3.44% }
 .col-30 { width: 3.33% }
 
-/* Layout
--------------------------------------------------------------- */
-#main {
-	clear: both;
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
-.page-template-fullwidth #content { width: 100%; }
-.content-wrap {
-	float: right;
-	width: 79.78723404255319%;	/* 750 / 940 = 0.79787234042553 */
-}
-.page-template-fullwidth .content-wrap { width: 100%; }
-#content {
-	float: left;
-	width: 62.66666666666667%;	/* 470 / 750 = 0.6266666666666667 */
-	margin: 0 0 30px 0;
-}
-.aside {
-	float: left;
-	width: 17.02127659574468%;	/* 160 / 940 = 0.1702127659574468 */	
-}
-#sidebar-primary {
-	float: left;
-	width: 100%;	/* 160 / 940 = 0.1702127659574468 */
-}
-#sidebar-secondary {
-	float: right;
-	width: 33.33333333333333%;	/* 250 / 750 = 0.3333333333333333 */
-}
-.wrap {
-	max-width: 940px;
-	margin: 0 auto;
-	position: relative;
-}
-#comments-template { clear: left; }
-
 /* Header 
 -------------------------------------------------------------- */
 td#header {
@@ -614,6 +579,16 @@ td#header {
 
 /* Primary menu 
 -------------------------------------------------------------- */
+div#menu1 ul.rMenu li.current-menu-item a:link, div#menu1 ul.rMenu li.current-menu-item a:active, div#menu1 ul.rMenu li.current-menu-item a:hover, div#menu1 ul.rMenu li.current-menu-item a:visited, div#menu1 ul.rMenu li.current_page_item a:link, div#menu1 ul.rMenu li.current_page_item a:active, div#menu1 ul.rMenu li.current_page_item a:hover, div#menu1 ul.rMenu li.current_page_item a:visited, div#menu1 ul.rMenu li a:hover {
+	background: transparent;
+	color:	#AAA;
+}
+
+div#menu1 li:first-child {
+padding-left: 0;
+background: none;
+}
+
 div#menu1 {
 	font-size: 1em;
 	width: 100%;
@@ -633,7 +608,7 @@ div#menu1 ul.rmenu li {
 	float: left;
 	min-height: 30px;
 	padding-left: 1.8em;
-	background: url(/wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) no-repeat left 15%;
+	background: url(wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) no-repeat left 15%;
 }
 div#menu1 ul.rmenu li:first-child {
 	padding-left: 0;

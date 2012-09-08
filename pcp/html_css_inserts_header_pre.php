@@ -11,7 +11,7 @@ if ( is_front_page() ) { ?>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	//resize the images for the slider
-	$('img.attachment-featured-slideshow-thumb').each(function() {
+	$('img.attachment-featured-slideshow-thumb').load(function() {
 		var w = $(this).width();
 		var h = $(this).height();
 		var tw = $(this).parent().width();
@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
 		});
 	});
 
-	$('#tumblelog img').each(function() {
+	$('#tumblelog img').load(function() {
 		// what's the size of this image and it's parent
 		var w = $(this).width();
 		var h = $(this).height();
