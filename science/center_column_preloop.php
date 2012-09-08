@@ -7,6 +7,7 @@
 		<a href="" class="next">Next</a>
 	</div>
 	<div id="featured-content">
+		<img class="dummy " src="http://gcsciencestudies.commons.gc.cuny.edu/wp-content/blogs.dir/1012/files/2012/09/empty.gif" alt="" width="750" height="380">
 		<?php
 		$args = array ( 'post_type' => 'post',
 				'order' => 'DESC',
@@ -16,10 +17,12 @@
 		$recent_posts = new WP_Query($args);
 		while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>
 			<?php  if (has_post_thumbnail()) { ?>
-				<div class="featured-article" onclick="document.location='<?php the_permalink(); ?>'" style="cursor:pointer;">
-					<div class="featured-image"><?php the_post_thumbnail("large", array ('class' => 'attachment-featured-slideshow-thumb wp-post-image featured-thumbnail')); ?></div>
-					<div class="featured-entry"><h2 class="post-title entry-title"><?php the_title(); ?></h2></div>
-				</div>
+				<div class="featured-post">
+					<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
+						<?php the_post_thumbnail("large", array ('class' => 'attachment-featured-slideshow-thumb wp-post-image featured-thumbnail')); ?>
+					</a>
+					<h2 class="post-title entry-title"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+				</div><!-- featured-post -->
 			<?php } ?>
 		<?php endwhile; ?>
 	</div> <!-- featured-content -->
