@@ -793,7 +793,7 @@ div#menu1 li a { padding-right: 16px; }
 	overflow: hidden;
 	float: left;
 }
-.featured-post h2.entry-title a {
+.featured-post h2.entry-title {
 	position: absolute;
 	bottom: 110px;
 	right: 0;

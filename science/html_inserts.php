@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 		cleartypeNoBg: true,
 		pager: '#slide-thumbs',
 		containerResize: false,
-		fit: 1,
+//		fit: 1,
 		fx: 'scrollHorz',
 		next: '#slider-next',
 		prev: '#slider-prev',
