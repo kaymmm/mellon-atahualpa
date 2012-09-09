@@ -39,7 +39,8 @@
 							$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
 						?>
 						<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
-						<img src="<?php echo $thumb[0]; ?>" class="slider-nav-thumbnail" alt="<?php the_title_attribute(); ?>" />
+						<?php the_post_thumbnail(array(100,100), array ('class' => 'slider-nav-thumbnail')); ?>
+						<!-- <img src="<?php echo $thumb[0]; ?>" class="slider-nav-thumbnail" alt="<?php the_title_attribute(); ?>" /> -->
 					</a>
 					<?php } ?>
 				</li>
@@ -62,7 +63,7 @@
 			<div <?php post_class('event'); ?> id="post-<?php the_ID(); ?>">
 				<?php if ( has_post_thumbnail() ) { ?>
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-					<div class="hentry-thumb">
+					<div class="hentry-thumbnail-box">
 						<?php the_post_thumbnail(array(450,160), array ('class' => 'hentry-thumbnail')); ?>
 						<a class="read-more" href="<?php the_permalink(); ?>">Event Details →</a>
 					</div>
@@ -90,16 +91,16 @@
 							);
 		$recent_posts = new WP_Query($args);
 		while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>
-			<div <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
+			<div class="ventry-box" id="post-<?php the_ID(); ?>">
 				<?php if ( has_post_thumbnail() ) { ?>
-					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-					<div class="ventry-thumb">
+					<div class="ventry-thumbnail-box">
+						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
 						<?php the_post_thumbnail(array(100,100), array ('class' => 'ventry-thumbnail')); ?>
-					</div>
 					</a>
+					</div>
 				<?php } ?>
-				<div class="ventry-content">
-					<h4 class="post-title ventry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+				<div class="ventry-content-box">
+					<h4 class="ventry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
 					<span class="ventry-date"><?php the_time('F jS, Y'); ?></span>
 				</div><!-- / content -->
 			</div><!-- / post -->
