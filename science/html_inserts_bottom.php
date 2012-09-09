@@ -4,9 +4,10 @@
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <?php if ( is_home() ) { ?>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
-<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.cycle.all.min.js.gz"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.cycle.all.min.js"></script>
 <script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/scaleimage.min.js"></script>
 <script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.easing.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -20,6 +21,7 @@ jQuery(document).ready(function($) {
 		speed: 300,
 		timeout: 7000,
 		pause: 1,
+		easing: 'easeInOutElastic',
 		cleartypeNoBg: true,
 		pager: '#slide-thumbs',
 		slideResize:   true,
