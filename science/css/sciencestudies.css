@@ -793,10 +793,12 @@ div#menu1 li a { padding-right: 16px; }
 	overflow: hidden;
 	float: left;
 }
-.featured-post h2.entry-title {
+.featured-post h2.entry-title{
 	position: absolute;
 	bottom: 110px;
 	right: 0;
+}
+.featured-post h2.entry-title a {
 	color: #111;
 	background: #fff;
 	padding: .4em 30px .4em 1.5em;
