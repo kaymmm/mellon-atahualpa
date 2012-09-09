@@ -61,7 +61,8 @@
 				<?php if ( has_post_thumbnail() ) { ?>
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
 					<div class="hentry-thumbnail-box">
-						<?php the_post_thumbnail(array(450,160), array ('class' => 'hentry-thumbnail')); ?>
+						<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array(450,180) ); ?>
+						<img src="<?php echo $thumb[0]; ?>" class="hentry-thumbnail" alt="<?php the_title_attribute(); ?>" />
 						<a class="read-more" href="<?php the_permalink(); ?>">Event Details →</a>
 					</div>
 					</a>
@@ -93,7 +94,7 @@
 					<div class="ventry-thumbnail-box">
 						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
 						<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array(80,80) ); ?>
-						<img src="<?php echo $thumb[0]; ?>" class="ventry-thumbnail" alt="<?php the_title_attribute(); ?>" />						
+						<img src="<?php echo $thumb[0]; ?>" class="ventry-thumbnail" alt="<?php the_title_attribute(); ?>" />
 					</a>
 					</div>
 				<?php } ?>

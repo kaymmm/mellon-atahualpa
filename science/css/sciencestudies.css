@@ -1,6 +1,7 @@
 .hentry-thumbnail-box, .ventry-thumbnail-box { overflow: hidden; position: relative; }
 .hentry-thumbnail-box { width: 100%; height: 160px; }
-.hentry-thumbnail { position: absolute; }
+.featured-thumbnail, .hentry-thumbnail { position: absolute; }
+
 
 div.ventry-content {
 	display: table;
