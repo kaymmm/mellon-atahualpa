@@ -35,12 +35,9 @@
 			while ( $recent_posts->have_posts() ) : $recent_posts->the_post(); ?>
 				<li class="<?php echo ( $slidecount == 6 ) ? 'last' : ''; ?>">
 					<?php if (has_post_thumbnail()) { ?>
-						<?php
-							$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
-						?>
 						<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
-						<?php the_post_thumbnail(array(100,100), array ('class' => 'slider-nav-thumbnail')); ?>
-						<!-- <img src="<?php echo $thumb[0]; ?>" class="slider-nav-thumbnail" alt="<?php the_title_attribute(); ?>" /> -->
+						<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array(120,120) ); ?>
+						<img src="<?php echo $thumb[0]; ?>" class="slider-nav-thumbnail" alt="<?php the_title_attribute(); ?>" />
 					</a>
 					<?php } ?>
 				</li>
@@ -95,7 +92,8 @@
 				<?php if ( has_post_thumbnail() ) { ?>
 					<div class="ventry-thumbnail-box">
 						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-						<?php the_post_thumbnail(array(100,100), array ('class' => 'ventry-thumbnail')); ?>
+						<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array(80,80) ); ?>
+						<img src="<?php echo $thumb[0]; ?>" class="ventry-thumbnail" alt="<?php the_title_attribute(); ?>" />						
 					</a>
 					</div>
 				<?php } ?>

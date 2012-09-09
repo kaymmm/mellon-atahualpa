@@ -3,10 +3,10 @@
 <link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/science/css/sciencestudies.css"  type="text/css" media="all">
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <?php if ( is_home() ) { ?>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.cycle.all.min.js.gz"></script>
 <script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/scaleimage.min.js"></script>
-<script type="text/javascript" src="https://raw.github.com/desandro/imagesloaded/master/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.imagesloaded.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -25,9 +25,10 @@ jQuery(document).ready(function($) {
 		slideResize:   true,
 		containerResize: false,
 		width: '100%',
-		fit: 1,
-		next: '#controls-next',
-		prev: '#controls-prev',
+		fastOnEvent: 150,
+		fx: 'scrollHorz',
+		next: '#slider-next',
+		prev: '#slider-prev',
 		pagerAnchorBuilder: function( idx, slide ) { 
 			return '#slide-thumbs li:eq(' + idx + ') a'; 
     	}
