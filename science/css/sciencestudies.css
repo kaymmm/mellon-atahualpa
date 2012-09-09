@@ -780,7 +780,7 @@ div#menu1 li a { padding-right: 16px; }
 .featured-wrapper {
 	float: right;
 	margin-bottom: 30px;
-	width: 79.78723404255319%;	/* 750 / 940 = 0.79787234042553 */
+	width: 750px;
 	overflow: hidden;
 	position: relative;
 	z-index: 1;
@@ -794,7 +794,7 @@ div#menu1 li a { padding-right: 16px; }
 	overflow: hidden;
 	float: left;
 }
-.featured-post h2.entry-title {
+.featured-post h2.entry-title a {
 	position: absolute;
 	bottom: 110px;
 	right: 0;
@@ -840,7 +840,14 @@ div#menu1 li a { padding-right: 16px; }
 	cursor: pointer;
 	text-indent: -9999em;
 }
-
+#slider-prev {
+	left: 0;
+	background-position: 7px -21px;
+}
+#slider-next {
+	right: 0;
+	background-position: 7px 11px;
+}
 .slider-nav:hover { background-color: #000; }
 
 /*  Featured Content (slider) Navigation

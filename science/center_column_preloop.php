@@ -2,10 +2,6 @@
 
 <?php if (is_front_page() ) { ?>
 <div id="featured-wrapper" class="featured clear fix">
-	<div id="controls">
-		<a href="" class="prev">Prev</a> 
-		<a href="" class="next">Next</a>
-	</div>
 	<div id="featured-content">
 		<img class="dummy " src="http://gcsciencestudies.commons.gc.cuny.edu/wp-content/blogs.dir/1012/files/2012/09/empty.gif" alt="" width="750" height="380">
 		<?php
@@ -17,14 +13,17 @@
 		$recent_posts = new WP_Query($args);
 		while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>
 			<?php  if (has_post_thumbnail()) { ?>
+				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' ); ?>
 				<div class="featured-post">
 					<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
-						<?php the_post_thumbnail("large", array ('class' => 'attachment-featured-slideshow-thumb wp-post-image featured-thumbnail')); ?>
+					<img src="<?php echo $thumb[0]; ?>" alt="<?php the_title_attribute(); ?>" width="<?php echo $thumb[1]; ?>" height="<?php echo $thumb[2]; ?>" class="featured-thumbnail" />
 					</a>
-					<h2 class="post-title entry-title"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+					<h2 class="post-title entry-title"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 				</div><!-- featured-post -->
 			<?php } ?>
 		<?php endwhile; ?>
+		<span id="slider-prev" class="slider-nav">←</span>
+		<span id="slider-next" class="slider-nav">→</span>
 	</div> <!-- featured-content -->
 	<div id="slider-nav">
 		<ul id="slide-thumbs">
@@ -35,9 +34,14 @@
 						);
 			while ( $recent_posts->have_posts() ) : $recent_posts->the_post(); ?>
 				<li class="<?php echo ( $slidecount == 6 ) ? 'last' : ''; ?>">
-					<?php if (has_post_thumbnail()) {
-						the_post_thumbnail("thumbnail", array('size' => 'slider-nav-thumbnail')); 
-					} ?>
+					<?php if (has_post_thumbnail()) { ?>
+						<?php
+							$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
+						?>
+						<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
+						<img src="<?php echo $thumb[0]; ?>" class="slider-nav-thumbnail" alt="<?php the_title_attribute(); ?>" />
+					</a>
+					<?php } ?>
 				</li>
 				<?php $slidecount++; ?>
 			<?php endwhile; ?>
