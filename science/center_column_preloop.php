@@ -2,7 +2,7 @@
 
 <?php if (is_front_page() ) { ?>
 <div id="featured-wrapper" class="featured-wrapper">
-	<div id="featured-content">
+	<div id="featured-content" width="750" height="380" style="overflow:hidden;">
 		<img class="dummy " src="http://gcsciencestudies.commons.gc.cuny.edu/wp-content/blogs.dir/1012/files/2012/09/empty.gif" alt="" width="750" height="380">
 		<?php
 		$args = array ( 'post_type' => 'post',
@@ -13,10 +13,10 @@
 		$recent_posts = new WP_Query($args);
 		while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>
 			<?php  if (has_post_thumbnail()) { ?>
-				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' ); ?>
+				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
 				<div class="featured-post">
 					<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
-					<img src="<?php echo $thumb[0]; ?>" alt="<?php the_title_attribute(); ?>" width="<?php echo $thumb[1]; ?>" height="<?php echo $thumb[2]; ?>" class="featured-thumbnail" />
+					<img src="<?php echo $thumb[0]; ?>" alt="<?php the_title_attribute(); ?>" class="featured-thumbnail" />
 					</a>
 					<h2 class="post-title entry-title"><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 				</div><!-- featured-post -->
@@ -63,13 +63,13 @@
 				<?php if ( has_post_thumbnail() ) { ?>
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
 					<div class="hentry-thumb">
-						<?php the_post_thumbnail("large", array ('class' => 'archive-thumbnail featured')); ?>
+						<?php the_post_thumbnail(array(450,160), array ('class' => 'hentry-thumbnail')); ?>
 						<a class="read-more" href="<?php the_permalink(); ?>">Event Details →</a>
 					</div>
 					</a>
 				<?php } ?>
 				<div class="entry-header">
-					<h2 class="post-title entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+					<h2 class="post-title entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 					<div class="byline"><abbr class="published" title="<?php the_time('F jS, Y'); ?>"><?php the_time('F jS, Y'); ?></abbr></div>
 				</div>
 				<div class="byline-cat"><span class="category"><?php the_tags( '', ', ', '' ); ?></span></div>
@@ -86,7 +86,7 @@
 							'order' => 'DESC',
 							'orderby' => 'date',
 							'posts_per_page' => 5,
-							'offset' => 5
+							'offset' => 6
 							);
 		$recent_posts = new WP_Query($args);
 		while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>

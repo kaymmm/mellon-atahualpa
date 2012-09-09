@@ -1,5 +1,5 @@
 .archive-thumbnail {position: absolute;}
-.hentry-thumb { overflow: hidden; position: relative; width: 100%; height: 160px; }
+.hentry-thumbnail { overflow: hidden; position: relative; width: 100%; height: 160px; }
 
 div.ventry-content {
 	display: table;
@@ -582,6 +582,19 @@ td#header {
 div#menu1 ul.rMenu li.current-menu-item a:link, div#menu1 ul.rMenu li.current-menu-item a:active, div#menu1 ul.rMenu li.current-menu-item a:hover, div#menu1 ul.rMenu li.current-menu-item a:visited, div#menu1 ul.rMenu li.current_page_item a:link, div#menu1 ul.rMenu li.current_page_item a:active, div#menu1 ul.rMenu li.current_page_item a:hover, div#menu1 ul.rMenu li.current_page_item a:visited, div#menu1 ul.rMenu li a:hover {
 	background: transparent;
 	color:	#AAA;
+}
+
+div#menu1 ul.rMenu {
+	border: none;
+}
+
+div#menu1 ul.rMenu li:hover, div#menu1 ul.rMenu-hor li.rMenu-expand, div#menu1 ul.rMenu li {
+	background-color: transparent!important;
+	display: block;
+	float: left;
+	min-height: 30px;
+	padding-left: 1.8em;
+	background: url(../images/menu-separator.png) no-repeat left 15%;
 }
 
 div#menu1 li:first-child {
