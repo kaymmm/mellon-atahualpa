@@ -25,10 +25,9 @@ jQuery(document).ready(function($) {
 		cleartypeNoBg: true,
 		pager: '#slide-thumbs',
 		containerResize: false,
-//		slideResize: true,
-//		width: '100%',
-//		fit: 1,
-		fx: 'scrollHorz',
+		slideResize: false,
+		fit: false,
+		fx: 'uncover',
 		next: '#slider-next',
 		prev: '#slider-prev',
 		pagerAnchorBuilder: function( idx, slide ) { 

@@ -792,6 +792,8 @@ div#menu1 li a { padding-right: 16px; }
 	position: relative;
 	overflow: hidden;
 	float: left;
+	height: 380px!important;
+	width: 100%!important;
 }
 .featured-post h2.entry-title{
 	position: absolute;
@@ -804,6 +806,7 @@ div#menu1 li a { padding-right: 16px; }
 	padding: .4em 30px .4em 1.5em;
 	font-size: 1em;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 .featured-post:hover h2.entry-title, .featured-post:hover .byline {
 	color: #fff;
@@ -818,7 +821,7 @@ div#menu1 li a { padding-right: 16px; }
 	padding: .4em 30px .4em 1.3em;
 	font-size: 0.9166666666666667em;
 }
-.featured-post:hover { border-bottom: none; }
+.featured-post:hover { border-bottom: none!important; }
 .featured-thumbnail { max-width: 100%; }
 #featured-content .dummy {
 	width: 100% !important;
