@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://gcsciencestudies.commons.gc.cuny.edu/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-CAC"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style></style>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<title>The Committee for Interdisciplinary Science Studies</title>
+	<meta name="description" content="The Interdisciplinary Committee on Science Studies at the CUNY Graduate Center">
+<meta name="keywords" content="science studies, interdisciplinarity, transdisciplinary, interdisciplinary, CUNY, New York, Graduate Center, feminism, humanities, social science, science technology and society, sts">
+<link rel="shortcut icon" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-content/themes/atahualpa/images/favicon/new-favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://gcsciencestudies.commons.gc.cuny.edu/xmlrpc.php">
+<link rel="stylesheet" href="./sci-test_files/saved_resource" type="text/css" media="all"><link rel="stylesheet" href="./sci-test_files/html_css_inserts.css" type="text/css" media="all">
+<link rel="stylesheet" href="science/css/sciencestudies.css" type="text/css" media="all">
+<link href="./sci-test_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="./sci-test_files/ga.js"></script><script src="./sci-test_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" src="./sci-test_files/jquery.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="./sci-test_files/scaleimage.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.imagesloaded.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	
+//	$( 'body' ).removeClass( 'no-js' );
+
+//initialize the slider
+	$('#featured-content').cycle( {
+		slideExpr: '.featured-post',
+		fx: 'fade',
+		speed: 300,
+		timeout: 7000,
+		pause: 1,
+		cleartypeNoBg: true,
+		pager: '#slide-thumbs',
+		slideResize:   true,
+		containerResize: false,
+		width: '100%',
+		fit: 1,
+		next: '#controls-next',
+		prev: '#controls-prev',
+		pagerAnchorBuilder: function( idx, slide ) { 
+			return '#slide-thumbs li:eq(' + idx + ') a'; 
+    	}
+	});
+
+	//resize the images for the slider
+	$('#featured-content img.featured-thumbnail').imagesLoaded(function() {
+		$(this).each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+			var tw = 750;
+			var th = 380;
+	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
+	   		$(this).css("width",result.width);
+	   		$(this).css("height",result.height);
+	   		$(this).css("left", result.targetleft);
+			$(this).css("top", result.targettop);	
+		});
+	});
+	$('#slider-nav img.slider-nav-thumbnail').imagesLoaded(function() {
+		$(this).each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+	   		var tw = $(this).parent().width();
+			var th = $(this).parent().height();
+	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
+	   		$(this).css("width",result.width);
+	   		$(this).css("height",result.height);
+	   		$(this).css("left", result.targetleft);
+			$(this).css("top", result.targettop);
+		});
+	});
+
+	$('#hfeed img.hentry-thumbnail').imagesLoaded(function() {
+		$(this).each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+			var tw = $(this).parents("div").width();
+			var th = $(this).parents("div").height();
+			var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
+			$(this).css("width",result.width);
+			$(this).css("height",result.height);
+			$(this).css("left", result.targetleft);
+			$(this).css("top", result.targettop);
+		});
+	}); 
+});
+
+function getOriginalDimensionsOfImg(img_element) {
+	var t = new Image();
+	var result = { width: 0, height: 0 };
+	t.src = (img_element.getAttribute ? img_element.getAttribute("src") : false) || img_element.src;
+	result.width=t.width;
+	result.height=t.height;
+	return result;
+}
+</script>
+<meta name="robots" content="noindex,nofollow">
+<link rel="alternate" type="application/rss+xml" title="The Committee for Interdisciplinary Science Studies » Feed" href="http://gcsciencestudies.commons.gc.cuny.edu/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Committee for Interdisciplinary Science Studies » Comments Feed" href="http://gcsciencestudies.commons.gc.cuny.edu/comments/feed/">
+<link rel="stylesheet" id="admin-bar-css" href="./sci-test_files/admin-bar.css" type="text/css" media="all">
+<link rel="stylesheet" id="bp-admin-bar-css" href="./sci-test_files/admin-bar(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="events-manager-css" href="./sci-test_files/events_manager.css" type="text/css" media="all">
+<link rel="stylesheet" id="gpofecss-css" href="./sci-test_files/googleplusone-button-fe.css" type="text/css" media="all">
+<link rel="stylesheet" id="cac-admin-bar-css" href="./sci-test_files/admin-bar(2).css" type="text/css" media="all">
+<script type="text/javascript" src="./sci-test_files/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript">
+/*From Ajax Edit Comments*/
+if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/admin-ajax.php'; }
+</script>
+            <script type="text/javascript" src="./sci-test_files/jquery.js"></script>
+<script type="text/javascript" src="./sci-test_files/DD_roundies.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.position.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.mouse.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.sortable.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.datepicker.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.autocomplete.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.resizable.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.draggable.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.button.min.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.ui.dialog.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/gcsciencestudies.commons.gc.cuny.edu\/wp-admin\/admin-ajax.php","bookingajaxurl":"http:\/\/gcsciencestudies.commons.gc.cuny.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/gcsciencestudies.commons.gc.cuny.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"0","locale":"en","dateFormat":"dd\/mm\/yy","bookingInProgress":"Please wait while the booking is being submitted.","ui_css":"http:\/\/gcsciencestudies.commons.gc.cuny.edu\/wp-content\/plugins\/events-manager\/includes\/css\/ui-lightness.css","show24hours":"0","is_ssl":"","tickets_save":"Save Ticket","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","booking_warning_cancel":"Are you sure you want to cancel your booking?"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./sci-test_files/events-manager.js"></script>
+<script type="text/javascript" src="./sci-test_files/swfobject.js"></script>
+<script type="text/javascript" src="./sci-test_files/jquery.columnizer.js"></script>
+<script type="text/javascript" src="./sci-test_files/admin-bar.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://gcsciencestudies.commons.gc.cuny.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-includes/wlwmanifest.xml"> 
+
+	<script type="text/javascript">var ajaxurl = 'http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/admin-ajax.php';</script>
+
+
+<!-- begin litebox scripts -->
+<link rel="stylesheet" href="./sci-test_files/lightbox.css" type="text/css" media="screen">
+<script type="text/javascript" src="./sci-test_files/prototype.lite.js"></script>
+<script type="text/javascript" src="./sci-test_files/moo.fx.js"></script>
+<script type="text/javascript" src="./sci-test_files/litebox-1.0.js"></script>
+<script type="text/javascript">window.onload = initLightbox;</script>
+<!-- end litebox scripts -->
+
+			<link rel="stylesheet" type="text/css" href="./sci-test_files/index.php">
+			<script type="text/javascript" src="./sci-test_files/index(1).php"></script>
+			<script type="text/javascript" src="./sci-test_files/saved_resource(1)"></script>
+	
+<!--[if IE 6]>
+<script type="text/javascript">DD_roundies.addRule("a.posts-icon, a.comments-icon, a.email-icon, img.logo");</script>
+<![endif]-->
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+<!-- Vipers Video Quicktags v6.4.3 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/ -->
+<style type="text/css">
+.vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
+</style>
+<script type="text/javascript">
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "http://gcsciencestudies.commons.gc.cuny.edu/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
+</script>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>	<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.first_slide span').css('bottom','0');
+
+	});
+	</script>
+	<style type="text/css">@import url(http://kaymmm.github.com/mellon-altahualpa/science/css/sciencestudies2.css);
+section.more-articles {
+display: none;
+}</style></head><link rel="stylesheet" type="text/css" href="data:text/css,">
+<body class="home-page logged-in home blog admin-bar customize-support">
+<div id="wrapper">
+<div id="container">
+<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col class="colone"><col class="coltwo">
+</colgroup> 
+	<tbody><tr>
+
+		<!-- Header -->
+		<td id="header" colspan="2">
+
+		<div id="header">
+	<div id="branding">
+		<h1 id="site-title">
+			<a href="./sci-test_files/sci-test.html" title="The Committee for Interdisciplinary Science Studies" rel="home"><span>The Committee for Interdisciplinary Science Studies</span></a>
+		</h1>
+		<h2 id="site-description">
+			<span></span>
+		</h2>
+	</div><!-- #branding -->
+	<div id="sidebar-header" class="sidebar">
+		<div id="social-widget-2" class="widget Social_Widget widget-Social_Widget">
+			<div class="widget-wrap widget-inside">
+				<h3 class="widget-title">
+					Follow Us!
+				</h3>
+				<div class="socialicons">
+					<a target="_blank" href="http://twitter.com/#!/" class="twitterlink"></a>
+					<a target="_blank" href="" class="facebooklink"></a> 
+					<a target="_blank" href="http://www.cuny.edu/" class="cuny"></a> 
+				</div>
+			</div>
+		</div>
+	</div><!-- #sidebar-header -->
+	<div id="menu1"><ul id="rmenu2" class="clearfix rMenu-hor rMenu">
+<li class="page_item current_page_item"><a href="./sci-test_files/sci-test.html" title="The Committee for Interdisciplinary Science Studies"><span>Home</span></a></li>
+<li class="page_item page-item-1024"><a href="http://gcsciencestudies.commons.gc.cuny.edu/fellowships-3/"><span>fellowships</span></a></li>
+<li class="rMenu-expand page_item page-item-18"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/"><span>EVENTS</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-1165"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/categories/"><span>Categories</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-20"><a href="http://gcsciencestudies.commons.gc.cuny.edu/seminar/"><span>SEMINAR</span></a></li>
+<li class="rMenu-expand page_item page-item-28"><a href="http://gcsciencestudies.commons.gc.cuny.edu/home/"><span>HOME</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-235"><a href="http://gcsciencestudies.commons.gc.cuny.edu/home/about-2/"><span>About</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-1752"><a href="http://gcsciencestudies.commons.gc.cuny.edu/testpage/"><span>testpage</span></a></li>
+<li class="rMenu-expand page_item page-item-947"><a href="http://gcsciencestudies.commons.gc.cuny.edu/people-2/"><span>People</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-311"><a href="http://gcsciencestudies.commons.gc.cuny.edu/people-2/past-fellows/"><span>Past Fellows</span></a></li>
+</ul>
+</li>
+<li class="rMenu-expand page_item page-item-948"><a href="http://gcsciencestudies.commons.gc.cuny.edu/seminar-2/"><span>Seminar</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-389"><a href="http://gcsciencestudies.commons.gc.cuny.edu/seminar-2/past-seminars/"><span>Past Seminars</span></a></li>
+</ul>
+</li>
+<li class="rMenu-expand page_item page-item-949"><a href="http://gcsciencestudies.commons.gc.cuny.edu/fellowships-2/"><span>Fellowships</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-177"><a href="http://gcsciencestudies.commons.gc.cuny.edu/fellowships-2/application-deadline/"><span>Application Deadline</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-15"><a href="http://gcsciencestudies.commons.gc.cuny.edu/fellowships/"><span>Fellowships</span></a></li>
+<li class="page_item page-item-950"><a href="http://gcsciencestudies.commons.gc.cuny.edu/contact/"><span>Contact</span></a></li>
+<li class="rMenu-expand page_item page-item-553"><a href="http://gcsciencestudies.commons.gc.cuny.edu/courses/"><span>Courses</span></a>
+ <ul class="rMenu-ver">
+	<li class="page_item page-item-545"><a href="http://gcsciencestudies.commons.gc.cuny.edu/courses/past-courses/"><span>Past Courses</span></a></li>
+</ul>
+</li>
+</ul></div>
+
+</div>
+		</td>
+		<!-- / Header -->
+
+	</tr>
+
+	<!-- Main Body -->	
+	<tr id="bodyrow">
+
+				<!-- Left Sidebar -->
+		<td id="left">
+
+			<div id="em_calendar-2" class="widget widget_em_calendar"><div class="widget-title"><h3>Upcoming Science Studies Events</h3></div><div id="em-calendar-128" class="em-calendar-wrapper"><table class="em-calendar">
+	<thead>
+		<tr>
+			<td><a class="em-calnav em-calnav-prev" href="http://gcsciencestudies.commons.gc.cuny.edu/?ajaxCalendar=1&mo=8&yr=2012&" rel="nofollow">&lt;&lt;</a></td>
+			<td class="month_name" colspan="5">Sep 2012</td>
+			<td><a class="em-calnav em-calnav-next" href="http://gcsciencestudies.commons.gc.cuny.edu/?ajaxCalendar=1&mo=10&yr=2012&" rel="nofollow">&gt;&gt;</a></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="days-names">
+			<td>S</td><td>M</td><td>T</td><td>W</td><td>T</td><td>F</td><td>S</td>
+		</tr>
+		<tr>
+							<td class="eventless-pre">
+										26									</td>
+								<td class="eventless-pre">
+										27									</td>
+								<td class="eventless-pre">
+										28									</td>
+								<td class="eventless-pre">
+										29									</td>
+								<td class="eventless-pre">
+										30									</td>
+								<td class="eventless-pre">
+										31									</td>
+								<td class="eventless">
+										1									</td>
+				</tr><tr>				<td class="eventless">
+										2									</td>
+								<td class="eventless">
+										3									</td>
+								<td class="eventless">
+										4									</td>
+								<td class="eventless">
+										5									</td>
+								<td class="eventless">
+										6									</td>
+								<td class="eventless">
+										7									</td>
+								<td class="eventless">
+										8									</td>
+				</tr><tr>				<td class="eventless-today">
+										9									</td>
+								<td class="eventless">
+										10									</td>
+								<td class="eventless">
+										11									</td>
+								<td class="eventless">
+										12									</td>
+								<td class="eventless">
+										13									</td>
+								<td class="eventless">
+										14									</td>
+								<td class="eventless">
+										15									</td>
+				</tr><tr>				<td class="eventless">
+										16									</td>
+								<td class="eventless">
+										17									</td>
+								<td class="eventless">
+										18									</td>
+								<td class="eventless">
+										19									</td>
+								<td class="eventless">
+										20									</td>
+								<td class="eventless">
+										21									</td>
+								<td class="eventless">
+										22									</td>
+				</tr><tr>				<td class="eventless">
+										23									</td>
+								<td class="eventless">
+										24									</td>
+								<td class="eventless">
+										25									</td>
+								<td class="eventless">
+										26									</td>
+								<td class="eventless">
+										27									</td>
+								<td class="eventless">
+										28									</td>
+								<td class="eventless">
+										29									</td>
+				</tr><tr>				<td class="eventless">
+										30									</td>
+								<td class="eventless-post">
+										1									</td>
+								<td class="eventless-post">
+										2									</td>
+								<td class="eventless-post">
+										3									</td>
+								<td class="eventless-post">
+										4									</td>
+								<td class="eventless-post">
+										5									</td>
+								<td class="eventless-post">
+										6									</td>
+						</tr>
+	</tbody>
+</table></div></div><div id="em_widget-2" class="widget widget_em_widget"><div class="widget-title"><h3>Upcoming Science Studies Events</h3></div><ul><li>No upcoming events currently scheduled</li></ul></div>
+		</td>
+		<!-- / Left Sidebar -->
+		
+				
+
+		<!-- Main Column -->
+		<td id="middle">
+
+	
+<div id="featured-wrapper" class="featured-wrapper">
+	<div id="featured-content" width="750" height="380" style="overflow: hidden; width: 100%; ">
+		<img class="dummy " src="./sci-test_files/empty.gif" alt="" width="750" height="380">
+													<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 100%; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/skill-share-diy-frog-pregnancy-test/" title="Skill share: DIY Frog Pregnancy Test">
+					<img src="./sci-test_files/Xenopus_kal_art1nov7_35.jpeg" alt="Skill share: DIY Frog Pregnancy Test" class="featured-thumbnail" style="width: 750px; height: 562px; left: 0px; top: -91px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/skill-share-diy-frog-pregnancy-test/" title="Skill share: DIY Frog Pregnancy Test" rel="bookmark">Skill share: DIY Frog Pregnancy Test</a></h2>
+				</div><!-- featured-post -->
+																<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; width: 100%; opacity: 0; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/elizabeth-wissinger-on-the-biopolitics-of-beauty/" title="Elizabeth Wissinger on the ‘Biopolitics of Beauty’">
+					<img src="./sci-test_files/betsy-w-e1339091632590.png" alt="Elizabeth Wissinger on the ‘Biopolitics of Beauty’" class="featured-thumbnail" style="width: 1042px; height: 380px; left: -146px; top: 0px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/elizabeth-wissinger-on-the-biopolitics-of-beauty/" title="Elizabeth Wissinger on the ‘Biopolitics of Beauty’" rel="bookmark">Elizabeth Wissinger on the ‘Biopolitics of Beauty’</a></h2>
+				</div><!-- featured-post -->
+																<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; width: 100%; opacity: 0; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/carissa-veliz-on-meditation/" title="Carissa Véliz on meditation">
+					<img src="./sci-test_files/carissa-v.png" alt="Carissa Véliz on meditation" class="featured-thumbnail" style="width: 848px; height: 380px; left: -49px; top: 0px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/carissa-veliz-on-meditation/" title="Carissa Véliz on meditation" rel="bookmark">Carissa Véliz on meditation</a></h2>
+				</div><!-- featured-post -->
+																<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; width: 100%; opacity: 0; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/lori-gruen-on-entangled-empathy/" title="Lori Gruen on Entangled Empathy">
+					<img src="./sci-test_files/lori-gruen.png" alt="Lori Gruen on Entangled Empathy" class="featured-thumbnail" style="width: 750px; height: 415px; left: 0px; top: -18px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/lori-gruen-on-entangled-empathy/" title="Lori Gruen on Entangled Empathy" rel="bookmark">Lori Gruen on Entangled Empathy</a></h2>
+				</div><!-- featured-post -->
+																<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; width: 100%; opacity: 0; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/eben-kirksey-on-love-and-ants/" title="Eben Kirksey on love and ants">
+					<img src="./sci-test_files/eben-k.png" alt="Eben Kirksey on love and ants" class="featured-thumbnail" style="width: 877px; height: 380px; left: -64px; top: 0px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/eben-kirksey-on-love-and-ants/" title="Eben Kirksey on love and ants" rel="bookmark">Eben Kirksey on love and ants</a></h2>
+				</div><!-- featured-post -->
+																<div class="featured-post" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 7; width: 100%; opacity: 1; ">
+					<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/daniel-shargel-on-the-philosophy-of-emotions/" title="Daniel Shargel on the philosophy of emotions">
+					<img src="./sci-test_files/daniel-shargel.png" alt="Daniel Shargel on the philosophy of emotions" class="featured-thumbnail" style="width: 891px; height: 380px; left: -71px; top: 0px; ">
+					</a>
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/daniel-shargel-on-the-philosophy-of-emotions/" title="Daniel Shargel on the philosophy of emotions" rel="bookmark">Daniel Shargel on the philosophy of emotions</a></h2>
+				</div><!-- featured-post -->
+							<span id="slider-prev" class="slider-nav">←</span>
+		<span id="slider-next" class="slider-nav">→</span>
+	</div> <!-- featured-content -->
+	<div id="slider-nav">
+		<ul id="slide-thumbs">
+							<li class="">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/skill-share-diy-frog-pregnancy-test/" title="Skill share: DIY Frog Pregnancy Test">
+						<img src="./sci-test_files/Xenopus_kal_art1nov7_35-150x112.jpeg" class="slider-nav-thumbnail" alt="Skill share: DIY Frog Pregnancy Test" style="width: 110px; height: 82px; left: 0px; top: -35px; ">
+					</a>
+									</li>
+											<li class="">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/elizabeth-wissinger-on-the-biopolitics-of-beauty/" title="Elizabeth Wissinger on the ‘Biopolitics of Beauty’">
+						<img src="./sci-test_files/betsy-w-e1339091632590-150x150.png" class="slider-nav-thumbnail" alt="Elizabeth Wissinger on the ‘Biopolitics of Beauty’" style="width: 110px; height: 110px; left: 0px; top: -49px; ">
+					</a>
+									</li>
+											<li class="">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/carissa-veliz-on-meditation/" title="Carissa Véliz on meditation">
+						<img src="./sci-test_files/carissa-v-150x150.png" class="slider-nav-thumbnail" alt="Carissa Véliz on meditation" style="width: 110px; height: 110px; left: 0px; top: -49px; ">
+					</a>
+									</li>
+											<li class="">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/lori-gruen-on-entangled-empathy/" title="Lori Gruen on Entangled Empathy">
+						<img src="./sci-test_files/lori-gruen-150x150.png" class="slider-nav-thumbnail" alt="Lori Gruen on Entangled Empathy" style="width: 110px; height: 110px; left: 0px; top: -49px; ">
+					</a>
+									</li>
+											<li class="">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/eben-kirksey-on-love-and-ants/" title="Eben Kirksey on love and ants">
+						<img src="./sci-test_files/eben-k-150x150.png" class="slider-nav-thumbnail" alt="Eben Kirksey on love and ants" style="width: 110px; height: 110px; left: 0px; top: -49px; ">
+					</a>
+									</li>
+											<li class="last activeSlide">
+																	<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/daniel-shargel-on-the-philosophy-of-emotions/" title="Daniel Shargel on the philosophy of emotions">
+						<img src="./sci-test_files/daniel-shargel-150x150.png" class="slider-nav-thumbnail" alt="Daniel Shargel on the philosophy of emotions" style="width: 110px; height: 110px; left: 0px; top: -49px; ">
+					</a>
+									</li>
+									</ul>
+	</div><!-- #slider-nav-->
+</div> <!-- featured-wrapper-->
+<div id="all-articles">
+	<div id="hfeed" style="float:left; width: 450px;">
+		<h4 class="section-title">Recent and Upcoming Events</h4>
+		<!-- events listing -->
+					<div class="post-1258 event type-event status-publish hentry event odd" id="post-1258">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/" rel="bookmark" title="Traci Warkentin: Odd Couples, Embodied Minds">
+					</a><div class="hentry-thumb"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/" rel="bookmark" title="Traci Warkentin: Odd Couples, Embodied Minds">
+						<img width="160" height="160" src="./sci-test_files/warkentin.jpg" class="hentry-thumbnail wp-post-image" alt="warkentin" title="warkentin" style="width: 0px; height: 0px; ">						</a><a class="read-more" href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/">Event Details →</a>
+					</div>
+					
+								<div class="entry-header">
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/" rel="bookmark" title="Traci Warkentin: Odd Couples, Embodied Minds">Traci Warkentin: Odd Couples, Embodied Minds</a></h2>
+					<div class="byline"><abbr class="published" title="June 6th, 2012">June 6th, 2012</abbr></div>
+				</div>
+				<div class="byline-cat"><span class="category"></span></div>
+				<div class="entry-summary"><p> Loading Map…. <strong>Room 5307</strong>365 Fifth Avenue – New YorkDetails 40.7258593 -73.98687610000002 <strong>Date/Time</strong> Date(s) – 07/12/20114:15 pm – 5:30 pm <strong>Location</strong> Room 5307 <strong>Category(ies)</strong> No Categories <strong>THE COMMITTEE ON INTERDISCIPLINARY SCIENCE STUDIES PRESENTS</strong> <strong>TRACI WARKENTIN</strong> <strong>Odd Couples, Embodied Minds</strong> December 7th, 4:15-5:30 Room 5307 | The CUNY Graduate Center 365 Fifth&nbsp;Avenue, New York, NY [Read more...]</p>
+<div class="gpo_bottomcontainer">
+						<div class="gpo_buttons">
+						        <div style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_0"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px; " tabindex="0" vspace="0" width="100%" id="I0_1347187992668" name="I0_1347187992668" src="./sci-test_files/fastbutton(4).html" title="+1"></iframe></div>
+						</div>
+			   </div>
+			   <div style="clear:both"></div>  <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/">[MORE...]</a></div>
+				<div class="post-footer">June 6th, 2012 |  Category:  | <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/traci-warkentin-odd-couples-embodied-minds/#respond" class="comments-link" title="Comment on Traci Warkentin: Odd Couples, Embodied Minds">Leave a comment</a>  | <a class="post-edit-link" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post.php?post=1258&action=edit" title="Edit Event">Edit this post</a></div>			</div><!-- / Post -->
+					<div class="post-1254 event type-event status-publish hentry event even" id="post-1254">
+								<div class="entry-header">
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/suzanne-anker-fundamentally-human/" rel="bookmark" title="Suzanne Anker: Fundamentally Human">Suzanne Anker: Fundamentally Human</a></h2>
+					<div class="byline"><abbr class="published" title="June 6th, 2012">June 6th, 2012</abbr></div>
+				</div>
+				<div class="byline-cat"><span class="category"></span></div>
+				<div class="entry-summary"><p>Map Unavailable <strong>Date/Time</strong> Date(s) – 06/10/20116:00 pm – 8:00 pm <strong>Category(ies)</strong> No Categories <strong>THE COMMITTEE FOR INTERDISCIPLINARY SCIENCE STUDIES PRESENTS</strong> Part of the NeuroCultures: Lecture Series at the CUNY Graduate Center Suzanne Anker Fundamentally Human: Contemporary Art and Neuroscience Thursday October 6, 2011, 6–8p The James Gallery @&nbsp;The CUNY Graduate Center 365 Fifth&nbsp;Avenue, New [Read more...]</p>
+<div class="gpo_bottomcontainer">
+						<div class="gpo_buttons">
+						        <div style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_1"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px; " tabindex="0" vspace="0" width="100%" id="I1_1347187992687" name="I1_1347187992687" src="./sci-test_files/fastbutton(3).html" title="+1"></iframe></div>
+						</div>
+			   </div>
+			   <div style="clear:both"></div>  <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/suzanne-anker-fundamentally-human/">[MORE...]</a></div>
+				<div class="post-footer">June 6th, 2012 |  Category:  | <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/suzanne-anker-fundamentally-human/#respond" class="comments-link" title="Comment on Suzanne Anker: Fundamentally Human">Leave a comment</a>  | <a class="post-edit-link" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post.php?post=1254&action=edit" title="Edit Event">Edit this post</a></div>			</div><!-- / Post -->
+					<div class="post-1250 event type-event status-publish hentry event odd" id="post-1250">
+								<div class="entry-header">
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/bird-on-fire-lessons-from-the-worlds-least-sustainable-city-with-andrew-ross/" rel="bookmark" title="Bird on Fire: Lessons from the world’s least sustainable city with Andrew Ross">Bird on Fire: Lessons from the world’s least sustainable city with Andrew Ross</a></h2>
+					<div class="byline"><abbr class="published" title="June 6th, 2012">June 6th, 2012</abbr></div>
+				</div>
+				<div class="byline-cat"><span class="category"></span></div>
+				<div class="entry-summary"><p>Map Unavailable <strong>Date/Time</strong> Date(s) – 28/10/20116:30 pm – 8:30 pm <strong>Category(ies)</strong> No Categories <strong>A conversation about the new book</strong> BIRD ON FIRE: <em></em>Lessons from the World’s Least Sustainable City by Andrew Ross Friday, October 28th, 2011 Room 9206/9207&nbsp;|&nbsp;6:30 – 8:30pm The CUNY Graduate Center | 365 5th&nbsp;Avenue, NY 10016 http://www.vimeo.com/32926642 &nbsp; With Discussants: <strong>Neil [Read more...]</strong></p><strong>
+<div class="gpo_bottomcontainer">
+						<div class="gpo_buttons">
+						        <div style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_2"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px; " tabindex="0" vspace="0" width="100%" id="I2_1347187992702" name="I2_1347187992702" src="./sci-test_files/fastbutton.html" title="+1"></iframe></div>
+						</div>
+			   </div>
+			   <div style="clear:both"></div>  <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/bird-on-fire-lessons-from-the-worlds-least-sustainable-city-with-andrew-ross/">[MORE...]</a></strong></div><strong>
+				<div class="post-footer">June 6th, 2012 |  Category:  | <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/bird-on-fire-lessons-from-the-worlds-least-sustainable-city-with-andrew-ross/#respond" class="comments-link" title="Comment on Bird on Fire: Lessons from the world’s least sustainable city with Andrew Ross">Leave a comment</a>  | <a class="post-edit-link" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post.php?post=1250&action=edit" title="Edit Event">Edit this post</a></div>			</strong></div><!-- / Post --><strong>
+					<div class="post-1246 event type-event status-publish hentry event even" id="post-1246">
+								<div class="entry-header">
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/hannah-landecker-metabolic-objects/" rel="bookmark" title="Hannah Landecker: Metabolic Objects">Hannah Landecker: Metabolic Objects</a></h2>
+					<div class="byline"><abbr class="published" title="June 6th, 2012">June 6th, 2012</abbr></div>
+				</div>
+				<div class="byline-cat"><span class="category"></span></div>
+				<div class="entry-summary"><p>Map Unavailable <strong>Date/Time</strong> Date(s) – 26/10/20116:30 pm – 8:30 pm <strong>Category(ies)</strong> No Categories Metabolic Objects Hannah Landecker Wednesday, Oct 26, 2011 | 6.30pm The James Gallery @ The CUNY Graduate Center 365 Fifth Avenue, New York 10016 <em>Free and open to the public</em> When, in epigenetics, we consider objects on a molecular level, what [Read more...]</p>
+<div class="gpo_bottomcontainer">
+						<div class="gpo_buttons">
+						        <div style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_3"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px; " tabindex="0" vspace="0" width="100%" id="I3_1347187992721" name="I3_1347187992721" src="./sci-test_files/fastbutton(2).html" title="+1"></iframe></div>
+						</div>
+			   </div>
+			   <div style="clear:both"></div>  <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/hannah-landecker-metabolic-objects/">[MORE...]</a></div>
+				<div class="post-footer">June 6th, 2012 |  Category:  | <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/hannah-landecker-metabolic-objects/#respond" class="comments-link" title="Comment on Hannah Landecker: Metabolic Objects">Leave a comment</a>  | <a class="post-edit-link" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post.php?post=1246&action=edit" title="Edit Event">Edit this post</a></div>			</div><!-- / Post -->
+					<div class="post-1243 event type-event status-publish hentry event odd" id="post-1243">
+								<div class="entry-header">
+					<h2 class="post-title entry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/events/eben-kirksey-the-game-of-global-futures/" rel="bookmark" title="Eben Kirksey: The Game of Global Futures">Eben Kirksey: The Game of Global Futures</a></h2>
+					<div class="byline"><abbr class="published" title="June 6th, 2012">June 6th, 2012</abbr></div>
+				</div>
+				<div class="byline-cat"><span class="category"></span></div>
+				<div class="entry-summary"><p>Map Unavailable <strong>Date/Time</strong> Date(s) – 30/11/20114:15 pm – 5:30 pm <strong>Category(ies)</strong> No Categories <strong>THE COMMITTEE ON INTERDISCIPLINARY SCIENCE STUDIES PRESENTS</strong> <strong>EBEN KIRKSEY</strong> <strong>The Game of Global Futures</strong> November 30th, 4:15-5:30 Room 5307 | The CUNY Graduate Center 365 Fifth&nbsp;Avenue, New York, NY 10016 <em>Free and open to the public</em> <em>Part of the&nbsp;Multispecies Salon Wednesday [Read more...]</em></p><em>
+<div class="gpo_bottomcontainer">
+						<div class="gpo_buttons">
+						        <div style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_4"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px; " tabindex="0" vspace="0" width="100%" id="I4_1347187992738" name="I4_1347187992738" src="./sci-test_files/fastbutton(1).html" title="+1"></iframe></div>
+						</div>
+			   </div>
+			   <div style="clear:both"></div>  <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/eben-kirksey-the-game-of-global-futures/">[MORE...]</a></em></div><em>
+				<div class="post-footer">June 6th, 2012 |  Category:  | <a href="http://gcsciencestudies.commons.gc.cuny.edu/events/eben-kirksey-the-game-of-global-futures/#respond" class="comments-link" title="Comment on Eben Kirksey: The Game of Global Futures">Leave a comment</a>  | <a class="post-edit-link" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post.php?post=1243&action=edit" title="Edit Event">Edit this post</a></div>			</em></div><!-- / Post --><em>
+			</em></strong></div><!-- /hfeed --><strong><em>
+	<div id="vfeed" style="float:right; width:240px;">
+		<!-- articles listing -->
+		<h4 class="section-title">More Posts</h4>
+					<div class="post-1318 post type-post status-publish format-standard hentry category-all category-videos post even" id="post-1318">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/ashley-dawson-on-the-gorgon-stare/" rel="bookmark" title="Ashley Dawson on the Gorgon Stare">
+					<div class="ventry-thumb">
+						<img width="100" height="100" src="./sci-test_files/ashley-dawson-e1339091695882-150x150.png" class="ventry-thumbnail wp-post-image" alt="ashley dawson" title="ashley dawson">					</div>
+					</a>
+								<div class="ventry-content">
+					<h4 class="post-title ventry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/ashley-dawson-on-the-gorgon-stare/" rel="bookmark" title="Ashley Dawson on the Gorgon Stare">Ashley Dawson on the Gorgon Stare</a></h4>
+					<span class="ventry-date">June 7th, 2012</span>
+				</div><!-- / content -->
+			</div><!-- / post -->
+					<div class="post-1313 post type-post status-publish format-standard hentry category-all category-videos tag-health-and-medicine tag-philosophy post odd" id="post-1313">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/bryan-turner-on-the-limit-of-lifes-value/" rel="bookmark" title="Bryan Turner on the limit of life’s value">
+					<div class="ventry-thumb">
+						<img width="100" height="100" src="./sci-test_files/brian-turner-150x150.png" class="ventry-thumbnail wp-post-image" alt="brian turner" title="brian turner">					</div>
+					</a>
+								<div class="ventry-content">
+					<h4 class="post-title ventry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/bryan-turner-on-the-limit-of-lifes-value/" rel="bookmark" title="Bryan Turner on the limit of life’s value">Bryan Turner on the limit of life’s value</a></h4>
+					<span class="ventry-date">June 7th, 2012</span>
+				</div><!-- / content -->
+			</div><!-- / post -->
+					<div class="post-1306 post type-post status-publish format-standard hentry category-all category-videos tag-anthropology tag-health-and-medicine post even" id="post-1306">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/murphy-halliburton-on-the-misperceptions-of-popular-genetics/" rel="bookmark" title="Murphy Halliburton on the misperceptions of popular genetics">
+					<div class="ventry-thumb">
+						<img width="100" height="100" src="./sci-test_files/murphy-h-e1339089574419-150x150.png" class="ventry-thumbnail wp-post-image" alt="murphy h" title="murphy h">					</div>
+					</a>
+								<div class="ventry-content">
+					<h4 class="post-title ventry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/murphy-halliburton-on-the-misperceptions-of-popular-genetics/" rel="bookmark" title="Murphy Halliburton on the misperceptions of popular genetics">Murphy Halliburton on the misperceptions of popular genetics</a></h4>
+					<span class="ventry-date">June 7th, 2012</span>
+				</div><!-- / content -->
+			</div><!-- / post -->
+					<div class="post-1298 post type-post status-publish format-standard hentry category-all category-videos tag-health-and-medicine tag-sociology post odd" id="post-1298">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/kimberly-cunningham-on-the-sociology-of-forgetting/" rel="bookmark" title="Kimberly Cunningham on the sociology of forgetting">
+					<div class="ventry-thumb">
+						<img width="100" height="100" src="./sci-test_files/kim-cunningham-150x150.png" class="ventry-thumbnail wp-post-image" alt="kim cunningham" title="kim cunningham">					</div>
+					</a>
+								<div class="ventry-content">
+					<h4 class="post-title ventry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/kimberly-cunningham-on-the-sociology-of-forgetting/" rel="bookmark" title="Kimberly Cunningham on the sociology of forgetting">Kimberly Cunningham on the sociology of forgetting</a></h4>
+					<span class="ventry-date">June 7th, 2012</span>
+				</div><!-- / content -->
+			</div><!-- / post -->
+					<div class="post-1292 post type-post status-publish format-standard hentry category-all category-videos tag-ecocriticism post even" id="post-1292">
+									<a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/kaitlin-mondello-on-imagining-the-planet/" rel="bookmark" title="Kaitlin Mondello on Imagining the Planet">
+					<div class="ventry-thumb">
+						<img width="100" height="100" src="./sci-test_files/kaitlin-mondello-1-e1339090149113-150x150.png" class="ventry-thumbnail wp-post-image" alt="kaitlin mondello" title="kaitlin mondello">					</div>
+					</a>
+								<div class="ventry-content">
+					<h4 class="post-title ventry-title"><a href="http://gcsciencestudies.commons.gc.cuny.edu/2012/06/kaitlin-mondello-on-imagining-the-planet/" rel="bookmark" title="Kaitlin Mondello on Imagining the Planet">Kaitlin Mondello on Imagining the Planet</a></h4>
+					<span class="ventry-date">June 7th, 2012</span>
+				</div><!-- / content -->
+			</div><!-- / post -->
+			</div><!-- /vfeed -->
+</em></strong></div><!-- /all articles --><strong><em>
+
+		
+								
+		
+								
+		
+								
+		
+								
+		
+								
+	
+	<div class="clearfix navigation-bottom">
+			<div class="older"> &nbsp;</div><div class="newer">&nbsp; <a href="http://gcsciencestudies.commons.gc.cuny.edu/page/2/">Older Entries »</a></div></div>
+
+
+</em></strong></td>
+<!-- / Main Column -->
+
+<!-- Right Inner Sidebar -->
+
+<!-- Right Sidebar -->
+<!-- / Right Sidebar -->
+
+</tr>
+<!-- / Main Body -->
+<tr>
+
+<!-- Footer -->
+<td id="footer" colspan="2">
+    <p>
+    Copyright © 2012 <a href="./sci-test_files/sci-test.html">The Committee for Interdisciplinary Science Studies</a> - All Rights Reserved<br>Powered by <a href="http://wordpress.org/">WordPress</a> &amp; <a href="http://forum.bytesforall.com/">Atahualpa</a>    </p>
+    
+    
+    
+<!-- Generated in 0.653 seconds. (213 q) -->
+
+			
+								<script type="text/javascript">
+									jQuery(document).ready( function($){	
+										var em_booking_doing_ajax = false;
+$('#em-booking-form').addClass('em-booking-form'); //backward compatability
+$('.em-booking-form').submit( function(e){
+	e.preventDefault();
+	var em_booking_form = $(this);
+	$.ajax({
+		url: EM.bookingajaxurl,
+		data: em_booking_form.serializeArray(),
+		dataType: 'jsonp',
+		type:'post',
+		beforeSend: function(formData, jqForm, options) {
+			if(em_booking_doing_ajax){
+				alert(EM.bookingInProgress);
+				return false;
+			}
+			em_booking_doing_ajax = true;
+			$('.em-booking-message').remove();
+			em_booking_form.parent('.em-booking').append('<div id="em-loading"></div>');
+		},
+		success : function(response, statusText, xhr, $form) {
+			$('#em-loading').remove();
+			$('.em-booking-message').remove();
+			//show error or success message
+			if(response.result){
+				$('<div class="em-booking-message-success em-booking-message">'+response.message+'</div>').insertBefore(em_booking_form);
+				em_booking_form.hide();
+				$('.em-booking-login').hide();
+				$(document).trigger('em_booking_success', [response]);
+			}else{
+				if( response.errors != null ){
+					if( $.isArray(response.errors) && response.errors.length > 0 ){
+						var error_msg;
+						response.errors.each(function(i, el){
+							error_msg = error_msg + el;
+						});
+						$('<div class="em-booking-message-error em-booking-message">'+error_msg.errors+'</div>').insertBefore(em_booking_form);
+					}else{
+						$('<div class="em-booking-message-error em-booking-message">'+response.errors+'</div>').insertBefore(em_booking_form);							
+					}
+				}else{
+					$('<div class="em-booking-message-error em-booking-message">'+response.message+'</div>').insertBefore(em_booking_form);
+				}
+			}
+		    $('html, body').animate({ scrollTop: em_booking_form.parent('.em-booking').offset().top - 30 }); //sends user back to top of form
+			//run extra actions after showing the message here
+			if( response.gateway != null ){
+				$(document).trigger('em_booking_gateway_add_'+response.gateway, [response]);
+			}
+			if( !response.result && typeof Recaptcha != 'undefined'){
+				Recaptcha.reload();
+			}
+		},
+		complete : function(){
+			em_booking_doing_ajax = false;
+			$('#em-loading').remove();
+		}
+	});
+	return false;	
+});							
+									});
+								</script>
+								<script type="text/javascript" src="./sci-test_files/admin-bar(3).js"></script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-8990737-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+		<script type="text/javascript">//<![CDATA[
+	jQuery(document).ready(function($) {
+
+		var loginform = '<form name="login-form" style="display:none;" id="sidebar-login-form" class="standard-form" action="https://gcsciencestudies.commons.gc.cuny.edu/wp-login.php" method="post"><label>Username<br /><input type="text" name="log" id="sidebar-user-login" class="input" value="" /></label><label>Password<br /><input type="password" name="pwd" id="sidebar-user-pass" class="input" value="" /></label><p class="forgetmenot"><label><input name="rememberme" type="checkbox" id="sidebar-rememberme" value="forever" /> Remember Me</label></p><input type="hidden" name="redirect_to" value="" /><input type="submit" name="wp-submit" id="sidebar-wp-submit" value="Log In" tabindex="100" /><input type="hidden" name="testcookie" value="1" /><a href="http://commons.gc.cuny.edu/wp-login.php?action=lostpassword" class="lost-pw">Forgot Password?</a><input type="hidden" name="redirect_to" value="http://gcsciencestudies.commons.gc.cuny.edu" /></form>';
+
+		$("#wp-admin-bar-bp-login").append(loginform);
+
+		$("#wp-admin-bar-bp-login > a").click(function(){
+			$("#sidebar-login-form").toggle(); $("#sidebar-user-login").focus(); $(this).toggleClass("login-click"); return false;
+		});
+	});
+	//]]></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, '' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="" role="navigation">
+			<div class="quicklinks">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-cuny-academic-commons" class="menupop"><a class="ab-item" tabindex="90" aria-haspopup="true" href="http://commons.gc.cuny.edu/">CUNY Academic Commons</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-cuny-academic-commons-default" class="ab-submenu">
+		<li id="wp-admin-bar-people" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/">People</a>		</li>
+		<li id="wp-admin-bar-groups" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/">Groups</a>		</li>
+		<li id="wp-admin-bar-blogs" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/blogs/">Blogs</a>		</li>
+		<li id="wp-admin-bar-wiki" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/wiki/">Wiki</a>		</li>
+		<li id="wp-admin-bar-news" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/activity/">News</a>		</li>
+		<li id="wp-admin-bar-help" class=""><a class="ab-item" tabindex="10" href="http://help.commons.gc.cuny.edu/">Help</a>		</li>
+		<li id="wp-admin-bar-about" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/about/">About</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/profile/edit/" title="My Account">My Commons</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class=" ab-submenu">
+		<li id="wp-admin-bar-user-info" class=""><a class="ab-item" tabindex="-1" href="http://commons.gc.cuny.edu/members/kmiyake/profile/edit/"><img src="./sci-test_files/ab1256f4135dc86fd6618efc8b996246-bpthumb.jpg" alt="Avatar of Keith Miyake" class="avatar user-3163-avatar" width="64" height="64"><span class="display-name">Keith Miyake</span><span class="username">kmiyake</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/profile/edit/">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-login.php?action=logout&_wpnonce=d1bdbe4159&redirect_to=http://commons.gc.cuny.edu">Log Out</a>		</li></ul><ul id="wp-admin-bar-my-account-buddypress" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-my-account-activity" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/activity/">My Activity</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-activity-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-activity-mentions" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/activity/mentions/">Mentions</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-personal" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/activity/">Personal</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-favorites" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/activity/favorites/">Favorites</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-friends" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/activity/friends/">Friends</a>		</li>
+		<li id="wp-admin-bar-my-account-activity-groups" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/activity/groups/">Groups</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-blogs" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/blogs/">My Sites</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-blogs-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-blogs-my-sites" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/blogs/">My Sites</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-forums" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/forums/">My Forums</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-forums-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-forums-topics-started" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/forums/topics/">Topics Started</a>		</li>
+		<li id="wp-admin-bar-my-account-forums-replies" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/forums/replies/">Replies</a>		</li>
+		<li id="wp-admin-bar-my-account-forums-favorite-topics" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/forums/favorites/">Favorite Topics</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-friends" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/friends/">My Friends</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-friends-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-friends-friendships" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/friends/">Friendships</a>		</li>
+		<li id="wp-admin-bar-my-account-friends-requests" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/friends/requests/">No Pending Requests</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-groups" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/groups/">My Groups</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-groups-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-groups-memberships" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/groups/">Memberships</a>		</li>
+		<li id="wp-admin-bar-my-account-groups-invites" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/groups/invites/">No Pending Invites</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-messages" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/messages/">My Messages</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-messages-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-messages-inbox" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/messages/inbox/">Inbox</a>		</li>
+		<li id="wp-admin-bar-my-account-messages-sentbox" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/messages/sentbox/">Sent</a>		</li>
+		<li id="wp-admin-bar-my-account-messages-compose" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/messages/compose/">Compose</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-settings" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/settings/">My Settings</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-settings-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-settings-general" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/settings/general/">General</a>		</li>
+		<li id="wp-admin-bar-my-account-settings-notifications" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/settings/notifications/">Notifications</a>		</li>
+		<li id="wp-admin-bar-my-account-settings-delete-account" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/settings/delete-account/">Delete Account</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-account-xprofile" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/profile/">My Profile</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-account-xprofile-default" class="ab-submenu">
+		<li id="wp-admin-bar-my-account-xprofile-public" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/profile/public/">View</a>		</li>
+		<li id="wp-admin-bar-my-account-xprofile-edit" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/profile/edit/">Edit</a>		</li>
+		<li id="wp-admin-bar-my-account-xprofile-change-avatar" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/profile/change-avatar/">Change Avatar</a>		</li></ul></div>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-my-sites" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/blogs">My Blogs</a><div class="ab-sub-wrapper"><div id="li_container2" class="li_container" style="width: 260px; "><ul id="wp-admin-bar-my-sites-list" class="ab-submenu li_cont1" style="float: left; height: auto; width: 250px; ">
+		<li id="wp-admin-bar-blog-1011" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://globalization.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">Committee on Globalization and Social Change</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1011-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1011-d" class=""><a class="ab-item" tabindex="10" href="http://globalization.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1011-n" class=""><a class="ab-item" tabindex="10" href="http://globalization.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1011-c" class=""><a class="ab-item" tabindex="10" href="http://globalization.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-1011-v" class=""><a class="ab-item" tabindex="10" href="http://globalization.commons.gc.cuny.edu/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-1038" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://digitalgcworkinggroup.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">Digital GC Working Group</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1038-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1038-d" class=""><a class="ab-item" tabindex="10" href="http://digitalgcworkinggroup.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1038-n" class=""><a class="ab-item" tabindex="10" href="http://digitalgcworkinggroup.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1038-c" class=""><a class="ab-item" tabindex="10" href="http://digitalgcworkinggroup.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-1038-v" class=""><a class="ab-item" tabindex="10" href="http://digitalgcworkinggroup.commons.gc.cuny.edu/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-984" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">Keith K Miyake at the CUNY Academic Commons</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-984-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-984-d" class=""><a class="ab-item" tabindex="10" href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-984-n" class=""><a class="ab-item" tabindex="10" href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-984-c" class=""><a class="ab-item" tabindex="10" href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-984-v" class=""><a class="ab-item" tabindex="10" href="http://keithmiyake.commons.gc.cuny.edu/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-1109" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://cpcp.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">The Center for Place, Culture and Politics</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1109-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1109-d" class=""><a class="ab-item" tabindex="10" href="http://cpcp.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1109-n" class=""><a class="ab-item" tabindex="10" href="http://cpcp.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1109-c" class=""><a class="ab-item" tabindex="10" href="http://cpcp.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-1109-v" class=""><a class="ab-item" tabindex="10" href="http://cpcp.commons.gc.cuny.edu/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-1012" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">The Committee for Interdisciplinary Science Studies</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1012-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1012-d" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1012-n" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1012-c" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-1012-v" class=""><a class="ab-item" tabindex="10" href="./sci-test_files/sci-test.html">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-1013" class="menupop li_col1"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://studyofreligion.commons.gc.cuny.edu/wp-admin/"><img src="./sci-test_files/wpmini-blue.png" alt="Blavatar" width="16" height="16" class="blavatar">The Committee for the Study of Religion</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1013-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1013-d" class=""><a class="ab-item" tabindex="10" href="http://studyofreligion.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1013-n" class=""><a class="ab-item" tabindex="10" href="http://studyofreligion.commons.gc.cuny.edu/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1013-c" class=""><a class="ab-item" tabindex="10" href="http://studyofreligion.commons.gc.cuny.edu/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-1013-v" class=""><a class="ab-item" tabindex="10" href="http://studyofreligion.commons.gc.cuny.edu/">Visit Site</a>		</li></ul></div>		</li></ul><div style="clear:both; overflow:hidden; height:0px;"></div></div></div>		</li>
+		<li id="wp-admin-bar-my-groups" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/groups">My Groups</a><div class="ab-sub-wrapper"><div id="li_container1" class="li_container" style="width: 270px; "><ul id="wp-admin-bar-my-groups-default" class="ab-submenu li_cont1" style="float: left; height: auto; ">
+		<li id="wp-admin-bar-group-center-for-place-culture-and-politics" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/center-for-place-culture-and-politics/">Center for Place, Culture and Politics</a>		</li>
+		<li id="wp-admin-bar-group-committee-for-interdisciplinary-science-studies" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/committee-for-interdisciplinary-science-studies/">Committee for Interdisciplinary Science Studies</a>		</li>
+		<li id="wp-admin-bar-group-committee-for-the-study-of-religion" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/committee-for-the-study-of-religion/">Committee for the Study of Religion</a>		</li>
+		<li id="wp-admin-bar-group-committee-on-globalization-and-social-change" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/committee-on-globalization-and-social-change/">Committee on Globalization and Social Change</a>		</li>
+		<li id="wp-admin-bar-group-digital-gc-working-group" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/digital-gc-working-group/">Digital GC Working Group</a>		</li>
+		<li id="wp-admin-bar-group-the-group-for-group-admins" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/the-group-for-group-admins/">The Group for Group Admins</a>		</li>
+		<li id="wp-admin-bar-create-a-group" class="li_col1"><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/groups/create/">Create a Group</a>		</li></ul><div style="clear:both; overflow:hidden; height:0px;"></div></div></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/">The Committee for Interdisciplinary Scie…</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class=" ab-submenu">
+		<li id="wp-admin-bar-themes" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class=" hide-if-no-customize"><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/customize.php?url=http%3A%2F%2Fgcsciencestudies.commons.gc.cuny.edu%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/nav-menus.php">Menus</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-comments" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-link" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/link-add.php">Link</a>		</li>
+		<li id="wp-admin-bar-new-page" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-location" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php?post_type=location">Location</a>		</li>
+		<li id="wp-admin-bar-new-event" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php?post_type=event">Event</a>		</li>
+		<li id="wp-admin-bar-new-event-recurring" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/post-new.php?post_type=event-recurring">Recurring Event</a>		</li>
+		<li id="wp-admin-bar-new-user" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-bp-notifications" class="menupop"><a class="ab-item" tabindex="10" aria-haspopup="true" href="http://commons.gc.cuny.edu/members/kmiyake/"><span id="ab-pending-notifications" class="count no-alert">0</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-bp-notifications-default" class="ab-submenu">
+		<li id="wp-admin-bar-no-notifications" class=""><a class="ab-item" tabindex="10" href="http://commons.gc.cuny.edu/members/kmiyake/">No new notifications</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-top-logout" class=""><a class="ab-item" tabindex="10" href="http://gcsciencestudies.commons.gc.cuny.edu/wp-login.php?action=logout&_wpnonce=d1bdbe4159&redirect_to=http://gcsciencestudies.commons.gc.cuny.edu">Log Out</a>		</li></ul>			</div>
+		</div>
+
+		<div class="sitewide-footer">
+		<div class="fleft">
+
+
+		<p>This blog is part of the <a href="http://commons.gc.cuny.edu/">CUNY Academic Commons</a>, an academic social network for the entire 23-campus <a href="http://cuny.edu/">CUNY</a> system.</p>
+
+
+		<a href="http://www.cuny.edu/" target="_blank" class="imglink"><img src="./sci-test_files/cuny_logo.gif" alt="CUNY Logo" border="0"></a>
+				<p><a href="http://commons.gc.cuny.edu/help/">Help</a> | <a href="http://commons.gc.cuny.edu/about/contact-us/">Contact Us</a> | <a href="http://commons.gc.cuny.edu/about/privacy/">Privacy Policy</a> | <a href="http://commons.gc.cuny.edu/about/tos/">Terms of Service</a> | <a href="http://commons.gc.cuny.edu/about/images/">Image Credits</a></p>
+
+
+
+				<p>2012 <a href="http://commons.gc.cuny.edu/">CUNY Academic Commons</a></p>
+			</div>
+			<div class="fright">
+				<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons License</a>.</p>
+
+				<span id="generator-link">Built with <a href="http://wordpress.com/" title="WordPress" rel="generator">WordPress</a>.</span>
+
+				<span id="generator-link2">Protected by <a href="http://akismet.com/" title="Akismet" rel="generator">Akismet</a>.  </span>
+				<span id="designer-link">Powered by <strong><a href="http://www.cuny.edu/" title="CUNY">CUNY</a></strong></span>
+				<br> <br>
+
+			</div>
+			</div> <style type="text/css">
+			.sitewide-footer, td#footer .sitewide-footer {
+				text-align: left;
+				width: 100%;
+				background-color: #000;
+				color: #aaa;
+				display: block;
+				padding: 7px 0 14px 0;
+				font-size: 11px;
+				line-height: 2em;
+				min-width: 900px;
+				float: left;
+				font-family: Arial, sans-serif;
+			}
+
+			.sitewide-footer a {
+				color: #fff !important;
+			}
+
+			.sitewide-footer a:hover, td#footer .sitewide-footer a:hover {
+				text-decoration: underline;
+				background: #000;
+				background-color: #000;
+			}
+
+			.sitewide-footer .fleft {
+				padding-left: 20px;
+				float: left;
+				width: 600px;
+			}
+
+			.sitewide-footer .fright {
+				float: right;
+				width: 250px;
+				padding-right: 20px;
+				text-align: right;
+			}
+
+			.sitewide-footer img {
+				background-color: #000;
+			}
+
+			.sitewide-footer .imglink {
+				border: none;
+				float: left;
+			}
+
+		</style></td>
+
+
+</tr>
+</tbody></table><!-- / layout -->
+</div><!-- / container -->
+</div><!-- / wrapper -->
+
+<div id="overlay" style="visibility: hidden; opacity: 0; "></div><div id="lightbox" style="display: none; "><div id="outerImageContainer"><div id="imageContainer"><img id="lightboxImage" style="visibility: hidden; opacity: 0; "><div id="hoverNav" style="visibility: hidden; opacity: 0; "><a id="prevLink" href="http://gcsciencestudies.commons.gc.cuny.edu/#"></a><a id="nextLink" href="http://gcsciencestudies.commons.gc.cuny.edu/#"></a></div><div id="loading"><a id="loadingLink" href="http://gcsciencestudies.commons.gc.cuny.edu/#"><img src="./sci-test_files/loading.gif"></a></div></div></div><div id="imageDataContainer" class="clearfix" style="visibility: hidden; opacity: 0; "><div id="imageData"><div id="imageDetails"><span id="caption"></span><span id="numberDisplay"></span></div><div id="bottomNav"><a id="bottomNavClose" href="http://gcsciencestudies.commons.gc.cuny.edu/#"><img src="./sci-test_files/closelabel.gif"></a></div></div></div></div></body></html>
