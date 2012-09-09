@@ -363,7 +363,7 @@ blockquote, blockquote blockquote blockquote {
 	font-size: 1.333333333333333em;		/* 16 / 12 = 1.333333333333333 */
 	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #aaa;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/images/quote.png) no-repeat 0 4px;
+	background: url(../images/quote.png) no-repeat 0 4px;
 }
 
 /* Code 
@@ -608,7 +608,7 @@ div#menu1 ul.rmenu li {
 	float: left;
 	min-height: 30px;
 	padding-left: 1.8em;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/menu-separator.png) no-repeat left 15%;
+	background: url(../images/menu-separator.png) no-repeat left 15%;
 }
 div#menu1 ul.rmenu li:first-child {
 	padding-left: 0;
@@ -685,14 +685,14 @@ div#menu1 ul.rmenu li li:hover ul, div#menu1 ul.rmenu li li.sfHover ul {
 	width: 10px;
 	height: 10px;
 	display: inline-block;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/images/dropdown.png) no-repeat right 40%;
+	background: url(../images/dropdown.png) no-repeat right 40%;
 	position: absolute;
 	top: 25%;
 	right: 0;
 }
 .menu li li  {
 	top: 37%;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/images/dropright.png) no-repeat right 50%;
+	background: url(../images/dropright.png) no-repeat right 50%;
 	margin-right: 7px;
 }
 div#menu1 li a { padding-right: 16px; }
@@ -768,7 +768,7 @@ div#menu1 li a { padding-right: 16px; }
 	width: 10px;
 	height: 10px;
 	display: block;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/images/dropright-secondary.png) no-repeat right 0;
+	background: url(../images/dropright-secondary.png) no-repeat right 0;
 	position: absolute;
 	top: 38%;
 	right: 10px;
@@ -832,8 +832,8 @@ div#menu1 li a { padding-right: 16px; }
 	bottom: 0;
 	width: 31px;
 	height: 28px;
-	background: #111 url(wp-content/blogs.dir/1012/files/2012/09/images/slider-nav-arrows.png) no-repeat;
-	background: rgba(0,0,0,.5) url(wp-content/blogs.dir/1012/files/2012/09/images/slider-nav-arrows.png) no-repeat;
+	background: #111 url(../images/slider-nav-arrows.png) no-repeat;
+	background: rgba(0,0,0,.5) url(../images/slider-nav-arrows.png) no-repeat;
 	color: #fff;
 	font-size: 1em;
 	z-index: 9;
@@ -1285,7 +1285,7 @@ div#menu1 li a { padding-right: 16px; }
 	display: block;
 	float: left;
 	padding-left: 1.5em;
-	background: url(wp-content/blogs.dir/1012/files/2012/09/images/menu-separator.png) no-repeat left 15%;
+	background: url(../images/menu-separator.png) no-repeat left 15%;
 }
 #menu-subsidiary li:first-child {
 	padding-left: 0;

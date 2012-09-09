@@ -1,7 +1,7 @@
 <?php bfa_next_previous_page_links('Top'); ?>
 
 <?php if (is_front_page() ) { ?>
-<div id="featured-wrapper" class="featured clear fix">
+<div id="featured-wrapper" class="featured-wrapper">
 	<div id="featured-content">
 		<img class="dummy " src="http://gcsciencestudies.commons.gc.cuny.edu/wp-content/blogs.dir/1012/files/2012/09/empty.gif" alt="" width="750" height="380">
 		<?php
