@@ -36,21 +36,22 @@ jQuery(document).ready(function($) {
 	});
 
 	//resize the images for the slider
-	$('#featured-content img.featured-thumbnail').imagesLoaded(function() {
-		$(this).each(function() {
-			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+	$('#featured-content').imagesLoaded(function() {
+		$('img.featured-thumbnail').each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg(this);
 			var tw = <?php echo $fa_width; ?>;
 			var th = <?php echo $fa_height; ?>;
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
 	   		$(this).css("width",result.width);
 	   		$(this).css("height",result.height);
 	   		$(this).css("left", result.targetleft);
-			$(this).css("top", result.targettop);	
+			$(this).css("top", result.targettop);
+			$(this).css("position","absolute");
 		});
 	});
-	$('#slider-nav img.slider-nav-thumbnail').imagesLoaded(function() {
-		$(this).each(function() {
-			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+	$('#slider-nav').imagesLoaded(function() {
+		$('img.slider-nav-thumbnail').each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg(this);
 	   		var tw = $(this).parent().width();
 			var th = $(this).parent().height();
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
@@ -61,9 +62,9 @@ jQuery(document).ready(function($) {
 		});
 	});
 
-	$('#hfeed img.hentry-thumbnail').imagesLoaded(function() {
-		$(this).each(function() {
-			var originalDimensions = getOriginalDimensionsOfImg($(this)[0]);
+	$('#hfeed').imagesLoaded(function() {
+		$('img.hentry-thumbnail').each(function() {
+			var originalDimensions = getOriginalDimensionsOfImg(this);
 			var tw = $(this).parents("div").width();
 			var th = $(this).parents("div").height();
 			var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
