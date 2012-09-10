@@ -78,3 +78,5 @@ td#footer { background: transparent; border-top: solid 1px #ccc; }
 .widget_em_widget ul { list-style: none; }
 #event-listing img { border: none; padding: 0; margin: 0; }
 /* end shared css */
+
+div.person { display: inline-block; margin: 10px 0; }
