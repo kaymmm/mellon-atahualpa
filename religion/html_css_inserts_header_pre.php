@@ -1,12 +1,12 @@
 <?php $fa_height = 360; ?>
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/religion/includes/studyofreligion.css"  type="text/css" media="all">
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-atahualpa/religion/includes/studyofreligion.css"  type="text/css" media="all">
 <?php
 /* front page slider and masonry includes */
 if ( is_front_page() ) { ?>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://desandro.github.com/masonry/jquery.masonry.min.js"></script>
 <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.lite.js"></script>
-<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/scaleimage.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-atahualpa/includes/scaleimage.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {

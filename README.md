@@ -1,4 +1,4 @@
-mellon-altahualpa
+mellon-atahualpa
 =================
 
-altahualpa theme options for mellon committee websites
+atahualpa theme options for mellon committee websites

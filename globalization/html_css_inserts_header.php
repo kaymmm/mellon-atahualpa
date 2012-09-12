@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/globalization/includes/globalization.css"  type="text/css" media="all">
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-atahualpa/globalization/includes/globalization.css"  type="text/css" media="all">

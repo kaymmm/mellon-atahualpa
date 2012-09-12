@@ -1,15 +1,15 @@
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/includes/html_css_inserts.css"  type="text/css" media="all">
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-atahualpa/includes/html_css_inserts.css"  type="text/css" media="all">
 <?php 
 $fa_height = 380; 
 $fa_width = 750;
 ?>
-<link rel="stylesheet" href="http://kaymmm.github.com/mellon-altahualpa/science/css/sciencestudies.css"  type="text/css" media="all">
+<link rel="stylesheet" href="http://kaymmm.github.com/mellon-atahualpa/science/css/sciencestudies.css"  type="text/css" media="all">
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <?php if ( is_home() ) { ?>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
-<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.cycle.all.min.js"></script>
-<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/scaleimage.min.js"></script>
-<script type="text/javascript" src="http://kaymmm.github.com/mellon-altahualpa/includes/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-atahualpa/includes/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-atahualpa/includes/scaleimage.min.js"></script>
+<script type="text/javascript" src="http://kaymmm.github.com/mellon-atahualpa/includes/jquery.imagesloaded.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
