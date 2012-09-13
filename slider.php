@@ -13,9 +13,7 @@
 	while ( $recent_posts->have_posts() ): $recent_posts->the_post(); ?>
 		<?php  if (has_post_thumbnail()) { ?>
 			<div class="featured-article" onclick="document.location='<?php the_permalink(); ?>'" style="cursor:pointer;">
-				<div class="featured-image">
-					<?php the_post_thumbnail("large", array ('class' => 'attachment-featured-slideshow-thumb wp-post-image')); ?>
-				</div>
+				<?php the_post_thumbnail("large", array ('class' => 'attachment-featured-slideshow-thumb wp-post-image')); ?>
 				<div class="featured-entry">
 					<span class="entry-title"><?php the_title(); ?></span> 
 					<span class="entry-summary"><?php the_excerpt(); ?></span>
