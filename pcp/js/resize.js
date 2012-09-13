@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	//resize the images for the slider
-	$('#featured-slideshow').imagesLoaded({
+	$('#featured-slideshow').imagesLoaded(function(){
 		$('img.attachment-featured-slideshow-thumb').each(function() {
 			var originalDimensions = getOriginalDimensionsOfImg(this);
 			var tw = $(this).parents("div").width();
