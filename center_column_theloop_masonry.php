@@ -1,3 +1,4 @@
+<?php bfa_next_previous_post_links('Top'); ?>
 <?php /* masonry container */
 if ( is_front_page() ) { //start masonry brick	?>
 	<div class="box col1 masonry-brick">

@@ -1,3 +1,8 @@
+<?php
+$gc_logo_url = "/files/2012/08/CUNY-GC-logo.png";
+$social_twitter = "csratgc";
+$social_facebook = "https://www.facebook.com/pages/The-Committee-for-the-Study-of-Religion/162667713794259";
+?>
 <div id="header">
 	<div id="branding">
 		<h1 id="site-title">
@@ -14,7 +19,7 @@
 					Follow Us!
 				</h3>
 				<div class="socialicons">
-					<a target="_blank" href="http://twitter.com/#!/<?php echo $twitter_id; ?>" class="twitterlink"></a>
+					<a target="_blank" href="http://twitter.com/#!/<?php echo $social_twitter; ?>" class="twitterlink"></a>
 					<a target="_blank" href="<?php echo $social_facebook; ?>" class="facebooklink"></a> 
 					<a target="_blank" href="http://www.cuny.edu" class="cuny"></a> 
 				</div>
