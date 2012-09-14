@@ -7,7 +7,7 @@ td#middle			{ padding: 40px 5px 0 25px!important; }
 td#left				{ padding: 10px 0; }
 td#footer			{ border: none;}
 td#footer p:first-child	{ border-top: solid 1px #D93F0F; margin: -20px -20px 0 -20px; padding-top: 10px; }
-div.sitewide-footer p { border: none; margin: 0; padding: 0; }
+td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
