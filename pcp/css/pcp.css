@@ -6,7 +6,7 @@ a#post-1308			{ display: none; } /* hide permalink anchor on the home page */
 td#middle			{ padding: 40px 5px 0 25px!important; }
 td#left				{ padding: 10px 0; }
 td#footer			{ border: none;}
-td#footer p			{ border-top: solid 1px #CCC; margin: -20px -20px 0 -20px; padding-top: 10px; }
+td#footer p			{ border-top: solid 1px #D93F0F; margin: -20px -20px 0 -20px; padding-top: 10px; }
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
