@@ -42,5 +42,5 @@ span.event-page-name 			{ padding: 0; margin: 0; text-align: left; }
 span.event-widget-date			{ padding: 0; margin: 0; text-align: right!important; font-style: italic; font-size: 1em; color: #036564; }
 span.event-widget-name 			{ padding: 0; margin: 0; text-align: right!important; font-size: 1.2em; line-height: 1.2em; color: #036564; padding-right: 2px;}
 span.event-widget-name:hover a	{ color: #D93F0F; }
-div.widget_em_widget li 		{ background: transparent; border: none!important; padding: 3px 0!important; margin: 0!important; border-right:3px solid #D93F0F; }
-div.widget_em_widget li:hover 	{ background: #F7F3E8; margin: 0; border-bottom: 1px dotted #F7F3E8; border-top: 1px dotted #F7F3E8; color: #F7F3E8; border-right:3px solid #F7F3E8;  }
+div.widget_em_widget ul li 		{ background: transparent; padding: 1px 3px 1px 0; margin: 0!important; border-right:3px solid #D93F0F; }
+div.widget_em_widget ul li:hover 	{ background: #F7F3E8; padding: 0 3px 0 0; border-bottom: 1px dotted #F7F3E8; border-top: 1px dotted #F7F3E8; color: #F7F3E8; border-right:3px solid #F7F3E8;  }
