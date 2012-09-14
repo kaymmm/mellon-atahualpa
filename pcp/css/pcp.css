@@ -33,12 +33,13 @@ div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42
 /* widgets */
 div.widget 				{ color: #F0F3F9; }
 div.widget-title h3 	{ border-bottom: 1px solid #D93F0F; padding-right: 4px; }
-div.widget ul li 		{ border-right: solid 3px #D93F0F; background: transparent; line-height: 1em; font-size: 1.1em; padding: 1px 3px 9px 0; margin: 0!important; }
-div.widget ul li:hover 	{ border-right: solid 3px #036564; background: transparent; color: #F7F3E8; padding: 0 3px 8px 0; border-bottom: 1px dotted #F7F3E8; border-top: 1px dotted #F7F3E8;}
+div.widget ul li 		{ border-right: solid 3px #D93F0F; background: transparent; line-height: 1em; font-size: 1.1em; padding: 5px 3px 5px 0; margin: 0!important; }
+div.widget ul li:hover 	{ border-right: solid 3px #036564; background: transparent; color: #F7F3E8!important; padding: 4px 3px 4px 0; border-bottom: 1px dotted #036564; border-top: 1px dotted #036564;}
+div.widget ul li:first-child:hover { border-top: none; }
 
 /* events listing pages */
 span.event-page-date	 		{ padding: 0; margin: 0; text-align: left; font-style: italic; }
 span.event-page-name 			{ padding: 0; margin: 0; text-align: left; }
 span.event-widget-date			{ padding: 0; margin: 0; text-align: right!important; font-style: italic; font-size: 1em; color: #036564; }
 span.event-widget-name 			{ padding: 0; margin: 0; text-align: right!important; font-size: 1.2em; line-height: 1.2em; color: #036564; padding-right: 2px;}
-span.event-widget-name:hover a	{ color: #D93F0F; }
+span.event-widget-name:hover	{ color: #D93F0F; }
