@@ -33,8 +33,8 @@ div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42
 /* widgets */
 div.widget 				{ color: #F0F3F9; }
 div.widget-title h3 	{ border-bottom: 1px solid #D93F0F; padding-right: 4px; }
-div.widget ul li 		{ border-right: solid 3px #D93F0F; background: transparent; line-height: 1em; font-size: 1.1em; padding-bottom: 8px; }
-div.widget ul li:hover 	{ border-right: solid 3px #036564; background: transparent; color: #F7F3E8;}
+div.widget ul li 		{ border-right: solid 3px #D93F0F; background: transparent; line-height: 1em; font-size: 1.1em; padding: 1px 3px 9px 0; margin: 0!important; }
+div.widget ul li:hover 	{ border-right: solid 3px #036564; background: transparent; color: #F7F3E8; padding: 0 3px 8px 0; border-bottom: 1px dotted #F7F3E8; border-top: 1px dotted #F7F3E8;}
 
 /* events listing pages */
 span.event-page-date	 		{ padding: 0; margin: 0; text-align: left; font-style: italic; }
@@ -42,5 +42,3 @@ span.event-page-name 			{ padding: 0; margin: 0; text-align: left; }
 span.event-widget-date			{ padding: 0; margin: 0; text-align: right!important; font-style: italic; font-size: 1em; color: #036564; }
 span.event-widget-name 			{ padding: 0; margin: 0; text-align: right!important; font-size: 1.2em; line-height: 1.2em; color: #036564; padding-right: 2px;}
 span.event-widget-name:hover a	{ color: #D93F0F; }
-div.widget_em_widget ul li 		{ background: transparent; padding: 1px 3px 1px 0; margin: 0!important; border-right:3px solid #D93F0F; }
-div.widget_em_widget ul li:hover 	{ background: #F7F3E8; padding: 0 3px 0 0; border-bottom: 1px dotted #F7F3E8; border-top: 1px dotted #F7F3E8; color: #F7F3E8; border-right:3px solid #F7F3E8;  }
