@@ -5,6 +5,8 @@ a#post-1308			{ display: none; } /* hide permalink anchor on the home page */
 #full-width			{ margin: 20px 10px; padding: 0px; }
 td#middle			{ padding: 40px 5px 0 25px!important; }
 td#left				{ padding: 10px 0; }
+td#footer			{ border: none;}
+td#footer p			{ border-top: solid 1px #CCC; margin: -20px -20px 0 -20px; padding-top: 10px; }
 div.searchbox 		{ border: 1px solid #D93F0F; border-bottom: none; }
 
 /* navigation menu */
@@ -49,3 +51,5 @@ span.event-widget-name 			{ padding: 0; margin: 0; text-align: right!important; 
 span.event-widget-name:hover	{ color: #D93F0F; }
 
 div.featured { border: none; }
+
+div.post-1308 a { display: none; }
