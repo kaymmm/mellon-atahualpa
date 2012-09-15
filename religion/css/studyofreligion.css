@@ -40,16 +40,18 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center!important; fo
 
 /* tumblelog */
 #tumblelog.fluid		{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
-.centered 		{ margin: 0 auto; }
-.box 			{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
-.box .post		{ margin: 0px; }
-.fluid .box.col1		{ width: 48%; }
-.fluid .box.col2		{ width: 98%; }
-.fluid .box.col1 div.post-headline,
-.fluid .box.col1 div.post-bodycopy 	{ padding: 5px; }
-.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
-#tumblelog img 	{position: absolute;}
+#tumblelog.box 			{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
+#tumblelog.post			{ margin: 0px; }
+#tumblelog.box.col1		{ width: 48%; }
+#tumblelog.box.col2		{ width: 98%; }
+#tumblelog.post-headline,
+#tumblelog.post-bodycopy 	{ padding: 5px; }
+#tumblelog.post-headline h3 { }
+span.footer-loc, span.footer-tags, span.footer-cats, span.footer-permalink {display: inline;}
+#tumblelog.post-date 		{ font-style: italic; font-size: 1.2em; }
+#tumblelog.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
+#tumblelog img 				{position: absolute;}
 #tumblelog ul.event-categories li,
-#tumblelog ul.event-categories li:hover { display: inline; margin: 0; padding: 0; border: none; }
+#tumblelog ul.event-categories li:hover { display: inline; margin: 0; padding: 0; border: none!important; list-style:none; }
 #tumblelog ul.event-categories li a:before {content:', ';}
 #tumblelog ul.event-categories li a:first-child:before {content:'';}
