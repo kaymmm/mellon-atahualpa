@@ -30,13 +30,13 @@ div#menu1 ul.rMenu ul.sub-menu li a 	{ color: #2B3E42;}
 .box 		{ background: white; }
 
 /* events listing pages */
+div.widget_em_widget { background-color: transparent; }
+div.widget_em_widget li {background: transparent; border: none; padding: 3px 0 3px 0; margin: 0; border-bottom: 1px dotted #CCC; text-align: center; }
+div.widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
 span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }
 span.event-page-name { padding: 0; margin: 0; text-align: left; }
-span.event-widget-date { padding: 0; margin: 0; text-align: center!important; font-style: italic; font-size: 1em; }
-span.event-widget-name { padding: 0; margin: 0; text-align: center!important; font-size: 1.2em; line-height: 1.2em; }
-.widget_em_widget { background-color: transparent; }
-.widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
-.widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
+span.event-widget-date { padding: 0; margin: 0; text-align: center; font-style: italic; font-size: 1em; }
+span.event-widget-name { padding: 0; margin: 0; text-align: center; font-size: 1.2em; line-height: 1.2em; }
 
 /* tumblelog */
 #tumblelog.fluid		{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
@@ -47,11 +47,12 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center!important; fo
 #tumblelog.post-headline,
 #tumblelog.post-bodycopy 	{ padding: 5px; }
 #tumblelog.post-headline h3 { }
-span.footer-loc, span.footer-tags, span.footer-cats, span.footer-permalink {display: inline;}
+span.footer-loc, span.footer-tags, span.footer-cats, span.footer-permalink { display: inline; }
+span.footer-tags:before, span.footer-cats:before,span.footer-permalink:before {content:" | "; }
 #tumblelog.post-date 		{ font-style: italic; font-size: 1.2em; }
 #tumblelog.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
 #tumblelog img 				{position: absolute;}
 #tumblelog ul.event-categories li,
-#tumblelog ul.event-categories li:hover { display: inline; margin: 0; padding: 0; border: none!important; list-style:none; }
+#tumblelog ul.event-categories li:hover { display: inline; margin: 0; padding: 0; border: none; list-style:none; }
 #tumblelog ul.event-categories li a:before {content:', ';}
 #tumblelog ul.event-categories li a:first-child:before {content:'';}
