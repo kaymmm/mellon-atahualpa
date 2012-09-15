@@ -527,7 +527,7 @@ td#header {
 }
 #site-title {
 	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 3em;	/* 36 / 12 = 3 */
+	font-size: 4em;	/* 36 / 12 = 3 */
 	line-height: 1em;
 	margin: 0 0 3px 0;
 	text-transform: uppercase;
@@ -537,7 +537,7 @@ td#header {
 	color: #222;
 	border-bottom: none;
 }
-#header img { max-width: 100%; }
+/*#header img { max-width: 100%; }*/
 #site-description {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 0.9166666666666667em;	/* 11 / 12 = 0.9166666666666667 */
@@ -568,6 +568,15 @@ td#header {
 	height: 60px;
 	margin-bottom: 20px;
 }
+
+td#header		{ border-bottom: none;}
+td#search-box 	{ vertical-align: bottom; }
+div.searchbox 	{ height: auto; border: none; }
+table#logoarea, 
+table#logoarea tr, 
+table#logoarea td { margin: 0 0 10px; }
+div#menu1 		{ margin: 0; }
+td#left			{border-right: none;}
 
 /* Primary menu 
 -------------------------------------------------------------- */
