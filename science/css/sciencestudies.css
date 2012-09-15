@@ -570,7 +570,9 @@ td#header {
 }
 
 td#header		{ border-bottom: none;}
-td#search-box 	{ vertical-align: bottom; }
+table#logoarea, 
+table#logoarea tr, 
+table#logoarea td { vertical-align: bottom; }
 div.searchbox 	{ height: auto; border: none; }
 table#logoarea, 
 table#logoarea tr, 
