@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	
-//	$( 'body' ).removeClass( 'no-js' );
+	$( 'body' ).removeClass( 'no-js' );
 
 //initialize the slider
 	$('#featured-content').cycle( {
