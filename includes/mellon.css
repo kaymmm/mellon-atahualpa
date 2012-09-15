@@ -1,19 +1,20 @@
 /* shared css */
-body { font-family: Cardo, "Times New Roman", Times, serif; }
-h1 { font-size: 34px; line-height: 1.2; margin: 0.3em 0 10px; }
-h2 { font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
-h3 { font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
-h4 { font-size: 19px; margin: 1.33em 0 .2em; }
-h5 { font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
-h6 { font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
+body	{ font-family: Cardo, "Times New Roman", Times, serif; }
+h1 		{ font-size: 34px; line-height: 1.2; margin: 0.3em 0 10px; }
+h2 		{ font-size: 28px; line-height: 1.3; margin: 1em 0 .2em; }
+h3 		{ font-size: 24px; line-height: 1.3; margin: 1em 0 .2em; }
+h4 		{ font-size: 19px; margin: 1.33em 0 .2em; }
+h5 		{ font-size: 1.3em; margin: 1.67em 0; font-weight: bold; }
+h6 		{ font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 
-.sitewide-footer { background: #333!important; position: absolute!important; left: 0px!important; right: 0px!important; margin-top: 40px!important; }
-.sitewide-footer img { background: transparent!important; }
-.sitewide-footer a:hover, td#footer .sitewide-footer a:hover { background: transparent!important; text-decoration: none!important; color: #ccc!important; }
-div.post-headline { margin-bottom: 5px; }
-div.post-headline h2 { font-size: 1.8em; line-height:1.1em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; }
-div.post-bodycopy { font-size: 1.1em!important; line-height: 1.4em!important; }
-div.post-footer { font-size: 0.8em!important; line-height: 1.5em!important; }
+.sitewide-footer 		{ background: #333!important; position: absolute!important; left: 0px!important; right: 0px!important; margin-top: 40px!important; }
+.sitewide-footer img 	{ background: transparent!important; }
+.sitewide-footer a:hover, 
+td#footer .sitewide-footer a:hover { background: transparent!important; text-decoration: none!important; color: #ccc!important; }
+div.post-headline		{ margin-bottom: 5px; }
+div.post-headline h2	{ font-size: 1.8em; line-height:1.1em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; }
+div.post-bodycopy 		{ font-size: 1.1em!important; line-height: 1.4em!important; }
+div.post-footer 		{ font-size: 0.8em!important; line-height: 1.5em!important; }
 
 /* widgets */
 div.widget				{ background: transparent; margin: 0; padding: 0; }
@@ -42,30 +43,31 @@ div#menu1 ul.rMenu ul.sub-menu li a 		{ padding: 0; margin: 0; text-decoration: 
 div#menu1 ul.rMenu-hor li.rMenu-expand a 	{ background: transparent; background-image: none!important; }
 
 /* social icons */
-.socialicons a {display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right; }
-.socialicons .twitterlink:hover {background-position: -22px -22px;}
-.socialicons .youtubelink:hover {background-position: -44px -22px;}
-.socialicons .linkedinlink:hover {background-position: -66px -22px;}
-.socialicons .facebooklink:hover {background-position: -88px -22px;}
-.socialicons .rsslink:hover {background-position: 0px -22px;}
-.socialicons .cuny:hover {background-position: 0px 0px;}
+.socialicons a 						{ display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right; }
+.socialicons .twitterlink:hover 	{ background-position: -22px -22px; }
+.socialicons .youtubelink:hover		{ background-position: -44px -22px; }
+.socialicons .linkedinlink:hover 	{ background-position: -66px -22px; }
+.socialicons .facebooklink:hover 	{ background-position: -88px -22px; }
+.socialicons .rsslink:hover 		{ background-position: 0px -22px; }
+.socialicons .cuny:hover 			{ background-position: 0px 0px; }
 
 /**** Clearfix ****/
-.clearfix:before, .clearfix:after	{ content: ""; display: table; }
+.clearfix:before, 
+.clearfix:after	{ content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix 	{ zoom: 1; }
+.clearfix 		{ zoom: 1; }
 
 /* masonry styles */
-#tumblelog.fluid		{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
-.centered 		{ margin: 0 auto; }
-.box 			{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
-.box .post		{ margin: 0px; }
-.fluid .box.col1		{ width: 48%; }
-.fluid .box.col2		{ width: 98%; }
-.fluid .box.col1 div.post-headline,
-.fluid .box.col1 div.post-bodycopy 	{ padding: 5px; }
-.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
-#tumblelog img 	{position: absolute;}
+#tumblelog.fluid			{ background: transparent; padding: 5px 0; margin: 0; border-radius: 5px; clear: both; position: relative; }
+.centered 					{ margin: 0 auto; }
+.box 						{ float: left; -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2); box-shadow: 2px 2px 3px rgba(0,0,0,0.2); margin: 0px 1% 20px 0.9%;  padding: 0; }
+.box .post					{ margin: 0px; }
+#tumblelog.fluid .box.col1	{ width: 48%; }
+#tumblelog.fluid .box.col2	{ width: 98%; }
+div.post-headline,
+div.post-bodycopy 			{ padding: 5px; }
+div.post-thumbnail			{ overflow: hidden; position: relative; width: 100%; height: 150px;}
+#tumblelog img 				{ position: absolute;}
 
 div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }

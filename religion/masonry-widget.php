@@ -39,8 +39,8 @@ $format = <<< EOM
 	</div>
 	{/has_image}
 	<div class="post-content">
-		<div class="post-headline"><a href="#_EVENTURL"><h3>#_EVENTNAME</h3></a></div>
 		<div class="post-date">#F #j #g.#i#a</div>
+		<div class="post-headline"><a href="#_EVENTURL"><h2>#_EVENTNAME</h2></a></div>
 		<div class="post-bodycopy">[EVENTTEXT]#_EVENTEXCERPT[/EVENTTEXT]</div>
 	</div>
 	<div class="post-footer">
