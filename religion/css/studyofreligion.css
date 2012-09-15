@@ -49,6 +49,7 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center; font-size: 1
 #tumblelog.post-headline h3 { }
 span.footer-loc, span.footer-tags, span.footer-cats, span.footer-permalink { display: inline; }
 span.footer-tags:before, span.footer-cats:before,span.footer-permalink:before {content:" | "; }
+span.footer-cats,span.footer-cats:hover,span.footer-cats:hover a,span.footer-cats a { margin: 0; padding: 0; }
 #tumblelog.post-date 		{ font-style: italic; font-size: 1.2em; }
 #tumblelog.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
 #tumblelog img 				{position: absolute;}
