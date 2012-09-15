@@ -7,9 +7,10 @@ div#post-586 a:first-child { display: none; }
 div.welcome { background: #F7F3E8; padding: 7px 7px 13px 13px; margin: 0 1% 20px 0.9%; -moz-box-shadow: inset 0 0 4px #AAA; -webkit-box-shadow: inset 0 0 4px #AAA; box-shadow: inset 0 0 4px #AAA; }
 
 /* widgets */
-div.widget-title h3 { font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
-div.widget ul li { margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #ccc; padding-right: 5px; font-size: 0.9em; line-height: 1.2em; }
-div.widget ul li:hover { border-right: solid 5px #333; padding-right: 5px; background: #dCdFd5; }
+td#right div.widget-title h3 { font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
+td#right div.widget ul li { margin: 0; padding: 5px 0 5px 3px; border-right: solid 3px #ccc; font-size: 0.9em; line-height: 1.2em; }
+td#right div.widget ul li:hover { border-right: solid 3px #333; border-top: dotted 1px #333; border-bottom: dotted 1px #333; padding: 4px 0 5px 3px; background: #dCdFd5; }
+td#right div.widget ul li:first-child:hover { border-top: none; padding-top: 5px; }
 
 #full-width		{ margin: 20px 10px; padding: 0px; }
 
@@ -46,12 +47,13 @@ span.event-widget-name { padding: 0; margin: 0; text-align: center; font-size: 1
 #tumblelog.box.col2		{ width: 98%; }
 #tumblelog.post-headline,
 #tumblelog.post-bodycopy 	{ padding: 5px; }
-#tumblelog.post-headline h3 { }
+#tumblelog.post-headline h3 { margin: 0; padding: 0; }
 span.footer-loc, span.footer-tags, span.footer-cats, span.footer-permalink { display: inline; }
 span.footer-tags:before, span.footer-cats:before,span.footer-permalink:before {content:" | "; }
 span.footer-cats ul,
 span.footer-cats li { margin: 0; padding: 0; display:inline; }
-#tumblelog.post-date 		{ font-style: italic; font-size: 1.2em; }
+span.footer-permalink a {text-decoration: none; color: #666;}
+#tumblelog.post-date 		{ font-style: italic; font-size: 1.4em; padding-left: 10px; }
 #tumblelog.post-thumbnail	{overflow: hidden; position: relative; width: 100%; height: 150px;}
 #tumblelog img 				{position: absolute;}
 #tumblelog ul.event-categories li,
