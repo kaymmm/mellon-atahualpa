@@ -56,7 +56,7 @@
 .glob-custom .ui-widget { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; font-size: 1.1em; }
 .glob-custom .ui-widget .ui-widget { font-size: 1em; }
 .glob-custom .ui-widget input, .glob-custom .ui-widget select, .glob-custom .ui-widget textarea, .glob-custom .ui-widget button { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial; font-size: 1em; }
-.glob-custom .ui-widget-content { border: 1px solid #e0cfc2; background: #f4f0ec url(images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x; color: #1e1b1d; }
+.glob-custom .ui-widget-content { border: 1px solid #e0cfc2; background: #f4f0ec url(images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x; color: #1e1b1d; border-top: none; }
 .glob-custom .ui-widget-content a { color: #1e1b1d; }
 .glob-custom .ui-widget-header { border: 1px solid #d2c3b7; background: #ece1c5 url(images/ui-bg_highlight-hard_25_ece1c5_1x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
 .glob-custom .ui-widget-header a { color: #ffffff; }
@@ -277,6 +277,7 @@
 ----------------------------------*/
 
 /* Corner radius */
+.ui-corner-all { -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
 .glob-custom .ui-corner-all, .glob-custom .ui-corner-top, .glob-custom .ui-corner-left, .glob-custom .ui-corner-tl { -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; -khtml-border-top-left-radius: 3px; border-top-left-radius: 3px; }
 .glob-custom .ui-corner-all, .glob-custom .ui-corner-top, .glob-custom .ui-corner-right, .glob-custom .ui-corner-tr { -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -khtml-border-top-right-radius: 3px; border-top-right-radius: 3px; }
 .glob-custom .ui-corner-all, .glob-custom .ui-corner-bottom, .glob-custom .ui-corner-left, .glob-custom .ui-corner-bl { -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; -khtml-border-bottom-left-radius: 3px; border-bottom-left-radius: 3px; }
