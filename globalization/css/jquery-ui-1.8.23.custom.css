@@ -64,7 +64,7 @@
 /* Interaction states
 ----------------------------------*/
 .glob-custom .ui-state-default, .glob-custom .ui-widget-content .ui-state-default, .glob-custom .ui-widget-header .ui-state-default { border: 1px solid #cdc3b7; background: #ede4d4 url(images/ui-bg_glass_70_ede4d4_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #3f3731; }
-.glob-custom .ui-state-default a, .glob-custom .ui-state-default a:link, .glob-custom .ui-state-default a:visited { color: #3f3731; text-decoration: none; padding: 0.3em 0.3em; }
+.glob-custom .ui-state-default a, .glob-custom .ui-state-default a:link, .glob-custom .ui-state-default a:visited { color: #3f3731; text-decoration: none; }
 .glob-custom .ui-state-hover, .glob-custom .ui-widget-content .ui-state-hover, .glob-custom .ui-widget-header .ui-state-hover, .glob-custom .ui-state-focus, .glob-custom .ui-widget-content .ui-state-focus, .glob-custom .ui-widget-header .ui-state-focus { border: 1px solid #f5ad66; background: #f5f0e5 url(images/ui-bg_glass_100_f5f0e5_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #a46313; }
 .glob-custom .ui-state-hover a, .glob-custom .ui-state-hover a:hover { color: #a46313; text-decoration: none; }
 .glob-custom .ui-state-active, .glob-custom .ui-widget-content .ui-state-active, .glob-custom .ui-widget-header .ui-state-active { border: 1px solid #e0cfc2; background: #f4f0ec url(images/ui-bg_highlight-hard_100_f4f0ec_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #b85700; }
