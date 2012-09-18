@@ -41,7 +41,7 @@ div.textwidget	 		{ border-right: solid 3px #D93F0F; background: transparent; li
 div.widget ul li:hover 	{ border-right: solid 3px #668284; background: transparent; color: #F7F3E8!important; padding: 4px 3px 4px 0; border-bottom: 1px dotted #668284; border-top: 1px dotted #668284; }
 div.widget ul li:hover a,div.widget ul li a:hover { color: #D93F0F; }
 div.widget ul li:first-child:hover { border-top: none; padding: 5px 3px 4px 0; }
-
+div.widget table.em-calendar { width: 260px; font-size: 1.2em; }
 div.textwidget			{ color: #F7F3E8; }
 
 /* events listing pages */
