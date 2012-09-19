@@ -72,8 +72,9 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a 	{ background: transparent; background-
 #tumblelog.fluid .box.col2	{ width: 98%; }
 div.post-headline,
 div.post-bodycopy 			{ padding: 5px; }
-div.post-thumbnail			{ overflow: hidden; position: relative; width: 100%; height: 150px;}
+div.post-thumbnail			{ overflow: hidden; position: relative; width: 100%; height: 150px; }
 #tumblelog img 				{ position: absolute;}
+.box div.post-footer 		{ background: rgba(0, 0, 0, 0.2); }
 
 div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
