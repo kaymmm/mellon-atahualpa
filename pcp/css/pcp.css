@@ -4,10 +4,13 @@ div.post h3,
 div.post h4,
 div.post h5 { font-size: 0.9em; }
 
+div.post-footer		{ color: #F7F3E8; background: #D93F0F; }
+div.post-kicker 	{ color: #F7F3E8; font-size: 0.9em; }
+div#respond			{ color: #F7F3E8; background: #2B3E42; font-size: 0.9em; border: 2px solid #D93F0F; }
 
 /* welcome message */
-#welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; }
-a#post-1308			{ display: none; } /* hide permalink anchor on the home page */
+div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; }
+/* a#post-1308			{ display: none; } hide permalink anchor on the home page */
 
 #full-width			{ margin: 20px 10px; padding: 0px; }
 td#middle			{ padding: 10px 5px 20px 25px!important; }
@@ -50,7 +53,6 @@ div.widget ul li:hover a,div.widget ul li a:hover { color: #D93F0F; }
 div.widget ul li:first-child:hover { border-top: none; padding: 5px 3px 4px 0; }
 div.widget table.em-calendar { width: 260px; font-size: 1.2em; }
 div.textwidget			{ color: #F7F3E8; }
-div#respond				{ color: #F7F3E8; background: #2B3E42; font-size: 0.9em; }
 
 /* events listing pages */
 span.event-page-date	 		{ padding: 0; margin: 0; text-align: left; font-style: italic; }
