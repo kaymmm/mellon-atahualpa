@@ -24,6 +24,7 @@ div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -mo
 
 
 td#middle div.featured		{ float: none; }
+td#middle div.widget		{ border: none; }
 td#middle			{ padding: 10px 5px 20px 25px!important; }
 td#left				{ padding: 10px 0; }
 td#footer			{ border: none;}
