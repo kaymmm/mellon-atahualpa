@@ -16,6 +16,8 @@ div.post-headline h2	{ font-size: 1.8em; line-height:1.1em; font-weight: normal;
 div.post-bodycopy 		{ font-size: 1.1em!important; line-height: 1.4em!important; }
 div.post-footer 		{ font-size: 0.8em!important; line-height: 1.5em!important; }
 
+div.post table td { background: transparent; }
+
 /* widgets */
 div.widget				{ background: transparent; margin: 0; padding: 0; }
 div.widget-title h3 	{ margin: 0; padding: 4px 0 4px 0; font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; }

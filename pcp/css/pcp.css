@@ -6,6 +6,11 @@ div.post-kicker a:hover		{ color: #D93F0F; }
 div.post-footer				{ color: #F7F3E8; background: #D93F0F; }
 div.post-footer a			{ color: #478; }
 div.post-footer a:hover		{ color: #666; }
+div.post-headline h2 a,
+div.post-headline h2 a:link,
+div.post-headline h2 a:active,
+div.post-headline h2 a:visited	{ color: #D93F0F; }
+div.post-headline h2 a:hover	{ color: #F7F3E8; }
 
 div#respond			{ color: #F7F3E8; background: #2B3E42; font-size: 0.9em; border: 2px solid #D93F0F; }
 
