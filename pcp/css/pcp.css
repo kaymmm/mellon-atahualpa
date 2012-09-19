@@ -20,7 +20,7 @@ div.post table tr td a		{ color: #DED; }
 div.post table tr td:hover	{ color: #478; }
 
 /* welcome message */
-div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; font-size: 1.2em; }
+div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; font-size: 1.2em; border: none!important; }
 
 
 td#middle div.featured		{ float: none; }
