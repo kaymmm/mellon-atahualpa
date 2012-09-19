@@ -1,14 +1,14 @@
-<?php bfa_next_previous_post_links('Top'); ?>
-<?php
+<?php bfa_next_previous_post_links('Top');
 /* Post Container starts here */
 if ( function_exists('post_class') ) { ?>
-<div <?php 
-if ( is_page() ) { 
-	post_class('post'); } else { post_class(); } ?> id="post-<?php the_ID(); ?>">
+	<div <?php 
+		if ( is_page() ) { 
+			post_class('post'); 
+		} else { post_class(); } 
+	?> id="post-<?php the_ID(); ?>">
 <?php } else { ?>
 	<div class="<?php echo ( is_page() ? 'page ' : '' ) . 'post" id="post-'; the_ID(); ?>">
-<?php } ?>
-<?php
+<?php }
 bfa_post_kicker('<div class="post-kicker">','</div>');
 bfa_post_headline('<div class="post-headline">','</div>');
 bfa_post_byline('<div class="post-byline">','</div>');
