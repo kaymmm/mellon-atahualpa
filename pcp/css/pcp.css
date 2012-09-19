@@ -20,10 +20,10 @@ div.post table tr td a		{ color: #DED; }
 div.post table tr td:hover	{ color: #478; }
 
 /* welcome message */
-div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; }
-/* a#post-1308			{ display: none; } hide permalink anchor on the home page */
+div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; font-size: 1.2em; }
 
-#full-width			{ margin: 20px 10px; padding: 0px; }
+
+td#middle div.featured		{ float: none; }
 td#middle			{ padding: 10px 5px 20px 25px!important; }
 td#left				{ padding: 10px 0; }
 td#footer			{ border: none;}
