@@ -1,3 +1,3 @@
-<?php if ( is_front_page() || is_category()) { ?>
+<?php if ( is_front_page() || is_archive()) { ?>
 </div><!-- / masonry container -->
 <?php } ?>

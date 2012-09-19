@@ -12,6 +12,8 @@ div.post-headline h2 a:active,
 div.post-headline h2 a:visited	{ color: #D93F0F; }
 div.post-headline h2 a:hover	{ color: #F7F3E8; }
 
+blockquote			{ background: rgba(255, 255, 255, 0.5); }
+
 div#respond			{ color: #F7F3E8; background: #2B3E42; font-size: 0.9em; border: 2px solid #D93F0F; }
 
 div.post table tr td a		{ color: #DED; }

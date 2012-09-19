@@ -1,12 +1,11 @@
-<?php if ( is_front_page() || is_category()) { //start masonry brick	?>
+<?php if ( is_front_page() || is_archive() ) { //start masonry brick	?>
 <div class="box col2 masonry-brick">
-<?php }
-	if ( function_exists('post_class') ) { ?>
+<?php if ( function_exists('post_class') ) { ?>
 		<div <?php if ( is_page() ) { post_class('post'); } else { post_class(); } ?> id="post-<?php the_ID(); ?>">
 <?php } else { ?>
 		<div class="<?php echo ( is_page() ? 'page ' : '' ) . 'post" id="post-'; the_ID(); ?>">
 <?php }
-	if( ( is_front_page() || is_category()) && has_post_thumbnail() ) { ?>
+	if( has_post_thumbnail() ) { ?>
 		<div class="post-thumbnail">
 			<?php the_post_thumbnail(); ?>
 		</div>
@@ -20,9 +19,8 @@
 <?php bfa_post_pagination('<p class="post-pagination"><strong>'.__('Pages:','atahualpa').'</strong>','</p>');
 bfa_post_footer('<div class="post-footer">','</div>'); ?>
 </div><!-- / Post -->
-<?php if ( is_front_page()|| is_category() ) { ?>
 </div><!-- / brick -->
-<?php } else {  ?>
+<?php } else {  //not archive or front page ?>
 <?php bfa_next_previous_post_links('Top');
 /* Post Container starts here */
 if ( function_exists('post_class') ) { ?>
