@@ -43,6 +43,7 @@ div.widget ul li:hover a,div.widget ul li a:hover { color: #D93F0F; }
 div.widget ul li:first-child:hover { border-top: none; padding: 5px 3px 4px 0; }
 div.widget table.em-calendar { width: 260px; font-size: 1.2em; }
 div.textwidget			{ color: #F7F3E8; }
+div#respond				{ color: #F7F3E8; background: #668284;}
 
 /* events listing pages */
 span.event-page-date	 		{ padding: 0; margin: 0; text-align: left; font-style: italic; }
