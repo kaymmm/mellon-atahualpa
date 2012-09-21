@@ -1,7 +1,10 @@
-.hentry-thumbnail-box, .ventry-thumbnail-box { overflow: hidden; position: relative; }
-.hentry-thumbnail-box { width: 100%; height: 160px; }
-.hentry-thumbnail { position: absolute; }
-.featured-thumbnail { position: relative; }
+.hentry-thumbnail-box, 
+.ventry-thumbnail-box 		{ overflow: hidden; position: relative; }
+.hentry-thumbnail-box 		{ width: 100%; height: 160px; }
+.hentry-thumbnail 			{ position: absolute; }
+.featured-thumbnail 		{ position: relative; }
+div.hentry.event a 			{ color: black; }
+div.hentry.event a:hover	{ color: white; }
 
 
 div.ventry-content {

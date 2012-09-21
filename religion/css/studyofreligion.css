@@ -53,6 +53,7 @@ span.event-widget-name 			{ padding: 0; margin: 0; text-align: center; font-size
 #tumblelog.fluid .box div.post-footer li a:first-child:before {content:'';}
 #tumblelog.fluid .box div.post-footer a,
 #tumblelog.fluid .box div.post-footer a:hover	{ text-decoration: none; }
+#tumblelog.fluid .box.moreposts { background: transparent; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; box-shadow: none; text-align: right; }
 span.footer-loc, 
 span.footer-tags, 
 span.footer-cats, 
