@@ -3,12 +3,14 @@ div#container	{ background: #333; padding: 0; margin: 0; -moz-border-radius: 0; 
 table#logoarea	{ padding: 10px; }
 div.searchbox	{ border: none; height: 30px; }
 tr#bodyrow		{ background: #F5F4D7; color: #4D4E51; }
+td#right		{ padding: 10px; }
 hr				{ background: #0E8D94; color: #0E8D94; }
 
 /* widgets */
 div.widget-title h3 { font-size: 1.2em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
-div.widget ul li { margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #ccc; padding-right: 5px; font-size: 0.9em; line-height: 1.2em; }
+div.widget ul li	{ margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #ccc; padding-right: 5px; font-size: 0.9em; line-height: 1.2em; }
 div.widget ul li:hover { border-right: solid 5px #333; padding-right: 5px; background: #dCdFd5; }
+div.widget			{ padding: 0 0 15px; }
 
 #full-width		{ margin: 20px 10px; padding: 0px; }
 div ul.refractions-list li	{ list-style: disc; }
