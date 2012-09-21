@@ -47,3 +47,9 @@ span.event-widget-name { padding: 0; margin: 0; font-size: 1.2em; line-height: 1
 .widget_em_widget { background-color: transparent; }
 .widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: right!important; }
 .widget_em_widget li:hover { background-color: #dCdFd5; border: 1px 0 1px 0 dotted #999; margin: 0; }
+
+ul.cal_ul		{ list-style: none; }
+span.cal_date	{ padding: 3px 5px; }
+span.cal_loc	{ font-style: normal; }
+span.cal_name	{ font-weight: bold; }
+span.cal_title	{ font-style: italic; }
