@@ -1,5 +1,5 @@
 <?php
-$gc_logo_url = "/wp-content/blogs.dir/1013/files/2012/09/CUNY-GC-logo.png";
+$gc_logo_url = site_url()."/wp-content/blogs.dir/1013/files/2012/09/CUNY-GC-logo.png";
 $social_twitter = "scistudies";
 $social_facebook = "https://www.facebook.com/pages/The-Committee-for-Interdisciplinary-Science-Studies/207200129320660";
 ?>

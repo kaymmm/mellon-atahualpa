@@ -1,10 +1,10 @@
 <?php /* header main */ ?>
 <table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%"><tbody>
 	<tr><td rowspan="2" valign="middle" class="logoarea-logo">
-		<a href="http://gc.cuny.edu/"><img class="logo" src="<?php echo site_url().$gc_logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
+		<a href="http://gc.cuny.edu/"><img class="logo" src="<?php echo $gc_logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
 	</td>
 	<td rowspan="2" valign="middle" class="logoarea-title">
-		<a href="<?php echo site_url(); ?>"><img width="650px" height="auto" src="<?php echo site_url().$logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
+		<a href="<?php echo site_url(); ?>"><img width="650px" height="auto" src="<?php echo $logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
 	</td>
 	<td class="feed-icons" valign="middle" align="right">
 		<div class="socialicons" style="bottom: 0px; right: 0;">
