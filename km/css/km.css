@@ -1,7 +1,8 @@
 body			{ background: #32262A; }
 div#wrapper		{ margin-left: 0px; margin-top: 20px; }
-div.container	{ padding: 10px 30px 0 80px; background-color: white; -moz-border-radius:8px; -khtml-border-radius: 8px; -webkit-border-radius:8px; border-radius: 8px; }
+div#container	{ padding: 10px 30px 0 80px; background-color: white; -moz-border-radius:8px; -khtml-border-radius: 8px; -webkit-border-radius:8px; border-radius: 8px; }
 div.searchbox	{ float: right; border: none; width: 200px; margin: 0; padding: 0; }
+div.searchbox input.text {text-align: right;}
 
 
 td#footer						{ border: none;}
@@ -18,13 +19,13 @@ td#right div.widget ul li:hover				{ padding: 4px 0 4px 3px; border-right: solid
 td#right div.widget ul li:first-child:hover	{ padding-top: 5px; border-top: none; }
 
 /* navigation menu */
-div#menu1 ul.rMenu							{ background: transparent; color: #747E80; border: 1px solid #ccc; }
+div#menu1 ul.rMenu							{ background: transparent; color: #11DFC2; border: none; }
 div#menu1 ul.rMenu li a:hover				{ background: transparent; }
-div#menu1 ul.rMenu li:hover					{ color: #F7F3E8; background-color: #77BED2;}
+div#menu1 ul.rMenu li:hover					{ border-bottom: 3px solid #B5E247; color: #372B02; }
 div#menu1 ul.rMenu li.current-menu-item, 
-div#menu1 ul.rMenu li.current_page_item		{ background-color: #747E80!important; color: #F7F3E8!important; }
+div#menu1 ul.rMenu li.current_page_item		{ background: #F23953!important; color: #372B02!important; }
 div#menu1 ul.rMenu li.current-menu-item a, 
-div#menu1 ul.rMenu li.current_page_item a	{ background: transparent!important; color: #F7F3E8!important; }
+div#menu1 ul.rMenu li.current_page_item a	{ background: transparent!important; color: #372B02!important; }
 /*sub menus*/
 div#menu1 ul 								{ background-color: #77BED2; }
 div#menu1 ul.rMenu ul.sub-menu li 			{ color: #2B3E42;}
