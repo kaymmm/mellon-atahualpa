@@ -1,4 +1,6 @@
-body							{ background: white; }
+body			{ background: white; }
+div.container	{ padding: 10px; margin: 10px; background-color: white; -moz-border-radius:8px; -khtml-border-radius: 8px; -webkit-border-radius:8px; border-radius: 8px; }
+
 td#footer						{ border: none;}
 td#footer p:first-child			{ border-top: solid 1px #CCC; margin: -20px -20px 0 -20px; padding-top: 10px; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
