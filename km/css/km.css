@@ -1,6 +1,6 @@
-body			{ background: #32262A; }
+body			{ background: #32262A; font-family: 'Montaga', Cardo, Times, serif; font-size: 87.5%; line-height: 1.6em;}
 div#wrapper		{ margin-left: 0px; margin-top: 20px; }
-div#container	{ padding: 0; background-color: white; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; color: #999;}
+div#container	{ padding: 0; background-color: white; color: #999; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;}
 a:link, 
 a:active		{ color: #F9791E; }
 a:visited		{ color: #E9B81D; text-decoration: none; }
@@ -13,8 +13,9 @@ table#logoarea 		{ margin: 20px 0 20px 20px; }
 .logoarea-title a	{ text-decoration: none!important; font-size: 3.5em; font-family: 'Economica', sans-serif; }
 
 div.searchbox	{ float: right; border: none; width: 200px; margin: 0; padding: 0; }
-td#left { padding-left: 20px; border: 1px solid #ccc; }
-td#middle		{ padding: 0 15px 0; }
+td#middle						{ padding: 0 15px 0; }
+td#left div.widget 				{ background: #D2E102; padding: 5px 5px 5px 20px; margin-bottom: 20px; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+td#right div.widget 			{ background: #FF9516; padding: 5px 20px 5px 5px; text-align: right; margin-bottom: 20px; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
 td#footer						{ border: none; padding-top: 20px;}
 td#footer p:first-child			{ border-top: solid 1px #CCC; margin: -20px -20px 0 -20px; padding-top: 10px; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
