@@ -3,11 +3,11 @@ function sticky_relocate() {
 	var window_top = $(window).scrollTop();
 	var div_top = $('#sticky-anchor').offset().top;
 	if ((window_top+wpadminbar_offset) > div_top) {
-		$('#logoarea').addClass('stickyscroll');
+		$('#sticky-menu').addClass('stickyscroll');
 /*		$('#header').css('top',wpadminbar_offset);
 		$('#header').css('position','fixed');*/
 	} else {
-		$('#logoarea').removeClass('stickyscroll');
+		$('#sticky-menu').removeClass('stickyscroll');
 /*		$('#header').css('top','');
 		$('#header').css('position','static'); */
 	}
