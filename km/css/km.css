@@ -42,7 +42,7 @@ td#footer						{ border: 1px solid #ccc; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
 
 /* home page */
-div.welcome 				{ padding: 7px; margin: 0; border: solid 1px #CCC; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+div.welcome 				{ padding: 7px; margin: 0; border: solid 1px #CCC; font-size: 1.1em; line-height: 1.2em; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
 
 /* navigation menu */
 div#menu1 ul.rMenu							{ background: transparent; border: none; }
@@ -100,8 +100,8 @@ span.event-widget-name 			{ padding: 0; margin: 0; text-align: center; font-size
 #tumblelog.fluid .box div.post-date 			{ font-style: italic; font-size: 1.4em; position: absolute; top: 0px; left: 0px; background: rgba(33, 33, 33, 0.7); color: #f0f0f0; font-size: 1.4em; padding: 3px; }
 #tumblelog.fluid .box div.post-headline			{ margin: 0; }
 #tumblelog.fluid .box div.post-headline, 
-#tumblelog.fluid .box div.post-bodycopy 		{ padding: 0 5px; }
-#tumblelog.fluid .box div.post-headline h2		{ font-size: 1.6em; line-height: 2em; }
+#tumblelog.fluid .box div.post-bodycopy 		{ padding: 5px; }
+#tumblelog.fluid .box div.post-headline h2		{ font-size: 1.6em; line-height: 1.2em; }
 #tumblelog.fluid .box div.post-headline h2,
 #tumblelog.fluid .box div.post-bodycopy p		{ margin: 0; padding: 0}
 #tumblelog.fluid .box div.post-footer			{-webkit-border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-bottomright: 8px; -moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; }
