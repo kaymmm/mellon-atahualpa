@@ -1,5 +1,5 @@
 function sticky_relocate() {
-	var wpadminbar_offset = $('#wpadminbar').height;
+	var wpadminbar_offset = $('#wpadminbar').height();
 	var window_top = $(window).scrollTop();
 	var div_top = $('#sticky-anchor').offset().top;
 	if ((window_top+wpadminbar_offset) > div_top) {
