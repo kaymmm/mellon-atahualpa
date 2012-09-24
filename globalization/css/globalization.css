@@ -9,6 +9,9 @@ float: none;
 }
 /* END DELETE */
 
+/*bugfix*/
+td	{border: none;}
+
 /* widgets */
 div.widget-title h3 		{ font-size: 1.2em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
 div.widget					{ padding: 0 0 15px; }
