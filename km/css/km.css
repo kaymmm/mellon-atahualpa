@@ -1,4 +1,4 @@
-body			{ background: #32262A; font-family: 'Montaga', Cardo, Times, serif; font-size: 87.5%; line-height: 1.6em;}
+body			{ background: #40032B; font-family: 'Montaga', Cardo, Times, serif; font-size: 87.5%; line-height: 1.6em;}
 div#wrapper		{ margin-left: 0px; margin-top: 20px; }
 div#container	{ padding: 0; background-color: white; color: #999; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;}
 a:link, 
@@ -15,6 +15,11 @@ div.searchbox-form 				{ margin: 0; background: #FF9516; padding: 6px 10px 5px 2
 td#middle						{ padding: 0 15px 0; }
 td#left div.widget 				{ background: #D2E102; padding: 5px 5px 5px 20px; margin-bottom: 20px; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
 td#right div.widget 			{ background: #F23953; padding: 5px 20px 5px 5px; text-align: right; margin-bottom: 20px; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+td#right div.widget a,
+td#left div.widget a			{ color: #40032B; }
+td#right div.widget a:hover,
+td#left div.widget a:hover		{ color: #265765; }
+div.widget-title h3 			{ color: #265765; }
 td#footer						{ border: 1px solid #ccc; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
 
@@ -27,7 +32,7 @@ div#menu1 ul.rMenu							{ background: transparent; border: none; }
 div#menu1 ul.rMenu li a:link, 
 div#menu1 ul.rMenu li a:hover, 
 div#menu1 ul.rMenu li a:visited, 
-div#menu1 ul.rMenu li a:active 				{ color: #32262A; padding: 0;}
+div#menu1 ul.rMenu li a:active 				{ color: #40032B; padding: 0;}
 div#menu1 ul.rMenu li:first-child,
 div#menu1 ul.rMenu li:first-child:hover,
 div#menu1 ul.rMenu li:first-child.current-menu-item:hover,
