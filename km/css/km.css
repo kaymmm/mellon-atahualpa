@@ -6,9 +6,12 @@ a:active		{ color: #F9791E; }
 a:visited		{ color: #E9B81D; text-decoration: none; }
 a:hover			{ color: #FD253C; text-decoration: underline; }
 
-div#logoarea-title				{ padding: 20px; margin: 0; }
+div#logoarea-title				{ padding: 20px; margin: 0; line-height: 4em; }
 div#logoarea-title a			{ text-decoration: none!important; font-size: 3.5em; font-family: 'Economica', sans-serif; }
-div#sticky-anchor				{ height: 35px; }
+span#keith						{ color:#FD253C; }
+span#kay						{ color:#F9791E; }
+span#miyake						{ color:#D2E102; }
+div#sticky-anchor				{ height: 50px; }
 div#sticky-menu.stickyscroll	{ position: fixed; top: 28px; background: white; z-index: 99998; width: 80%; /*width is same as content area*/}
 div.searchbox					{ border: none; width: 220px; float: right; margin: 0; background: #FF9516; padding: 6px 10px 6px 25px; height: auto; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
 div.searchbox input.text 		{ text-align: right; text-color: #999; }
@@ -27,7 +30,6 @@ td#footer div.sitewide-footer p { border: none!important; margin: 0!important; p
 div.welcome 				{ padding: 7px; margin: 0; border: solid 1px #CCC; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
 
 /* navigation menu */
-div#menu1									{ padding-bottom: 20px; }
 div#menu1 ul.rMenu							{ background: transparent; border: none; }
 div#menu1 ul.rMenu li a:link, 
 div#menu1 ul.rMenu li a:hover, 
