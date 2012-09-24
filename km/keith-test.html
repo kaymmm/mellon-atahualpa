@@ -11,7 +11,14 @@
 <link rel="stylesheet" href="css/km.css"  type="text/css" media="all">
 <link href='http://fonts.googleapis.com/css?family=Economica|Montaga' rel='stylesheet' type='text/css'>
 
-<link rel="alternate" type="application/rss+xml" title="Keith K Miyake at the CUNY Academic Commons &raquo; Feed" href="http://keithmiyake.commons.gc.cuny.edu/feed/" />
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	$('#left .head').click(function() {
+		$(this).next().toggle('fast');
+		return false;
+	}).next().hide();
+});
+</script><link rel="alternate" type="application/rss+xml" title="Keith K Miyake at the CUNY Academic Commons &raquo; Feed" href="http://keithmiyake.commons.gc.cuny.edu/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Keith K Miyake at the CUNY Academic Commons &raquo; Comments Feed" href="http://keithmiyake.commons.gc.cuny.edu/comments/feed/" />
 <!--[if IE]>
 <style type='text/css'>.clearfix {display: inline-block;}
@@ -40,6 +47,7 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 <script type='text/javascript' src='http://kaymmm.github.com/mellon-atahualpa/includes/jquery.imagesloaded.min.js'></script>
 <script type='text/javascript' src='http://kaymmm.github.com/mellon-atahualpa/includes/scaleimage.min.js'></script>
 <script type='text/javascript' src='http://kaymmm.github.com/mellon-atahualpa/religion/js/resize.min.js'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js'></script>
 <script type='text/javascript' src='http://keithmiyake.commons.gc.cuny.edu/wp-content/plugins/cac-bp-admin-bar-mods/js/jquery.columnizer/jquery.columnizer.js?ver=3.4.2'></script>
 <script type='text/javascript' src='http://keithmiyake.commons.gc.cuny.edu/wp-content/plugins/cac-bp-admin-bar-mods/js/admin-bar.js?ver=3.4.2'></script>
 <script type='text/javascript' src='http://keithmiyake.commons.gc.cuny.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelement-and-player.min.js?ver=2.7.0'></script>
@@ -87,22 +95,24 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 <table id="layout" border="0" cellspacing="0" cellpadding="0">
 <colgroup>
 <col class="colone" /><col class="coltwo" />
-</colgroup> 
+<col class="colthree" /></colgroup> 
 	<tr>
 
 		<!-- Header -->
-		<td id="header" colspan="2">
+		<td id="header" colspan="3">
 
 		<table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%"><tbody>
 <tr>
 <td rowspan="2" valign="middle" class="logoarea-title">
+<div id="header">
+<div class="searchbox"><form method="get" class="searchform" action="http://keithmiyake.commons.gc.cuny.edu">
+		<div class="searchbox-form"><input type="text" class="text inputblur" onfocus="this.value=''" value="search the site" onblur="this.value='search the site'" name="s"></div>
+	</form></div>
 <a href="http://keithmiyake.commons.gc.cuny.edu"><span style="color:#FD253C;">KEITH</span><span style="color:#F9791E;">K</span><span style="color:#D2E102;">MIYAKE</span></a>
+</div>
 </td>
 </tr>
 </tbody></table>
-<div class="searchbox"><form method="get" class="searchform" action="http://keithmiyake.commons.gc.cuny.edu">
-		<div class="searchbox-form"><input type="text" class="text inputblur" onfocus="this.value=''" value="search the site" onblur="this.value='search the site'" name="s"></div>
-	</form></div> 
 <div id="menu1" class="menu-primary-nav-container"><ul id="rmenu2" class="clearfix rMenu-hor rMenu"><li id="menu-item-3045" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-3045"><a href="http://keithmiyake.commons.gc.cuny.edu/"><span>Home</span></a></li>
 <li id="menu-item-3035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3035"><a href="http://keithmiyake.commons.gc.cuny.edu/contact/"><span>Contact</span></a></li>
 <li id="menu-item-3036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3036"><a href="http://keithmiyake.commons.gc.cuny.edu/blog-3/"><span>Blog</span></a></li>
@@ -133,14 +143,7 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 				<!-- Left Sidebar -->
 		<td id="left">
 
-					<div id="recent-posts-2" class="widget widget_recent_entries">		<div class="widget-title"><h3>Recent Posts</h3></div>		<ul>
-				<li><a href="http://keithmiyake.commons.gc.cuny.edu/2011/05/tornadoes/" title="Tornadoes">Tornadoes</a></li>
-				<li><a href="http://keithmiyake.commons.gc.cuny.edu/2011/05/research-paper-grading-rubric/" title="Research Paper Grading Rubric">Research Paper Grading Rubric</a></li>
-				<li><a href="http://keithmiyake.commons.gc.cuny.edu/2011/05/final-exam-take-home-questions/" title="Final Exam Take-Home Questions">Final Exam Take-Home Questions</a></li>
-				<li><a href="http://keithmiyake.commons.gc.cuny.edu/2011/05/urban-regional-geography-final-exam-study-guide/" title="Class Notes &#8211; Urban Geography (Ch. 11), Regional Geography (Ch. 13) and Final Exam Notes">Class Notes &#8211; Urban Geography (Ch. 11), Regional Geography (Ch. 13) and Final Exam Notes</a></li>
-				<li><a href="http://keithmiyake.commons.gc.cuny.edu/2011/05/chapter-10-economic-geography/" title="Chapter 10 Class Notes &#8211; Economic Geography">Chapter 10 Class Notes &#8211; Economic Geography</a></li>
-				</ul>
-		</div><div id="categories-2" class="widget widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+			<div id="categories-2" class="widget widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
 	<li class="cat-item cat-item-152"><a href="http://keithmiyake.commons.gc.cuny.edu/events/" title="View all posts filed under All">All</a>
 </li>
 	<li class="cat-item cat-item-6"><a href="http://keithmiyake.commons.gc.cuny.edu/blog/" title="View all posts filed under Blog">Blog</a>
@@ -164,12 +167,6 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 	<li><a href='http://keithmiyake.commons.gc.cuny.edu/2010/08/' title='August 2010'>August 2010</a></li>
 	<li><a href='http://keithmiyake.commons.gc.cuny.edu/2010/06/' title='June 2010'>June 2010</a></li>
 		</ul>
-</div><div id="meta-2" class="widget widget_meta"><div class="widget-title"><h3>Meta</h3></div>			<ul>
-			<li><a href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/">Site Admin</a></li>			<li><a href="http://keithmiyake.commons.gc.cuny.edu/wp-login.php?action=logout&#038;_wpnonce=38e7bc4e30">Log out</a></li>
-			<li><a href="http://keithmiyake.commons.gc.cuny.edu/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			<li><a href="http://keithmiyake.commons.gc.cuny.edu/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
-						</ul>
 </div>
 		</td>
 		<!-- / Left Sidebar -->
@@ -194,6 +191,61 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 <!-- Right Inner Sidebar -->
 
 <!-- Right Sidebar -->
+<td id="right">
+
+	<div id="meta-2" class="widget widget_meta"><div class="widget-title"><h3>Meta</h3></div>			<ul>
+			<li><a href="http://keithmiyake.commons.gc.cuny.edu/wp-admin/">Site Admin</a></li>			<li><a href="http://keithmiyake.commons.gc.cuny.edu/wp-login.php?action=logout&#038;_wpnonce=38e7bc4e30">Log out</a></li>
+			<li><a href="http://keithmiyake.commons.gc.cuny.edu/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://keithmiyake.commons.gc.cuny.edu/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</div><div id="tag_cloud-2" class="widget widget_tag_cloud"><div class="widget-title"><h3>Tags</h3></div><div class="tagcloud"><a href='http://keithmiyake.commons.gc.cuny.edu/tag/academia/' class='tag-link-398' title='1 topic' style='font-size: 8pt;'>academia</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/agriculture/' class='tag-link-99306' title='1 topic' style='font-size: 8pt;'>agriculture</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/assignments-2/' class='tag-link-28653' title='6 topics' style='font-size: 14.470588235294pt;'>assignments</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/biomes/' class='tag-link-99308' title='1 topic' style='font-size: 8pt;'>biomes</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/capitalism/' class='tag-link-443' title='2 topics' style='font-size: 10.117647058824pt;'>capitalism</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/careers/' class='tag-link-1614' title='1 topic' style='font-size: 8pt;'>careers</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/cartography/' class='tag-link-104503' title='1 topic' style='font-size: 8pt;'>cartography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/china/' class='tag-link-1341' title='1 topic' style='font-size: 8pt;'>china</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/climate-change/' class='tag-link-1333' title='3 topics' style='font-size: 11.529411764706pt;'>climate change</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/cultural-determinism/' class='tag-link-104508' title='1 topic' style='font-size: 8pt;'>cultural determinism</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/cultural-geography/' class='tag-link-104509' title='2 topics' style='font-size: 10.117647058824pt;'>cultural geography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/cultural-relativism/' class='tag-link-104510' title='1 topic' style='font-size: 8pt;'>cultural relativism</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/culture/' class='tag-link-406' title='2 topics' style='font-size: 10.117647058824pt;'>culture</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/culture-of-poverty/' class='tag-link-104512' title='1 topic' style='font-size: 8pt;'>culture of poverty</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/earthquakes/' class='tag-link-104513' title='2 topics' style='font-size: 10.117647058824pt;'>earthquakes</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/economic-geography/' class='tag-link-104514' title='1 topic' style='font-size: 8pt;'>economic geography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/energy/' class='tag-link-104516' title='1 topic' style='font-size: 8pt;'>energy</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/environment/' class='tag-link-110' title='3 topics' style='font-size: 11.529411764706pt;'>environment</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/final-exam/' class='tag-link-104519' title='3 topics' style='font-size: 11.529411764706pt;'>final exam</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/geh101/' class='tag-link-104575' title='29 topics' style='font-size: 21.882352941176pt;'>geh101</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/geography/' class='tag-link-36376' title='30 topics' style='font-size: 22pt;'>Geography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/geography-topics/' class='tag-link-104522' title='3 topics' style='font-size: 11.529411764706pt;'>Geography Topics</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/geopolitics/' class='tag-link-104523' title='2 topics' style='font-size: 10.117647058824pt;'>geopolitics</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/globalization/' class='tag-link-85110' title='1 topic' style='font-size: 8pt;'>globalization</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/grading/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>grading</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/historical-materialism/' class='tag-link-104527' title='2 topics' style='font-size: 10.117647058824pt;'>historical materialism</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/human-environment-interactions/' class='tag-link-104530' title='2 topics' style='font-size: 10.117647058824pt;'>human-environment interactions</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/human-impact/' class='tag-link-104529' title='2 topics' style='font-size: 10.117647058824pt;'>human impact</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/landforms/' class='tag-link-104533' title='5 topics' style='font-size: 13.647058823529pt;'>landforms</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/lecture-notes/' class='tag-link-104535' title='22 topics' style='font-size: 20.470588235294pt;'>lecture notes</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/maps-2/' class='tag-link-104536' title='5 topics' style='font-size: 13.647058823529pt;'>maps</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/notes/' class='tag-link-1450' title='7 topics' style='font-size: 15.058823529412pt;'>notes</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/oil/' class='tag-link-104543' title='2 topics' style='font-size: 10.117647058824pt;'>oil</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/physical-geography/' class='tag-link-104545' title='6 topics' style='font-size: 14.470588235294pt;'>physical geography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/plate-tectonics/' class='tag-link-104546' title='2 topics' style='font-size: 10.117647058824pt;'>plate tectonics</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/political-geography/' class='tag-link-104548' title='3 topics' style='font-size: 11.529411764706pt;'>political geography</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/population/' class='tag-link-104549' title='2 topics' style='font-size: 10.117647058824pt;'>population</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/reference-software/' class='tag-link-85156' title='1 topic' style='font-size: 8pt;'>reference software</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/resources-2/' class='tag-link-9013' title='2 topics' style='font-size: 10.117647058824pt;'>resources</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/teaching/' class='tag-link-222' title='1 topic' style='font-size: 8pt;'>teaching</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/term-paper/' class='tag-link-104566' title='8 topics' style='font-size: 15.647058823529pt;'>Term Paper</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/video/' class='tag-link-109' title='2 topics' style='font-size: 10.117647058824pt;'>video</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/volcanoes/' class='tag-link-104570' title='2 topics' style='font-size: 10.117647058824pt;'>volcanoes</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/weather-and-climate/' class='tag-link-104573' title='3 topics' style='font-size: 11.529411764706pt;'>weather and climate</a>
+<a href='http://keithmiyake.commons.gc.cuny.edu/tag/writing/' class='tag-link-223' title='5 topics' style='font-size: 13.647058823529pt;'>writing</a></div>
+</div>
+</td>
 <!-- / Right Sidebar -->
 
 </tr>
@@ -201,13 +253,13 @@ if ( typeof( ajaxurl == 'undefined' ) ) { var ajaxurl = 'http://keithmiyake.comm
 <tr>
 
 <!-- Footer -->
-<td id="footer" colspan="2">
+<td id="footer" colspan="3">
     <p>
     Copyright &copy; 2012 <a href="http://keithmiyake.commons.gc.cuny.edu/">Keith K Miyake at the CUNY Academic Commons</a> - All Rights Reserved<br />Powered by <a href="http://wordpress.org/">WordPress</a> &amp; <a href="http://forum.bytesforall.com/">Atahualpa</a>    </p>
     
     
     
-<!-- Generated in 0.326 seconds. (117 q) -->
+<!-- Generated in 0.300 seconds. (113 q) -->
 
 	<script type='text/javascript' src='http://keithmiyake.commons.gc.cuny.edu/wp-includes/js/admin-bar.js?ver=3.4.2'></script>
 <script type='text/javascript' src='http://commons.gc.cuny.edu/files/aec/frontend.js?ver=5.0.7.0'></script>
