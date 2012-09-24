@@ -3,11 +3,11 @@ function sticky_relocate() {
 	var window_top = $(window).scrollTop();
 	var div_top = $('#sticky-anchor').offset().top;
 	if (window_top > div_top) {
-		$('#logoarea').addClass('sticky');
+		$('#logoarea').addClass('stickyscroll');
 /*		$('#header').css('top',wpadminbar_offset);
 		$('#header').css('position','fixed');*/
 	} else {
-		$('#logoarea').removeClass('sticky');
+		$('#logoarea').removeClass('stickyscroll');
 /*		$('#header').css('top','');
 		$('#header').css('position','static'); */
 	}
