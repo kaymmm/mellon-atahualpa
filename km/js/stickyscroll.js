@@ -3,11 +3,13 @@ function sticky_relocate() {
 	var window_top = $(window).scrollTop();
 	var div_top = $('#sticky-anchor').offset().top;
 	if (window_top > div_top) {
-		$('#header').css('top',wpadminbar_offset);
-		$('#header').css('position','fixed');
+		$('#header').addClass('sticky');
+/*		$('#header').css('top',wpadminbar_offset);
+		$('#header').css('position','fixed');*/
 	} else {
-		$('#header').css('top','');
-		$('#header').css('position','static');
+		$('#header').removeClass('sticky');
+/*		$('#header').css('top','');
+		$('#header').css('position','static'); */
 	}
 }
 $(function() {
