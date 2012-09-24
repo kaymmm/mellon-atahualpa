@@ -38,7 +38,7 @@ td#right div.widget a,
 td#left div.widget a			{ color: #40032B; }
 td#right div.widget a:hover,
 td#left div.widget a:hover		{ color: #265765; }
-td#footer						{ border: 1px solid #ccc; }
+td#footer						{ border-top: 1px solid #ccc; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
 
 /* home page */
