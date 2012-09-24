@@ -6,12 +6,11 @@ a:active		{ color: #F9791E; }
 a:visited		{ color: #E9B81D; text-decoration: none; }
 a:hover			{ color: #FD253C; text-decoration: underline; }
 
-table#logoarea td.logoarea-title	{ padding: 20px; margin: 0; }
-td.logoarea-title a	{ text-decoration: none!important; font-size: 3.5em; font-family: 'Economica', sans-serif; }
+div#logoarea-title				{ padding: 20px; margin: 0; }
+div#logoarea-title a			{ text-decoration: none!important; font-size: 3.5em; font-family: 'Economica', sans-serif; }
 
-div.searchbox					{ border: none; width: 200px; margin: 0; padding: 0; float: right; }
+div.searchbox					{ border: none; width: 220px; float: right; margin: 0; background: #FF9516; padding: 6px 10px 6px 25px; height: auto; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
 div.searchbox input.text 		{ text-align: right; text-color: #999; }
-div.searchbox-form 				{ margin: 0; background: #FF9516; padding: 6px 10px 5px 25px; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px;}
 td#middle						{ padding: 0 15px 0; }
 td#left div.widget 				{ background: #D2E102; padding: 5px 5px 5px 20px; margin-bottom: 20px; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
 td#right div.widget 			{ background: #F23953; padding: 5px 20px 5px 5px; text-align: right; margin-bottom: 20px; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
