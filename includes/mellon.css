@@ -11,6 +11,7 @@ h6 		{ font-size: 1.15em; margin: 1.67em 0; font-weight: bold; }
 .sitewide-footer img 	{ background: transparent!important; }
 .sitewide-footer a:hover, 
 td#footer .sitewide-footer a:hover { background: transparent!important; text-decoration: none!important; color: #ccc!important; }
+td						{ border: none; }
 div.post-headline		{ margin-bottom: 5px; }
 div.post-headline h2	{ font-size: 1.8em; line-height:1.1em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; }
 div.post-bodycopy 		{ font-size: 1.1em!important; line-height: 1.4em!important; }
