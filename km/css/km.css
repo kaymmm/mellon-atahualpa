@@ -6,7 +6,7 @@ a:active		{ color: #F9791E; }
 a:visited		{ color: #E9B81D; text-decoration: none; }
 a:hover			{ color: #FD253C; text-decoration: underline; }
 
-div#header.sticky				{ position: fixed; top: 28px; }
+div#logoarea.sticky				{ position: fixed; top: 28px; }
 div#logoarea-title				{ padding: 20px; margin: 0; }
 div#logoarea-title a			{ text-decoration: none!important; font-size: 3.5em; font-family: 'Economica', sans-serif; }
 
