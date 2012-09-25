@@ -72,6 +72,7 @@ div.widget ul li:first-child:hover { border-top: none; padding: 5px 3px 4px 0; }
 div.widget table.em-calendar { width: 260px; font-size: 1.2em; }
 div.textwidget			{ color: #F7F3E8; }
 div.welcome 			{ background: #668284; padding: 7px 7px 13px 13px; margin: 0; -moz-box-shadow: inset 0 0 4px #333; -webkit-box-shadow: inset 0 0 4px #333; box-shadow: inset 0 0 4px #333; font-size: 1.1em; line-height: 1.2; }
+div.welcome a			{ color: #D93F0F; }
 
 /* events listing pages */
 span.event-page-date	 		{ padding: 0; margin: 0; text-align: left; font-style: italic; }

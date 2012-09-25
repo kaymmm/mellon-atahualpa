@@ -2,6 +2,8 @@ td#footer						{ border: none;}
 td#footer p:first-child			{ border-top: solid 1px #CCC; margin: -20px -20px 0 -20px; padding-top: 10px; }
 td#footer div.sitewide-footer p { border: none!important; margin: 0!important; padding: 0!important; }
 
+div.searchbox					{ float: right; }
+
 /* home page */
 div#post-586 a:first-child	{ display: none; }
 div.welcome 				{ background: #F7F3E8; padding: 7px 7px 13px 13px; margin: 0 1% 20px 0.9%; -moz-box-shadow: inset 0 0 4px #AAA; -webkit-box-shadow: inset 0 0 4px #AAA; box-shadow: inset 0 0 4px #AAA; }
