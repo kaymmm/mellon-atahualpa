@@ -7,18 +7,7 @@
 <h2 class="welcome">Recent and Upcoming Events</h2>
 <?php 
 }
-if ( is_front_page() || is_archive() ) {
-	global $wp_query;
-	$wp_query = new WP_Query();
-	$paged = get_query_var( 'page' ) ? get_query_var( 'page' ) : 1;
-	$args = array(
-		'post_type' => array('event','post'),
-		'scope' => 'all',
-		'posts_per_page' => 8,
-		'paged' => $paged
-	);
-	query_posts($args);
-?>
+if ( is_front_page() || is_archive() ) { ?>
 <div id="tumblelog" class="clearfix fluid masonry" >
 <?php } else {
 	bfa_next_previous_page_links('Top'); 

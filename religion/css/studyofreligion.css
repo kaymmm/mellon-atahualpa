@@ -63,3 +63,4 @@ span.footer-permalink 			{ display: inline; }
 span.footer-tags:before,
 span.footer-cats:before,
 span.footer-permalink:before 	{content:" | "; }
+div.box .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }

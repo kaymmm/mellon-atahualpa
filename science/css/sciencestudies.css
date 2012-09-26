@@ -5,7 +5,7 @@
 .featured-thumbnail 		{ position: relative; }
 div.hentry.event a 			{ color: black; }
 div.hentry.event a:hover	{ color: white; }
-
+div.box .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }
 
 div.ventry-content {
 	display: table;

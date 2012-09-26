@@ -1,7 +1,7 @@
-<?php if ( is_front_page() ) { ?>
-	<div class="moreposts box masonry-brick">
-		<a href="/events/">VIEW ALL &raquo;</a>
-	</div>
+<?php if ( is_front_page() || is_archive() ) { ?>
+<div class="moreposts box col2 masonry-brick">
+<?php bfa_next_previous_page_links('Bottom'); ?>
+</div>
 </div> <!-- tumblelog -->
 <?php } else {
 bfa_next_previous_post_links('Middle'); 
