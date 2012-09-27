@@ -1,12 +1,11 @@
-<?php /* header main */ ?>
 <table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%"><tbody>
-	<tr><td rowspan="2" valign="middle" class="logoarea-logo">
-		<a href="http://gc.cuny.edu/"><img class="logo" src="<?php echo $gc_logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
+	<tr><td rowspan="2" valign="top" class="logoarea-logo" style="padding-bottom: 10px;">
+		<a href="http://gc.cuny.edu/"><img class="logo" src="<?php echo $gc_logo_url; ?>" alt="The CUNY Graduate Center"></a>
 	</td>
-	<td rowspan="2" valign="middle" class="logoarea-title">
-		<a href="<?php echo site_url(); ?>"><img width="650px" height="auto" src="<?php echo $logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
+	<td rowspan="2" valign="middle" class="logoarea-title" style="padding-left: 10px;">
+		<a href="<?php echo site_url(); ?>"><img src="<?php echo $logo_url; ?>" alt="<?php bloginfo('name'); ?>"></a>
 	</td>
-	<td class="feed-icons" valign="middle" align="right">
+	<td class="feed-icons" valign="top" align="right">
 		<div class="socialicons" style="bottom: 0px; right: 0;">
 			<a target="_blank" href="http://twitter.com/#!/<?php echo $social_twitter; ?>" class="twitterlink"></a>
 			<a target="_blank" href="<?php echo $social_facebook; ?>" class="facebooklink"></a> 
@@ -19,4 +18,3 @@
 	</td></tr>
 </tbody></table>
 %pages
-<?php /* end header main */ ?>
