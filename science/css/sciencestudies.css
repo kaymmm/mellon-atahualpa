@@ -262,11 +262,11 @@ th, td { text-align: left; }
 /* Transitions 
 -------------------------------------------------------------- */
 a, a img, .featured-post .byline {
-	-webkit-transition: all 0.18s ease-out;
-	-moz-transition: all 0.18s ease-out;
-	-ms-transition: all 0.18s ease-out;
-	-o-transition: all 0.18s ease-out;
-	transition: all 0.18s ease-out;
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 /* WordPress classes 
@@ -671,8 +671,8 @@ div#menu1 a {
 div#menu1 ul.sub-menu, div#menu1 ul.rMenu-ver {
 	display: none;
 	position: absolute;
-	top: 25px;
-	left: 0;
+	top: 30px;
+	left: 20px;
 	border: 1px solid #ddd;
 	border-top: none;
 	background: #fff;
