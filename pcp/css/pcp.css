@@ -67,6 +67,7 @@ div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42
 .box div.post-thumbnail	{ width: 100%; height: 200px; }
 .moreposts.box.masonry-brick { width: 98%; }
 .clearfix.navigation-bottom { padding: 5px; }
+div.box .event			{ position: relative; }
 div.box .event .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }
 
 
