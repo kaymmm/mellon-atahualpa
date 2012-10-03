@@ -2,7 +2,10 @@
 <link rel="stylesheet" href="http://kaymmm.github.com/mellon-atahualpa/pcp/css/pcp.css"  type="text/css" media="all">
 <?php	
 wp_deregister_script( 'jquery' );
+wp_deregister_script( 'jquery-ui' );
 wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js', array(), null, false );
+wp_register_script( 'jquery.ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js', array('jquery'), null, false );
+wp_enqueue_script('jquery.ui');
 wp_register_script( 'jquery.masonry', 'http://desandro.github.com/masonry/jquery.masonry.min.js', array('jquery'), null, false );        
 wp_register_script( 'jquery.imagesloaded', 'http://kaymmm.github.com/mellon-atahualpa/includes/jquery.imagesloaded.min.js', array( 'jquery' ),null,false ); 
 wp_register_script( 'scaleimage', 'http://kaymmm.github.com/mellon-atahualpa/includes/scaleimage.min.js', array(),null,false ); 
