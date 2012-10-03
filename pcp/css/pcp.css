@@ -12,8 +12,6 @@ div.post-headline h2 a:active,
 div.post-headline h2 a:visited	{ color: #D93F0F; }
 div.post-headline h2 a:hover	{ color: #F7F3E8; }
 body.page .post-headline {display:none;}
-div.post-kicker,span#breadcrumbs { display: inline; }
-span.printicon	{display: inline; float:right; }
 
 
 blockquote			{ background: rgba(255, 255, 255, 0.5); }
