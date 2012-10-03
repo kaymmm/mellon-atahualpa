@@ -23,6 +23,8 @@ div ul.refractions-list li	{ list-style: disc; }
 div.header-widget h3 		{ font-size: 0.9em; }
 table.em-calendar			{ font-size: 1.1em; }
 table.em-calendar td		{ padding: 3px 6px; }
+body.page .post-headline {display:none;}
+
 
 /* navigation menu */
 div#menu1 ul.rMenu { background-color: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; font-size: 1.1em; font-weight: bold;}
