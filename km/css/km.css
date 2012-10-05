@@ -18,7 +18,7 @@ div#logoarea-title a			{ text-decoration: none!important; font-size: 3.5em; font
 span#keith						{ color:#FD253C; }
 span#kay						{ color:#F9791E; }
 span#miyake						{ color:#D2E102; }
-div#sticky-anchor				{ height: 50px; }
+div#sticky-anchor				{ height: 75px; }
 div#sticky-menu.stickyscroll	{ position: fixed; top: 28px; background: #FF9516; z-index: 99998; width: 80%; /*width is same as content area*/}
 div.searchbox					{ border: none; width: 185px; float: right; margin: 0; background: #FF9516; padding: 6px 10px 6px 25px; height: auto; -webkit-border-top-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
 div.searchbox input.text 		{ text-align: right; text-color: #999; }
@@ -63,7 +63,8 @@ div#menu1 ul.rMenu li.current-menu-item:hover,
 div#menu1 ul.rMenu li.current_page_item:hover,
 div#menu1 ul.rMenu li.rMenu-expand:hover	{ background: #F23953; border-bottom: 3px solid #D2E102; color: #372B02; padding: 5px 10px 2px; }
 div#menu1 ul.rMenu li.current-menu-item, 
-div#menu1 ul.rMenu li.current_page_item		{ background: #F23953!important; color: #372B02!important; }
+div#menu1 ul.rMenu li.current_page_item,
+div#menu1 ul.rMenu li.current-menu-parent		{ background: #F23953!important; color: #372B02!important; }
 div#menu1 ul.rMenu li.current-menu-item a:link,
 div#menu1 ul.rMenu li.current-menu-item a:active,
 div#menu1 ul.rMenu li.current-menu-item a:hover,
@@ -83,6 +84,15 @@ div#menu1 ul.rMenu ul.sub-menu li a 		{ color: #2B3E42;}
 div#menu1 ul.rMenu ul.sub-menu li:first-child:hover,
 div#menu1 ul.rMenu ul.sub-menu li:last-child:hover,
 div#menu1 ul.rMenu ul.sub-menu li:hover		{ padding: 5px 0 5px 2px; border: none; border-left: 3px solid #D2E102; background: #2B3E42; color: #F7F3E8; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
+div#menu2 ul.rMenu 		{ background: transparent; border: none; }
+div#menu2 ul.rMenu li	{ background: #F23953; padding-top: 5px;}
+div#menu2 ul.rMenu li.current-menu-item a:link, 
+div#menu2 ul.rMenu li.current-menu-item a:active, 
+div#menu2 ul.rMenu li.current-menu-item a:hover, 
+div#menu2 ul.rMenu li.current-menu-item a:visited, 
+div#menu2 ul.rMenu li.current-menu-item	a { background: #D2E102; color:#40032B; }
+
 
 /* events listing pages */
 div.widget_em_widget 			{ background-color: transparent; }
