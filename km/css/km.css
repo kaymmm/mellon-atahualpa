@@ -64,7 +64,8 @@ div#menu1 ul.rMenu li.current_page_item:hover,
 div#menu1 ul.rMenu li.rMenu-expand:hover	{ background: #F23953; border-bottom: 3px solid #D2E102; color: #372B02; padding: 5px 10px 2px; }
 div#menu1 ul.rMenu li.current-menu-item, 
 div#menu1 ul.rMenu li.current_page_item,
-div#menu1 ul.rMenu li.current-menu-parent		{ background: #F23953!important; color: #372B02!important; }
+div#menu1 ul.rMenu li.current-menu-parent,
+div#menu1 ul.rMenu li.current-menu-ancestor		{ background: #F23953!important; color: #372B02!important; }
 div#menu1 ul.rMenu li.current-menu-item a:link,
 div#menu1 ul.rMenu li.current-menu-item a:active,
 div#menu1 ul.rMenu li.current-menu-item a:hover,
