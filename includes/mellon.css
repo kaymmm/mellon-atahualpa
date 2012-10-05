@@ -84,8 +84,8 @@ div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
 
 /* slider styles */
-.entry-date 	{ position:absolute; top:0; left:0; padding: 7px; color: white; background: black; font-size: 1.3em; }
-.entry-title	{ font-size: 1.5em; }
+div.entry-date	 	{ position:absolute; top:0; left:0; padding: 7px; color: white; background: black; font-size: 1.3em; }
+span.entry-title	{ font-size: 1.5em; }
 
 /* events listing pages */
 #pre-loop_1 ul { list-style: none; }
