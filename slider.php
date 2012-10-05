@@ -9,8 +9,8 @@ $format = <<< EOM
 {has_image}
 <div class="featured-article" onclick="document.location='#_EVENTURL'">
 	<img src="#_EVENTIMAGEURL" alt="#_EVENTNAME" class="attachment-featured-slideshow-thumb wp-post-image" />
+	<div class="entry-date"> #F #j #g.#i #a </div>
 	<div class="featured-entry">
-		<span class="entry-date"> #F #j #g.#i#a </span>
 		<span class="entry-title">#_EVENTNAME</span>
 		<span class="entry-summary">#_EVENTEXCERPT</span>
 	</div>
