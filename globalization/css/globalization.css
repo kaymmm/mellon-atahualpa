@@ -49,7 +49,7 @@ div#menu1 ul.rMenu-hor li.rMenu-expand a { background: transparent; background-i
 .box	 						{ background-color: #f2f2e9; }
 div.post-footer					{ background-color: #D3DCDA; }
 div.box .event					{ position: relative; }
-div.box .event .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }
+div.box .event .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; color: white; }
 
 /* events listing pages */
 span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }
