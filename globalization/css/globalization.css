@@ -18,13 +18,16 @@ div.widget					{ padding: 0 0 15px; }
 div.widget ul li 			{ margin: 0; padding: 2px 0 4px 0 ; border-right: solid 5px #ccc; padding-right: 5px; font-size: 0.9em; line-height: 1.2em; }
 div.widget ul li:hover 		{ border-right: solid 5px #333; padding-right: 5px; background: #dCdFd5; }
 td#right					{ padding: 10px 15px; }
+
+
 #full-width					{ margin: 20px 10px; padding: 0px; }
 div ul.refractions-list li	{ list-style: disc; }
 div.header-widget h3 		{ font-size: 0.9em; }
 table.em-calendar			{ font-size: 1.1em; }
 table.em-calendar td		{ padding: 3px 6px; }
-body.page .post-headline h1 {display:none;}
-
+body.page .post-headline h1 { display:none;}
+table#logoarea 				{ height: 180px; }
+div.searchbox				{ float: right; border: 1px solid #cccccc; border-bottom: 0; width: 200px; margin: 0; padding: 0; }
 
 /* navigation menu */
 div#menu1 ul.rMenu { background-color: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; font-size: 1.1em; font-weight: bold;}

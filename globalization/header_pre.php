@@ -27,6 +27,8 @@ if (is_page( 'refractions' ) || '1824' == $post->post_parent) { ?>
 	</form>
 	</div>
 	</td></tr></tbody></table>
+
 %cats
+
 <?php } else { // </publications category pages>
 /* end header pre */ ?>

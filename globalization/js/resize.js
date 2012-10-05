@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 			$(this).css("width",result.width);
 			$(this).css("height",result.height);
 			$(this).css("left", result.targetleft);
-			$(this).css("top", result.targettop);
+			$(this).css("top", result.targettop/2);
 		});
 	});
 });
