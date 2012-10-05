@@ -84,8 +84,9 @@ div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
 
 /* slider styles */
-div.entry-date	 	{ position:absolute; top:0; left:0; padding: 7px; color: white; background: black; font-size: 1.3em; }
-span.entry-title	{ font-size: 1.5em; }
+div.entry-date	 	{ position:absolute; top:0; right:0; padding: 7px; color: white; background: black; font-size: 1.2em; text-align: right; }
+div#featured-slideshow div.featured-entry span.entry-title 		{ color: white; padding: 5px; font-size: 1.4em; font-weight: 500; line-height: 1.2em; text-align: left; }
+div#featured-slideshow div.featured-entry span.entry-summary	{ padding: 0 10px 5px 5px; margin: 0; display: block; line-height: 1.1em; font-size: 1.1em; text-align: left; }
 
 /* events listing pages */
 #pre-loop_1 ul { list-style: none; }
