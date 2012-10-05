@@ -29,6 +29,11 @@ body.page .post-headline h1 { display:none;}
 table#logoarea 				{ height: 180px; }
 div.searchbox				{ float: right; border: 1px solid #cccccc; border-bottom: 0; width: 200px; margin: 0; padding: 0; }
 
+div.person a:link,
+div.person a:visited,
+div.person a:active,
+div.person a:hover 			{ font-weight: bold; }
+
 /* navigation menu */
 div#menu1 ul.rMenu { background-color: #FCFFF5; margin-left: -1px; border: 1px dotted #ccc; border-left: 0; border-right: 0; padding: 0px; font-size: 1.1em; font-weight: bold;}
 div#menu1 ul.rMenu li { margin: 0; padding: 0px; border: 0; background: #FCFFF5; }
