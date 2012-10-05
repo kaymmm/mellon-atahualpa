@@ -84,9 +84,18 @@ div.navigation-bottom { border-top: 0; }
 td#footer { background: transparent; border-top: solid 1px #ccc; }
 
 /* slider styles */
-div.entry-date	 	{ position:absolute; top:0; right:0; padding: 7px; color: white; background: black; font-size: 1.2em; text-align: right; }
-div#featured-slideshow div.featured-entry span.entry-title 		{ color: white; padding: 5px; font-size: 1.4em; font-weight: 500; line-height: 1.2em; text-align: left; }
-div#featured-slideshow div.featured-entry span.entry-summary	{ padding: 0 10px 5px 5px; margin: 0; display: block; line-height: 1.1em; font-size: 1.1em; text-align: left; }
+#controls .next:hover, 
+#controls .prev:hover						{ opacity: 1; }
+#controls a:focus       					{ outline: none; }
+#controls .next, 
+#controls .prev    							{ text-indent: -9000px; width: 30px; height: 30px; display: block; z-index: 1000; opacity: 0.8; position: absolute; }
+#controls .next								{ background: url(images/next.png) no-repeat; float: right; right: 10px; }         
+#controls .prev         					{ background: url(images/prev.png) no-repeat; float: left; left: 10px; }
+div#featured-slideshow     					{ position: relative; z-index: 0 !important; width: 100%; }
+div#featured-slideshow div.featured-entry	{ opacity: 0.8; filter: alpha(opacity = 80); }
+div#featured-slideshow div.entry-date	 	{ position:absolute; top:0; right:0; padding: 7px; color: white; background: black; font-size: 1.2em; text-align: right; }
+div#featured-slideshow span.entry-title 	{ color: white; padding: 5px; font-size: 1.4em; font-weight: 500; line-height: 1.2em; text-align: left; }
+div#featured-slideshow span.entry-summary	{ padding: 0 10px 5px 5px; margin: 0; display: block; line-height: 1.1em; font-size: 1.1em; text-align: left; }
 
 /* events listing pages */
 #pre-loop_1 ul { list-style: none; }
@@ -98,3 +107,11 @@ div#featured-slideshow div.featured-entry span.entry-summary	{ padding: 0 10px 5
 /* end shared css */
 
 div.person { display: inline-block; margin: 10px 0; }
+
+/* social icons */
+.socialicons .twitterlink {background: url(images/socialicons.png) no-repeat -22px 0;}
+.socialicons .youtubelink {background: url(images/socialicons.png) no-repeat -44px 0;}
+.socialicons .linkedinlink {background: url(images/socialicons.png) no-repeat -66px 0;}
+.socialicons .facebooklink {background: url(images/socialicons.png) no-repeat -88px 0;}
+.socialicons .rsslink {background: url(images/socialicons.png) no-repeat 0 0;}
+.socialicons .cuny {background: url(images/cuny_logo1.png) no-repeat 0px -22px;}
