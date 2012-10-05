@@ -14,10 +14,11 @@ wp_register_script( 'stickyscroll', 'http://kaymmm.github.com/mellon-atahualpa/k
 wp_enqueue_script('resizeimages');
 wp_enqueue_script('stickyscroll');
 
-wp_register_script( 'hoverIntent', 'http://kaymmm.github.com/superfish-reloaded/js/hoverIntent.js', array('jquery'),null,false );
-wp_register_script( 'superfish', 'http://kaymmm.github.com/superfish-reloaded/js/superfish.js', array('jquery','hoverIntent'),null,false );
-wp_enqueue_script('superfish');
+wp_register_script( 'hoverIntent', 'http://kaymmm.github.com/mellon-atahualpa/km/js/superfish/js/hoverIntent.js', array('jquery'),null,false );
+wp_register_script( 'superfish', 'http://kaymmm.github.com/mellon-atahualpa/km/js/superfish/js/superfish.js', array('jquery','hoverIntent'),null,false );
+wp_register_script( 'superfishInit', 'http://kaymmm.github.com/mellon-atahualpa/km/js/superfish-init.js', array('jquery','superfish','hoverIntent'),null,false );
+wp_enqueue_script('superfishInit');
 ?>
 
-<link rel="stylesheet" media="screen" href="http://kaymmm.github.com/superfish-reloaded/css/superfish.css" /> 
-<link rel="stylesheet" media="screen" href="http://kaymmm.github.com/superfish-reloaded/css/superfish-navbar.css" />
+<link rel="stylesheet" media="screen" href="http://kaymmm.github.com/mellon-atahualpa/km/js/superfish/css/superfish.css" /> 
+<link rel="stylesheet" media="screen" href="http://kaymmm.github.com/mellon-atahualpa/km/js/superfish/css/superfish-navbar.css" />
