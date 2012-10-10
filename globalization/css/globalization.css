@@ -65,9 +65,12 @@ span.event-widget-name { padding: 0; margin: 0; font-size: 1.2em; line-height: 1
 .widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: right!important; }
 .widget_em_widget li:hover { background-color: #dCdFd5; border: 1px 0 1px 0 dotted #999; margin: 0; }
 
-ul.cal_ul		{ list-style: none; }
-span.cal_date	{ padding: 3px 5px; }
-span.cal_loc	{ font-style: normal; }
+div.cal_list p	{ margin: 0; padding: 0; display: block; }
+ul.cal_ul		{ list-style: none; padding: 5px; display: block; }
+ul.cal_ul li 	{ display: inline-block; width: 100%; }
+span.cal_date 	{ padding: 3px 5px; font-weight: bold; display: inline-block; float: left; width: 4em; }
+span.cal_wrap 	{ display: inline-block; float: left; width: 85%; }
+span.cal_loc	{ display: inline-block; font-style: normal; }
 span.cal_name	{ font-weight: bold; }
 span.cal_title	{ font-style: italic; }
 
