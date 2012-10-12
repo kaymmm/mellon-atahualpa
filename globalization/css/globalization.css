@@ -68,7 +68,7 @@ span.event-widget-name { padding: 0; margin: 0; font-size: 1.2em; line-height: 1
 div.cal_list p	{ margin: 0; padding: 0; display: block; }
 ul.cal_ul		{ list-style: none; padding: 5px; display: block; }
 ul.cal_ul li 	{ display: inline-block; width: 100%; }
-span.cal_date 	{ padding: 3px 1%; font-weight: bold; float: left; width: 15%; }
+span.cal_date 	{ padding: 3px 0; font-weight: bold; float: left; width: 15%; }
 span.cal_wrap 	{ padding: 3px 1%; float: left; width: 82%; }
 span.cal_loc	{ font-style: normal; }
 span.cal_name	{ font-weight: bold; }
