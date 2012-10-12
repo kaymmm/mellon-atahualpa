@@ -115,3 +115,6 @@ div.person { display: inline-block; margin: 10px 0; }
 .socialicons .facebooklink {background: url(images/socialicons.png) no-repeat -88px 0;}
 .socialicons .rsslink {background: url(images/socialicons.png) no-repeat 0 0;}
 .socialicons .cuny {background: url(images/cuny_logo1.png) no-repeat 0px -22px;}
+
+/*wp-ui*/
+.wpui-post-meta { font-size: 0.7em; font-style: italic; }
