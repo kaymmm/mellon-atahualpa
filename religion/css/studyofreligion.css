@@ -10,8 +10,8 @@ div.welcome 				{ background: #F7F3E8; padding: 7px 7px 13px 13px; margin: 0 1% 
 
 /* widgets */
 td#right div.widget-title h3 				{ font-size: 1.3em; font-weight: normal; font-family: Molengo, "Trebuchet MS", Corbel, Arial, sans-serif; border-bottom: 1px solid #CCC; }
-td#right div.widget ul li					{ padding: 5px 0 5px 3px; border-right: solid 3px #ccc; font-size: 0.9em; line-height: 1.2em; margin: 0; }
-td#right div.widget ul li:hover				{ padding: 4px 0 4px 3px; border-right: solid 3px #333; border-top: dotted 1px #333; border-bottom: dotted 1px #333; background: #dCdFd5; }
+td#right div.widget ul li					{ padding: 5px 3px 5px 0; border-left: solid 3px #ccc; font-size: 0.9em; line-height: 1.2em; margin: 0; }
+td#right div.widget ul li:hover				{ padding: 4px 3px 4px 0; border-left: solid 3px #333; border-top: dotted 1px #333; border-bottom: dotted 1px #333; background: #dCdFd5; }
 td#right div.widget ul li:first-child:hover	{ padding-top: 5px; border-top: none; }
 
 /* navigation menu */
