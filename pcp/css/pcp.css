@@ -3,7 +3,8 @@ div.post-kicker a:link,
 div.post-kicker a:active,
 div.post-kicker a:visited	{ color: #F7F3E8; font-size: 0.9em; }
 div.post-kicker a:hover		{ color: #D93F0F; }
-div.post-footer				{ color: #333; background: #D93F0F; }
+div.post-footer, 
+.box div.post-footer		{ color: #333; background: #D93F0F; }
 div.post-footer a			{ color: #478; }
 div.post-footer a:hover		{ color: #666; }
 div.post-headline h2 a,
