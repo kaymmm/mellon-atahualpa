@@ -54,7 +54,7 @@ div#menu1 ul.rMenu li.current-menu-item ul.sub-menu,
 div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42!important; color: #F7F3E8!important; border: 1px solid #D93F0F; }
 
 /* masonry styles */
-.box 				{ background: rgba(255,255,255,0.3); }
+.box 				{ background: rgba(255,255,255,0.15); }
 .box h2 a,
 .welcome a,
 .box a:link,
