@@ -132,3 +132,5 @@ span.footer-permalink 							{ display: inline; }
 span.footer-tags:before,
 span.footer-cats:before,
 span.footer-permalink:before 					{content:" | "; }
+
+div.post table tr.alt td	{ background: rgba(0, 0, 0, 0.1); }
