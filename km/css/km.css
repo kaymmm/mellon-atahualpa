@@ -134,3 +134,4 @@ span.footer-cats:before,
 span.footer-permalink:before 					{content:" | "; }
 
 div.post table tr.alt td	{ background: rgba(0, 0, 0, 0.1); }
+div#post-9 table td			{ padding: 2px 5px; vertical-align: top; }
