@@ -3,8 +3,8 @@
 .hentry-thumbnail-box 		{ width: 100%; height: 160px; }
 .hentry-thumbnail 			{ position: absolute; }
 .featured-thumbnail 		{ position: relative; }
-div.hentry.event a 			{ color: black; }
-div.hentry.event a:hover	{ color: white; }
+div.hentry .event a			{ color: black; }
+div.hentry .event a:hover	{ color: white; }
 div.box .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }
 
 div.ventry-content {
@@ -809,11 +809,13 @@ div#menu1 li a { padding-right: 16px; }
 	position: absolute;
 	bottom: 110px;
 	right: 0;
+	line-height: 1.5em;
+	text-align: right;
 }
 .featured-post h2.entry-title a {
 	color: #111;
 	background: #fff;
-	padding: .4em 30px .4em 1.5em;
+	padding: .4em 1.5em .4em 1.5em;
 	font-size: 1em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -962,13 +964,13 @@ div#menu1 li a { padding-right: 16px; }
 	background: #111;
 	background: rgba(0,0,0,.25);
 }
-.byline-cat, .byline-cat a, .byline-cat a:visited {
+div.hentry .byline-cat, div.hentry .byline-cat a,div.hentry .byline-cat a:visited {
 	color: #fff;
 	color: rgba(255,255,255,.75);
 	max-height: 45px;
 	overflow: hidden;
 }
-.byline-cat a:hover { color: #fff; }
+div.hentry .byline-cat a:hover { color: #fff; }
 .read-more, .read-more:visited {
 	position: absolute;
 	top: 117px;
