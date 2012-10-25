@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
 	$('#slider-nav').imagesLoaded(function() {
 		var numImgs = $('img.slider-nav-thumbnail').length;
 		$('div.slider-thumb-box').each(function() {
-	   		var tw = Math.floor($(this).parents("div").width()/numImgs);
+	   		var tw = $(this).parents("li").width();
 	   		$(this).css("width",tw);
 		});
 		$('img.slider-nav-thumbnail').each(function() {
