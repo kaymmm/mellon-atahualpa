@@ -36,11 +36,15 @@ jQuery(document).ready(function($) {
 		});
 	});
 	$('#slider-nav').imagesLoaded(function() {
-		var numImgs = $('img.slider-nav-thumbnail').length; 
+		var numImgs = $('img.slider-nav-thumbnail').length;
+		$('div.slider-thumb-box').each(function() {
+	   		var tw = Math.floor($(this).parents("div").width()/numImgs);
+	   		$(this).css("width",tw);
+		});
 		$('img.slider-nav-thumbnail').each(function() {
 			var originalDimensions = getOriginalDimensionsOfImg(this);
-	   		var tw = Math.floor($(this).parents("div").width()/numImgs);
-			var th = 75;
+	   		var tw = $(this).parents("div").width();
+			var th = $(this).parents("div").height();
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
 	   		$(this).css("width",result.width);
 	   		$(this).css("height",result.height);
