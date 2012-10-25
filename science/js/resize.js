@@ -36,10 +36,11 @@ jQuery(document).ready(function($) {
 		});
 	});
 	$('#slider-nav').imagesLoaded(function() {
+		var numImgs = $('img.slider-nav-thumbnail').length; 
 		$('img.slider-nav-thumbnail').each(function() {
 			var originalDimensions = getOriginalDimensionsOfImg(this);
-	   		var tw = $(this).parent().width();
-			var th = 150;
+	   		var tw = Math.floor($(this).parents("div").width()/numImgs);
+			var th = 75;
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
 	   		$(this).css("width",result.width);
 	   		$(this).css("height",result.height);
