@@ -859,7 +859,7 @@ div#menu1 li a { padding-right: 16px; }
 	text-indent: -9999em;
 }
 
-.slider-thumb-box { position: relative; height: 75px; }
+.slider-thumb-box { position: relative; height: 75px; overflow: hidden; }
 .slider-nav-thumbnail { position: absolute; }
 
 #slider-prev {
@@ -896,7 +896,6 @@ div#menu1 li a { padding-right: 16px; }
 	padding: 0;
 }
 #slider-nav li.last { margin-right: 0; }
-#slider-nav li img { max-width: 100%; }
 .activeSlide img { opacity: .3; }
 
 /* Home 
