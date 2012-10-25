@@ -38,8 +38,8 @@ jQuery(document).ready(function($) {
 	$('#slider-nav').imagesLoaded(function() {
 		$('img.slider-nav-thumbnail').each(function() {
 			var originalDimensions = getOriginalDimensionsOfImg(this);
-	   		var tw = $(this).parent().width();
-			var th = $(this).parent().height();
+	   		var tw = $(this).parents("div").width();
+			var th = $(this).parents("div").height();
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
 	   		$(this).css("width",result.width);
 	   		$(this).css("height",result.height);
@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
 			$(this).css("width",result.width);
 			$(this).css("height",result.height);
 			$(this).css("left", result.targetleft);
-			$(this).css("top", result.targettop);
+			$(this).css("top", Math.floor(result.targettop/2));
 		});
 	}); 
 });
