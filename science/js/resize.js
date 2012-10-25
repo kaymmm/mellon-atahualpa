@@ -38,8 +38,8 @@ jQuery(document).ready(function($) {
 	$('#slider-nav').imagesLoaded(function() {
 		$('img.slider-nav-thumbnail').each(function() {
 			var originalDimensions = getOriginalDimensionsOfImg(this);
-	   		var tw = $(this).parents("div").width();
-			var th = $(this).parents("div").height();
+	   		var tw = $(this).parent().width();
+			var th = 150;
 	   		var result = ScaleImage(originalDimensions.width, originalDimensions.height, tw, th, false);
 	   		$(this).css("width",result.width);
 	   		$(this).css("height",result.height);
