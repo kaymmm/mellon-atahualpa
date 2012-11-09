@@ -22,8 +22,36 @@ if ( is_front_page() ) {
 if (!is_singular()) {
 	global $wp_query;
 	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-	$args = array('post_type' => array('post','event'),'scope' => 'all','paged' => $paged,'order' => 'DESC', 'orderby' => 'start_date');
-	$args = array_merge($wp_query->query,$args);
+
+	if (is_tag() || $wp_query->query_vars['event-tags']){
+		if ($wp_query->query_vars['event-tags'])
+			$the_tags = $wp_query->query_vars['event-tags'];
+		else
+			$the_tags = $wp_query->query_vars['tag'];
+			$args = array('post_type' => array('post','event'),'scope' => 'all','paged' => $paged,'order' => 'DESC', 'orderby' => 'start_date','tax_query' => array(
+			'relation' => 'OR',
+			array(
+				'taxonomy' => 'event-tags',
+				'field' => 'slug',
+				'terms' => array('video')
+				),
+			array(
+				'taxonomy' => 'post_tag',
+				'field' => 'slug',
+				'terms' => array('video')
+				)
+	));
+	} else {
+		$args = array('post_type' => array('post','event'),'scope' => 'all','paged' => $paged,'order' => 'DESC', 'orderby' => 'start_date');		
+	}
 	$wp_query = new WP_Query($args);
+
+	echo "<!-- args: \n";
+	echo var_dump($wp_query_posts);
+	echo "\n -->\n";
+
+	echo "<!-- wp_query: \n";
+	echo var_dump($args_events);
+	echo "\n-->\n";
 }
 ?>
