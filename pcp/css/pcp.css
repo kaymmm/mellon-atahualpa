@@ -91,3 +91,8 @@ span.event-widget-name:hover	{ color: #D93F0F; }
 div#em-wrapper .box div.post-footer { background: rgba(0, 0, 0, 0.5); float: left; position: absolute; top: 0; color: white; font-size: 1.1em; text-align: center; }
 
 div.featured 			{ border: none; margin-top: 30px;}
+
+/* reduce wp-ui tab padding */
+.ui-tabs .ui-tabs-nav li a {
+padding: .3em .4em;
+}
