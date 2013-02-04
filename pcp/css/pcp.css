@@ -63,7 +63,7 @@ div#menu1 ul.rMenu li.current_page_item ul.sub-menu 	{ background-color: #2B3E42
 .box a:visited			{ color: #DED; }
 .box a:hover,
 .welcome a:hover		{ color: #D93F0F; }
-.box div.post-thumbnail	{ width: 100%; height: 200px; }
+.box div.post-thumbnail	{ width: 100%; height: 300px; }
 .moreposts.box.masonry-brick { width: 98%; }
 .clearfix.navigation-bottom { padding: 5px; }
 div.box .event			{ position: relative; }
