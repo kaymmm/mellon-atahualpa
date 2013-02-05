@@ -30,13 +30,13 @@ div#menu1 ul.rMenu ul.sub-menu li:hover a { color: #F7F3E8; }
 div#menu1 ul.rMenu ul.sub-menu li a 	{ color: #2B3E42;}
 
 /* masonry styles */
-.box 		{ background: white; }
+.box 					{ background: white; }
 
 /* events listing pages */
-span.event-page-date { padding: 0; margin: 0; text-align: left; font-style: italic; }
-span.event-page-name { padding: 0; margin: 0; text-align: left; }
-span.event-widget-date { padding: 0; margin: 0; text-align: center!important; font-style: italic; font-size: 1em; }
-span.event-widget-name { padding: 0; margin: 0; text-align: center!important; font-size: 1.2em; line-height: 1.2em; }
-.widget_em_widget { background-color: transparent; }
-.widget_em_widget li {background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
+span.event-page-date	{ padding: 0; margin: 0; text-align: left; font-style: italic; }
+span.event-page-name 	{ padding: 0; margin: 0; text-align: left; }
+span.event-widget-date 	{ padding: 0; margin: 0; text-align: center!important; font-style: italic; font-size: 1em; }
+span.event-widget-name 	{ padding: 0; margin: 0; text-align: center!important; font-size: 1.2em; line-height: 1.2em; }
+.widget_em_widget 		{ background-color: transparent; }
+.widget_em_widget li 	{ background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
 .widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
