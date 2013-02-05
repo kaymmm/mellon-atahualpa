@@ -1,8 +1,13 @@
-.hentry-thumbnail-box, .ventry-thumbnail-box { overflow: hidden; position: relative; }
-.hentry-thumbnail-box { width: 100%; height: 160px; }
-.hentry-thumbnail { position: absolute; }
-.featured-thumbnail { position: relative; }
-
+.hentry-thumbnail-box, 
+.ventry-thumbnail-box 		{ overflow: hidden; position: relative; }
+.hentry-thumbnail-box 		{ width: 100%; height: 160px; }
+.hentry-thumbnail 			{ position: absolute; }
+.featured-thumbnail 		{ position: relative; }
+/*
+div.hentry .event a			{ color: black; }
+div.hentry .event a:hover	{ color: white; }
+*/
+div.box .post-event-info	{ position:absolute; top:0; background: rgba(0,0,0,0.5); text-align: center; font-size: 1.1em; }
 
 div.ventry-content {
 	display: table;
@@ -259,11 +264,11 @@ th, td { text-align: left; }
 /* Transitions 
 -------------------------------------------------------------- */
 a, a img, .featured-post .byline {
-	-webkit-transition: all 0.18s ease-out;
-	-moz-transition: all 0.18s ease-out;
-	-ms-transition: all 0.18s ease-out;
-	-o-transition: all 0.18s ease-out;
-	transition: all 0.18s ease-out;
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 /* WordPress classes 
@@ -527,7 +532,7 @@ td#header {
 }
 #site-title {
 	font-family: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 3em;	/* 36 / 12 = 3 */
+	font-size: 4em;	/* 36 / 12 = 3 */
 	line-height: 1em;
 	margin: 0 0 3px 0;
 	text-transform: uppercase;
@@ -537,7 +542,7 @@ td#header {
 	color: #222;
 	border-bottom: none;
 }
-#header img { max-width: 100%; }
+/*#header img { max-width: 100%; }*/
 #site-description {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 0.9166666666666667em;	/* 11 / 12 = 0.9166666666666667 */
@@ -568,6 +573,17 @@ td#header {
 	height: 60px;
 	margin-bottom: 20px;
 }
+
+td#header		{ border-bottom: none;}
+table#logoarea, 
+table#logoarea tr, 
+table#logoarea td { vertical-align: bottom; }
+div.searchbox 	{ height: auto; border: none; }
+table#logoarea, 
+table#logoarea tr, 
+table#logoarea td { margin: 0 0 10px; }
+div#menu1 		{ margin: 0; }
+td#left			{border-right: none;}
 
 /* Primary menu 
 -------------------------------------------------------------- */
@@ -657,8 +673,8 @@ div#menu1 a {
 div#menu1 ul.sub-menu, div#menu1 ul.rMenu-ver {
 	display: none;
 	position: absolute;
-	top: 25px;
-	left: 0;
+	top: 30px;
+	left: 20px;
 	border: 1px solid #ddd;
 	border-top: none;
 	background: #fff;
@@ -782,7 +798,7 @@ div#menu1 li a { padding-right: 16px; }
 }
 #featured-content {
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 4px;
 }
 .featured-post {
 	position: relative;
@@ -795,11 +811,13 @@ div#menu1 li a { padding-right: 16px; }
 	position: absolute;
 	bottom: 110px;
 	right: 0;
+	line-height: 1.5em;
+	text-align: right;
 }
 .featured-post h2.entry-title a {
 	color: #111;
 	background: #fff;
-	padding: .4em 30px .4em 1.5em;
+	padding: .4em 1.5em .4em 1.5em;
 	font-size: 1em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -840,6 +858,10 @@ div#menu1 li a { padding-right: 16px; }
 	cursor: pointer;
 	text-indent: -9999em;
 }
+
+.slider-thumb-box { position: relative; height: 75px; overflow: hidden; }
+.slider-nav-thumbnail { position: absolute; }
+
 #slider-prev {
 	left: 0;
 	background-position: 7px -21px;
@@ -874,7 +896,6 @@ div#menu1 li a { padding-right: 16px; }
 	padding: 0;
 }
 #slider-nav li.last { margin-right: 0; }
-#slider-nav li img { max-width: 100%; }
 .activeSlide img { opacity: .3; }
 
 /* Home 
@@ -948,14 +969,14 @@ div#menu1 li a { padding-right: 16px; }
 	background: #111;
 	background: rgba(0,0,0,.25);
 }
-.byline-cat, .byline-cat a, .byline-cat a:visited {
+div.hentry .byline-cat, div.hentry .byline-cat a,div.hentry .byline-cat a:visited {
 	color: #fff;
 	color: rgba(255,255,255,.75);
 	max-height: 45px;
 	overflow: hidden;
 }
-.byline-cat a:hover { color: #fff; }
-.read-more, .read-more:visited {
+div.hentry .byline-cat a:hover { color: #fff; }
+div.hentry .read-more,div.hentry .read-more:visited {
 	position: absolute;
 	top: 117px;
 	right: 0;
@@ -966,7 +987,7 @@ div#menu1 li a { padding-right: 16px; }
 	font-size: 0.9166666666666667em;
 	display: none;
 }
-.read-more:hover {
+div.hentry .read-more:hover {
 	color: #fff;
 	background: #111;
 }

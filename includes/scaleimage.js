@@ -38,3 +38,12 @@ function ScaleImage(srcwidth, srcheight, targetwidth, targetheight, fLetterBox) 
 
     return result;
 }
+
+function getOriginalDimensionsOfImg(img_element) {
+    var t = new Image();
+    var result = { width: 0, height: 0 };
+    t.src = (img_element.getAttribute ? img_element.getAttribute("src") : false) || img_element.src;
+    result.width=t.width;
+    result.height=t.height;
+    return result;
+}
