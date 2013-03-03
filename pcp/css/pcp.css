@@ -92,7 +92,7 @@ div#em-wrapper .box div.post-footer { background: rgba(0, 0, 0, 0.5); float: lef
 
 div.featured 			{ border: none; margin-top: 30px;}
 
-.tubepress_thumb		{ width: 250px; height: 250px; font-size: 1.2em; line-height: 1.3em; }
+.tubepress_thumb		{ width: 250px; height: 250px; font-size: 1.2em; line-height: 1.3em; margin: 6px; }
 
 /* reduce wp-ui tab padding */
 div#wp-tabs-2.wp-tabs .ui-tabs .ui-tabs-nav li a {
