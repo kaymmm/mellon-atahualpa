@@ -31,6 +31,7 @@ div#menu1 ul.rMenu ul.sub-menu li a 	{ color: #2B3E42;}
 
 /* masonry styles */
 .box 					{ background: white; }
+#tumblelog.fluid .box.col1 {width: 47%;}
 
 /* events listing pages */
 span.event-page-date	{ padding: 0; margin: 0; text-align: left; font-style: italic; }
