@@ -41,3 +41,25 @@ span.event-widget-name 	{ padding: 0; margin: 0; text-align: center!important; f
 .widget_em_widget 		{ background-color: transparent; }
 .widget_em_widget li 	{ background: transparent; border: none!important; padding: 3px 0 3px 0!important; margin: 0!important; border-bottom: 1px dotted #CCC !important; text-align: center!important; }
 .widget_em_widget li:hover { background: #F7F3E8; border: 1px 0 1px 0 dotted #999; margin: 0; }
+
+/*events calendar*/
+table.em-calendar thead td  			{ text-align: center; line-height: 2em; height: auto; }
+table.em-calendar						{ width: 100%; margin-bottom: 10px; }
+table.em-calendar td					{ vertical-align: top; width: 14%; padding: 2px; }
+table.em-calendar.fullcalendar			{ height: 75px; }
+table.em-calendar tr.days-names td 		{ text-align: center; height: auto; }
+table.em-calendar td ul 				{ font-size: 0.9em; line-height: 1.3em; list-style: none; padding: 0; }
+table.em-calendar td ul a 				{ text-decoration: none; }
+table.em-calendar td ul li				{ background: #598A9C; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding: 2px; margin-bottom: 4px; }
+table.em-calendar td.eventful-pre a, 
+table.em-calendar td.eventful-post a,
+table.em-calendar td.eventful a, 
+table.em-calendar td.eventful-today a 	{ color: #AAA!important; text-decoration: none!important; }
+table.em-calendar td.eventful-pre a:hover, 
+table.em-calendar td.eventful-post a:hover,
+table.em-calendar td.eventful a:hover, 
+table.em-calendar td.eventful-today a:hover 	{ color: #1E1B1D!important; text-decoration: underline!important; }
+table.em-calendar td.eventless , 
+table.em-calendar td.eventless-today 	{ color: #1E1B1D!important; }
+table.em-calendar td.eventless-today, 
+table.em-calendar td.eventful-today 	{ background-color: transparent; background: rgba(0, 0, 0, 0.2); }
