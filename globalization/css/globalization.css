@@ -98,3 +98,11 @@ table.em-calendar td.eventless-today,
 table.em-calendar td.eventful-today 	{ background-color: transparent; background: rgba(0, 0, 0, 0.2); }
 
 .tubepress_thumb		{ width: 250px; height: 250px; font-size: 1.2em; line-height: 1.3em; margin: 6px; }
+
+@media print 
+{
+  .noPrint, .navigation-bottom, .sharedaddy, .printicon
+    {
+        display:none;
+    }
+}
